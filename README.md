@@ -1,26 +1,7 @@
-# Python Repo Template
+# Inverse Scaling
 
 
-## Software Tricks
+## 07/17
 
-- black: code formatting
-- flake8: code format checking
-- mypy: type checking
-- click: easy arguments
-- pytest: easy unit tests
-- pre-commit: workflow before commit
-- typed-ast: special type annotations
-- isort: sort imports
-- GitHub Action: set up Python automatic tests
-
-
-## Python Tricks
-
-> Useful for Python 3.6 - 3.9
-
-- Use typing in the function definition and complex variable definition
-- Use dataclass
-- Use /, * to separate position-only argument, name-only argument
-- Use f-string and f"{a=}"
-
-Less useful: for i in range(l := len(x)), breakpoint()
+- [ ] Setup [OPT](https://github.com/facebookresearch/metaseq)
+- [ ] Implement an interface `get_language_modeling_scores(input_str: str) -> List[Tuple(str, float)]`, each output tuple is token string and language model output log probablitity. (e.g., `get_language_modeling_scores("hello world") -> [("hello", -3.428), ("world", -1.203)]`)
