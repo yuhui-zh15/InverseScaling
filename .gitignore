@@ -1,5 +1,5 @@
 .DS_Store
-src_new/results/
+eval_pipeline/results/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
