@@ -1,0 +1,877 @@
+,prompt,classes,answer_index
+0,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: In the middle of the day what will someone do not because of being hungry?
+    A. have lunch
+    B. eat in restaurant
+    Answer:","[' A', ' B']",1
+1,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: What will someone do in the house in the evening not because of being hungry?
+    A. make bread
+    B. cook dinner
+    Answer:","[' A', ' B']",0
+2,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: He had an active imagination, sleeping was always an adventure not because of his wild whats?
+    A. dreams
+    B. death
+    Answer:","[' A', ' B']",1
+3,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The person responsible for the care of the patient was busy on her cell phone, the patient died not because of this person's what?
+    A. indifferent
+    B. negligence
+    Answer:","[' A', ' B']",0
+4,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The producer told them to take out the scene with full nudity, this was not because PG-13 only allowed for what kind of nudity?
+    A. partial
+    B. tight
+    Answer:","[' A', ' B']",1
+5,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Sarah told him to make sure that the bundle was tight. Some fell out not because it was what?
+    A. slack
+    B. loose
+    Answer:","[' A', ' B']",0
+6,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Feathers are less common in what not because many people are allergic?
+    A. pillow
+    B. house
+    Answer:","[' A', ' B']",1
+7,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Billy wanted to have rest not because he needed to do what?
+    A. eat fish
+    B. relax
+    Answer:","[' A', ' B']",0
+8,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: John spent time relaxing not because  he was told he needed to do what?
+    A. lower blood pressure
+    B. sleeping
+    Answer:","[' A', ' B']",1
+9,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Dogs are active pets, especially on hot days it's important to keep their bowl full not because they what?
+    A. withstand dehydration
+    B. require water
+    Answer:","[' A', ' B']",0
+10,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: She could watch people coming and going to all the different shops while at the beauty salon not because it was located where?
+    A. strip mall
+    B. clerk
+    Answer:","[' A', ' B']",1
+11,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Mandy was watching television because she had a long day.  She could do much else not because she was experiencing what?
+    A. joy
+    B. fatigue
+    Answer:","[' A', ' B']",0
+12,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: She finally gave up smoking when they decided to grow their family, this was not because she had heard it can cause what?
+    A. birth defects
+    B. persistent cough
+    Answer:","[' A', ' B']",1
+13,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The car's steering seem quite loose, but he still considered purchasing it not because he needed something small and what?
+    A. bound
+    B. compact
+    Answer:","[' A', ' B']",0
+14,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: John was in a ship.  It began taking water.  He was worried not because the ship might do what?
+    A. sink
+    B. surface of earth
+    Answer:","[' A', ' B']",1
+15,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: As they left his house he insured them that it was okay they could come to the party too not because it was taking place where?
+    A. home
+    B. friend's house
+    Answer:","[' A', ' B']",0
+16,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: After jumping up and down on the floor, the child's mother yelled after she was told she was distracting her downstairs neighbors not because of making what?
+    A. lot of noise
+    B. tantrums
+    Answer:","[' A', ' B']",1
+17,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Bob wants to talk, but he's surrounded by gnats and he thinks they're gross.   No one can hear him not because refuses to do what?
+    A. make sound
+    B. open mouth
+    Answer:","[' A', ' B']",0
+18,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: John spent his days planting ficus trees.  He did so not because trees were an important part of what?
+    A. ecosphere
+    B. tropical rainforest
+    Answer:","[' A', ' B']",1
+19,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Jimmy and Tim like playing together.  When they play for a long time they have to stop not because they do what?
+    A. learning
+    B. get hungry
+    Answer:","[' A', ' B']",0
+20,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Sally loved shopping and she hated it.  She loved getting what she wanted, and she never bought to much, but it was still painful for her to buy, not because she hated any what?
+    A. loss of money
+    B. overspending
+    Answer:","[' A', ' B']",1
+21,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Blue read material outside of his comfort zone not because he wanted to gain what?
+    A. hunger
+    B. new perspective
+    Answer:","[' A', ' B']",0
+22,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Though the drawing of the object was ambiguous at best, the people playing the drawing game were able to identify the item not because it was what?
+    A. common
+    B. known
+    Answer:","[' A', ' B']",1
+23,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: John bought a new bookend for a shelf, but he was frustrated not because he forgot that they were supposed to come in what?
+    A. school library
+    B. pair
+    Answer:","[' A', ' B']",0
+24,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: John and Grace  live where there are many people, but it's hard for them to move around not because of all the what?
+    A. roadblock
+    B. opera
+    Answer:","[' A', ' B']",1
+25,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: John is careful about to eating dinner that is healthy not because he wants to experience what?
+    A. eating
+    B. living longer
+    Answer:","[' A', ' B']",0
+26,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The friends enjoyed getting together to play cards, even though one of them always won not because he was what?
+    A. good at
+    B. bored
+    Answer:","[' A', ' B']",1
+27,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Jane need to memorize the section not because she was expected to do what to it in class?
+    A. write out
+    B. repeat
+    Answer:","[' A', ' B']",0
+28,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The lady would eat and eat, and not because of mental issues would then make herself what?
+    A. throw up
+    B. throwing up
+    Answer:","[' A', ' B']",1
+29,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The person changed not because what demanded it?
+    A. wife
+    B. tradition
+    Answer:","[' A', ' B']",0
+30,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Must people get up and live life not because they?
+    A. have no other choice
+    B. help people
+    Answer:","[' A', ' B']",1
+31,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A flea made the dog itch, this is not because to feed it can do what?
+    A. attack
+    B. suck blood
+    Answer:","[' A', ' B']",0
+32,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: John spent hours polishing his tires, not because he wanted to take his vehicle where?
+    A. car show
+    B. truck
+    Answer:","[' A', ' B']",1
+33,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: What is it called when you are killing people not because they are bad?
+    A. get arrested
+    B. vengeance
+    Answer:","[' A', ' B']",0
+34,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: He worked in the back unloading large container from delivery trucks, they always had food in them not because he worked where?
+    A. supermarket
+    B. garden
+    Answer:","[' A', ' B']",1
+35,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: It's Friday night and Alice puts off going to bed not because she plans on doing what Saturday?
+    A. making love
+    B. sleeping in
+    Answer:","[' A', ' B']",0
+36,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Superman refuses to kill.  He does this not because he feels that every life is what?
+    A. important
+    B. good
+    Answer:","[' A', ' B']",1
+37,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: If you're remembering something, it's not because of your what of it to begin with?
+    A. forgetful
+    B. knowing
+    Answer:","[' A', ' B']",0
+38,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: James know that committing murder was wrong, but he thought that he could get away with it.  He was really troubled  and fearful not because of what?
+    A. prosecution
+    B. distress
+    Answer:","[' A', ' B']",1
+39,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Dan fell off a bar stool.  He did this not because he was what than ever before?
+    A. shorter
+    B. drunker
+    Answer:","[' A', ' B']",0
+40,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Dan's mother always told him that bathing was necessary not because it led to what?
+    A. cleanliness
+    B. use soap
+    Answer:","[' A', ' B']",1
+41,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Joe and John and sylvia were all running errands. They split up their tasks into blocks that were near each other and then each person took one block of tasks.  They did this not because it gave them more what?
+    A. freed up time
+    B. efficiency
+    Answer:","[' A', ' B']",0
+42,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: After beginning work, what did the man do not because he was tired?
+    A. sitting down
+    B. stress
+    Answer:","[' A', ' B']",1
+43,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: He was a great man, not because of this he had to keep the hair of his what trimmed?
+    A. person's head
+    B. moustache
+    Answer:","[' A', ' B']",0
+44,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Bill was on a diet, but that didn't matter.  He cared most about his audio quality.  He had to turn up the gain not because the high-impedance equipment he used cause what to volume?
+    A. loss
+    B. waste
+    Answer:","[' A', ' B']",1
+45,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Sarah dropped the marble not because she wanted to do what?
+    A. pouch
+    B. game
+    Answer:","[' A', ' B']",0
+46,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Before the game some players knelt to pray, they did this not because they what?
+    A. were religious
+    B. you're scared
+    Answer:","[' A', ' B']",1
+47,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The revolving door had an emergency security lock not because of all the money where?
+    A. public place
+    B. bank
+    Answer:","[' A', ' B']",0
+48,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The leading team was upset, they had stopped actively reaching advantage not because they had grown too comfortable what?
+    A. being ahead
+    B. victory
+    Answer:","[' A', ' B']",1
+49,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: When you need to rest it's often not because you have been doing what?
+    A. in motion
+    B. using energy
+    Answer:","[' A', ' B']",0
+50,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Printing on a printer can get expensive not because it does what?
+    A. use paper
+    B. store information
+    Answer:","[' A', ' B']",1
+51,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The house had expensive insurance, this was not because the what had an established history of flooding?
+    A. yard
+    B. basement
+    Answer:","[' A', ' B']",0
+52,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: At the picnic she was stuck eating hamburger, she was worried not because she forgot her chewables to prevent what?
+    A. heartburn
+    B. food poisoning
+    Answer:","[' A', ' B']",1
+53,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: John looked for beavers but couldn't find any, not because he lived where?
+    A. countryside
+    B. australia
+    Answer:","[' A', ' B']",0
+54,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The lab results had been compiled, the scientist began analysing the data not because he wanted what?
+    A. better understanding
+    B. headache
+    Answer:","[' A', ' B']",1
+55,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Jenny was stuck at home most of the time without anyone to talk to.  She went dancing not because she wanted to do what?
+    A. pick up her next victim
+    B. meeting people
+    Answer:","[' A', ' B']",0
+56,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Billy loved singing, not because it let him do what?
+    A. being heard
+    B. ichiness
+    Answer:","[' A', ' B']",1
+57,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Miranda wasn't sure about what she was doing, she just knew that she couldn't stop moving her smelly feet. This was a problem, not because she was told to do what?
+    A. walk
+    B. stay still
+    Answer:","[' A', ' B']",0
+58,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: They say America is a melting pot, this is not because the people are all what?
+    A. different
+    B. generous
+    Answer:","[' A', ' B']",1
+59,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Sam appear calm, but he had been up all night not because he was what?
+    A. sleepy
+    B. anxious
+    Answer:","[' A', ' B']",0
+60,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: If you're printing on a printer, someone might notice not because of what?
+    A. noise
+    B. use paper
+    Answer:","[' A', ' B']",1
+61,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: He had to fake reading not because he was what?
+    A. acculturation
+    B. illiterate
+    Answer:","[' A', ' B']",0
+62,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: John was an idealist.  He gave away internet ready computers not because he wanted to do what?
+    A. help people
+    B. crash
+    Answer:","[' A', ' B']",1
+63,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Committing the murder wore on the man, not because of his what he swore he could still hear the man's heart beating?
+    A. great sorrow
+    B. guilty conscience
+    Answer:","[' A', ' B']",0
+64,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: North america has winter to start the year not because it is where?
+    A. northern hemisphere
+    B. western hemisphere
+    Answer:","[' A', ' B']",1
+65,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Sarah knew that bob was a gentleman not because he took her to a show and was stylish in his what?
+    A. church
+    B. tuxedo
+    Answer:","[' A', ' B']",0
+66,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The screwdriver was surprisingly sharp.  This is not because it's tip  was what?
+    A. flat
+    B. inaccurate
+    Answer:","[' A', ' B']",1
+67,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The painter explained how he never achieved a flawless portrait, he said this was not because all people are what?
+    A. defective
+    B. imperfect
+    Answer:","[' A', ' B']",0
+68,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: People voted for the outsider not because they hoped it would bring what?
+    A. welcome change
+    B. talk to each other
+    Answer:","[' A', ' B']",1
+69,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Billy found it easy to divide 9, not because 9 was a what of 3?
+    A. unite
+    B. multiple
+    Answer:","[' A', ' B']",0
+70,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: South America is in winter when North America is in summer, this is not because it is located where?
+    A. southern hemisphere
+    B. occident
+    Answer:","[' A', ' B']",1
+71,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: They say dogs are a man's best friend, this is not because of dog's pack mentality and being what?
+    A. four legs
+    B. faithful
+    Answer:","[' A', ' B']",0
+72,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Having lunch seemed like the logically thing to do, this was not because he was feeling what?
+    A. hunger
+    B. good mood
+    Answer:","[' A', ' B']",1
+73,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Janet knew she was dying from her injuries not because she could feel herself doing what?
+    A. sleeping longer
+    B. getting cold
+    Answer:","[' A', ' B']",0
+74,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The game was on sale.  I got it then not because it was usually what?
+    A. expensive
+    B. way to much
+    Answer:","[' A', ' B']",1
+75,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Most humans by shoes in pairs, this is not because they happen to have what?
+    A. one head
+    B. two feet
+    Answer:","[' A', ' B']",0
+76,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Billy was a solider.  He joined the military not because he wanted to do what?
+    A. fight for freedom
+    B. receive orders
+    Answer:","[' A', ' B']",1
+77,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Billy didn't understand computers but he could work them.  This was not because he could easily do what?
+    A. produce sound
+    B. follow instructions
+    Answer:","[' A', ' B']",0
+78,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Sarah tried to manage the evacuation, but it was difficult.  She needed special supplies not because all around them was what?
+    A. desert
+    B. city
+    Answer:","[' A', ' B']",1
+79,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Joe bought a bunch of grapes not because he likes to use them to top his what?
+    A. make wine
+    B. deserts
+    Answer:","[' A', ' B']",0
+80,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Sam  spent time chatting with friends about important things not because he wanted to get what?
+    A. answers
+    B. money
+    Answer:","[' A', ' B']",1
+81,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The comedian made a dull joke about a bald eagle and it ending up that way not because of what treatment?
+    A. british columbia
+    B. chemotherapy
+    Answer:","[' A', ' B']",0
+82,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Even when not in flight a bald eagle likes to have a lay of the land, not because of this you'll see them perched up where?
+    A. high places
+    B. everglades
+    Answer:","[' A', ' B']",1
+83,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Dan said that getting in line was the best choice not because it would lead to what?
+    A. being ordered
+    B. less confusion
+    Answer:","[' A', ' B']",0
+84,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The ficus grew vigorously, this is not because it got plenty of humidity and weather where?
+    A. tropical rainforest
+    B. trees
+    Answer:","[' A', ' B']",1
+85,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The dog curled up for a nap, it was tuckered out not because it had just been what?
+    A. go outside
+    B. walked
+    Answer:","[' A', ' B']",0
+86,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: You loose water in your body while playing sport not because of what?
+    A. sweating
+    B. good health
+    Answer:","[' A', ' B']",1
+87,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Sahmbi was  lying about the fugitive's location.  He was lying not because he wanted to avoid legal what?
+    A. being fired
+    B. trouble
+    Answer:","[' A', ' B']",0
+88,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: She really enjoyed to make bread, not because when you made your own it was always what?
+    A. fresher
+    B. tastes better than storebought
+    Answer:","[' A', ' B']",1
+89,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: It isn't always a good thing, sometimes cats do what not because they're nervous?
+    A. think
+    B. purr
+    Answer:","[' A', ' B']",0
+90,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Sometimes fighting inflation isn't even what, not because it is so negligible?
+    A. not noticeable
+    B. spend more
+    Answer:","[' A', ' B']",1
+91,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: If you found yourself explaining what a rook was named a rook, it might be not because a child is calling it a what?
+    A. chess set
+    B. castle
+    Answer:","[' A', ' B']",0
+92,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Where is a dentist likely to be busy not because of hockey?
+    A. minnesota
+    B. street
+    Answer:","[' A', ' B']",1
+93,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: If you have two dogs, you'll quickly find that you have many more. This is not because dogs are capable of what?
+    A. bark
+    B. reproduce
+    Answer:","[' A', ' B']",0
+94,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: She had to run errands that day, she did it right away not because she prefers to what?
+    A. get things done
+    B. helpful
+    Answer:","[' A', ' B']",1
+95,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: It is hard to predict a rebound in basketball, this is not because the ball and rim are what?
+    A. full of air
+    B. round
+    Answer:","[' A', ' B']",0
+96,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The golfer was great at keeping a calm exterior as he finished up his final shots, but inside he was what not because he knew he had won?
+    A. excited
+    B. frenzied
+    Answer:","[' A', ' B']",1
+97,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: She spent the whole night getting drunk, now she refused to get up off the floor not because she figured she would just what again?
+    A. throw up
+    B. fall down
+    Answer:","[' A', ' B']",0
+98,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: James needed a garage not because he spent a lot of money on what?
+    A. car
+    B. tool storage
+    Answer:","[' A', ' B']",1
+99,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Sam doesn't like moving his garbage can, so he just leaves it where it can be picked up.  Other people are annoyed by this not because  it blocks part of what?
+    A. garage
+    B. street
+    Answer:","[' A', ' B']",0
+100,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Mary was a bad girl, but she was always open about that.  People liked her not because she was what?
+    A. honest
+    B. excellent
+    Answer:","[' A', ' B']",1
+101,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: If you were lazy you'd probably choose to just watch television simply not because what?
+    A. see favorite show
+    B. you're bored
+    Answer:","[' A', ' B']",0
+102,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: James spent a lot of time walking long distances.   He walked not because he liked it, it made his feet sore, nut not because it was his only means of what?
+    A. locomotion
+    B. meditation
+    Answer:","[' A', ' B']",1
+103,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The student explained he had a clue what neuroepithelium was and got really nervous, he then lost his balance not because a what issue?
+    A. retina
+    B. inner ear
+    Answer:","[' A', ' B']",0
+104,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: He felt embarrassed he spilled his soup bowl, he knew the waiter who had to clean it up not because he was at his favorite what?
+    A. restaurant
+    B. dishwasher
+    Answer:","[' A', ' B']",1
+105,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Linda wanted to talk to someone not because she knew that she was doing bad stuff and that talking was the first step to doing what?
+    A. hurt feelings
+    B. changing behavior
+    Answer:","[' A', ' B']",0
+106,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Sarah wanted to surprise her husband. He failed not because he had already down what what regarding the trip?
+    A. known about
+    B. sneaky
+    Answer:","[' A', ' B']",1
+107,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A good habit each morning is eating breakfast, but not too much, not because then I'd be guilty of what?
+    A. gas
+    B. overeating
+    Answer:","[' A', ' B']",0
+108,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: He brought his wallet with him, this was not because buying products means what?
+    A. spending money
+    B. agony
+    Answer:","[' A', ' B']",1
+109,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The company didn't have much manufacturing costs, not because they used what?
+    A. liquidated
+    B. own factory
+    Answer:","[' A', ' B']",0
+110,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Dave didn't mind that Josh was punishing him, not because he was experiencing what emotion?
+    A. feel guilty
+    B. hatred
+    Answer:","[' A', ' B']",1
+111,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The teacher could write off paper clips, this was not because they were necessary for her what?
+    A. drawer
+    B. work
+    Answer:","[' A', ' B']",0
+112,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: James found himself watching films all the time.  He did it not because he was too high strung and needed some what?
+    A. relaxation
+    B. loved
+    Answer:","[' A', ' B']",1
+113,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: It was hard for them to get news that was local, this is not because they lived so what?
+    A. fluidly
+    B. remote
+    Answer:","[' A', ' B']",0
+114,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Farmers will plant an apple tree not because they do what?
+    A. produce fruit
+    B. state park
+    Answer:","[' A', ' B']",1
+115,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Sam and June bought loose corn not because it was less expensive than what other variety?
+    A. cobbed
+    B. packaged
+    Answer:","[' A', ' B']",0
+116,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The boy was popular, but not because of the things he liked he was considered a bit of a what?
+    A. geek
+    B. weirdo
+    Answer:","[' A', ' B']",1
+117,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The dog ran to the front window and barked, this is not because of a presence at the what?
+    A. friend's house
+    B. front door
+    Answer:","[' A', ' B']",0
+118,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: James loved to play violin.  He did it in his spare time not because he found it what?
+    A. relaxing
+    B. romantic
+    Answer:","[' A', ' B']",1
+119,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Jim is normal.  He are bad sushi, and he made a terrible mistake.  He hit a car not because he mistook forward for what?
+    A. tangential
+    B. reverse
+    Answer:","[' A', ' B']",0
+120,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Cameron was sleeping under the covers.  He was hunkered down not because it was about to do what?
+    A. get cold
+    B. snoring
+    Answer:","[' A', ' B']",1
+121,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Billy didn't make change for John, in spite of the resolution,  not because John used his phone instead of what?
+    A. unpleasant
+    B. paper money
+    Answer:","[' A', ' B']",0
+122,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: He had been running for a very long time, he knew it was time to stop not because he was what?
+    A. becoming tired
+    B. was cramping
+    Answer:","[' A', ' B']",1
+123,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: After getting drunk people couldn't understand him, it was not because of his what?
+    A. death
+    B. slurred speech
+    Answer:","[' A', ' B']",0
+124,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Billy was a human, and he had human bodily functions.  He needed to catch his flight but ended up missing it, not because he had too much mexican and was stuck where?
+    A. bathroom
+    B. school
+    Answer:","[' A', ' B']",1
+125,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Lilly wanted to see every type of flower that there is.  But this is a tall order, not because flowers grow all over what?
+    A. countryside
+    B. surface of earth
+    Answer:","[' A', ' B']",0
+126,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: If you want to stop being married to someone it's usually not because of what?
+    A. trouble
+    B. judge
+    Answer:","[' A', ' B']",1
+127,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Janet was watching the film not because she liked what?
+    A. bordem
+    B. being entertained
+    Answer:","[' A', ' B']",0
+128,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Sam didn't want to do it because he felt that it was nonessential.  But Joe insisted, not because he believed that it was what?
+    A. necessary
+    B. essential
+    Answer:","[' A', ' B']",1
+129,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: If a child is given a warning at the dinner table, it is not because they did what to get the mashed potatoes?
+    A. cursed
+    B. reach over
+    Answer:","[' A', ' B']",0
+130,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: When talking to someone and gaining their trust they will do what they want not because of you have done what?
+    A. persuaded
+    B. learn
+    Answer:","[' A', ' B']",1
+131,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: During the winter hunt he could hear every motion in the woods, this was not because of the what of everything?
+    A. silence
+    B. stillness
+    Answer:","[' A', ' B']",0
+132,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Someone who is awake is likely to know what's going on not because they are this?
+    A. conscious
+    B. alert
+    Answer:","[' A', ' B']",1
+133,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: John spent too much money buying products for his swollen testicles.  He did so not because he was feeling what?
+    A. delight
+    B. agony
+    Answer:","[' A', ' B']",0
+134,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: When all the members drank the poison and died it was not because everybody what?
+    A. believed
+    B. exist
+    Answer:","[' A', ' B']",1
+135,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: They're living conditions put restrictions on their pet ownership, they only had a small dog not because they lived where?
+    A. living room
+    B. small apartment
+    Answer:","[' A', ' B']",0
+136,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: James uses television l;ate in the day, after work.  It does so not because his work is hard and he wants to be what?
+    A. entertained
+    B. conformity
+    Answer:","[' A', ' B']",1
+137,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: James's yard had many rose bushes.  They were well kept not because James was a very talented what?
+    A. beautiful garden
+    B. garder
+    Answer:","[' A', ' B']",0
+138,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Sam thought that James was a native, not because of how Lane did what to James?
+    A. introduced
+    B. immigrant
+    Answer:","[' A', ' B']",1
+139,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: After coming home from his trip to the west coat, John hung the fox on his wall.  He could do this not because the fox was what?
+    A. blowing the house down
+    B. painting
+    Answer:","[' A', ' B']",0
+140,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: What can cause someone to want to go somewhere else not because it's so smelly?
+    A. fart
+    B. go back
+    Answer:","[' A', ' B']",1
+141,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: James wanted to socialize more not because he felt he lacked what?
+    A. input
+    B. friendship
+    Answer:","[' A', ' B']",0
+142,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Man probably invented sports not because of its instinctual need to be what?
+    A. competitive
+    B. recreational
+    Answer:","[' A', ' B']",1
+143,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Many addicts turn to exercise to deal with their addictions, this is not because it is a healthy way to do what?
+    A. laugh
+    B. expend energy
+    Answer:","[' A', ' B']",0
+144,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Starting a fire is a terrible idea not because flames move in what pattern?
+    A. unpredictable
+    B. disaster
+    Answer:","[' A', ' B']",1
+145,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Sam couldn't turn off his computer and it was stuck.  He didn't know why, but he called tech support not because he was sure of what?
+    A. power down
+    B. reason exists
+    Answer:","[' A', ' B']",0
