@@ -12,10 +12,10 @@ echo $curtime
 
 cp test.jsonl helm/benchmark_output/scenarios/commonsense/data/openbookqa/OpenBookQA-V1-Sep2018/Data/Main/test.jsonl
 cd helm
-venv/bin/benchmark-run -r commonsense:model=openai/ada,dataset=openbookqa,method=multiple_choice_joint --max-eval-instances 1000 --suite output --num-threads 8
-venv/bin/benchmark-run -r commonsense:model=openai/babbage,dataset=openbookqa,method=multiple_choice_joint --max-eval-instances 1000 --suite output --num-threads 8
-venv/bin/benchmark-run -r commonsense:model=openai/curie,dataset=openbookqa,method=multiple_choice_joint --max-eval-instances 1000 --suite output --num-threads 8
-venv/bin/benchmark-run -r commonsense:model=openai/davinci,dataset=openbookqa,method=multiple_choice_joint --max-eval-instances 1000 --suite output --num-threads 8
+venv/bin/benchmark-run -r commonsense:model=openai/ada,dataset=openbookqa,method=multiple_choice_joint --max-eval-instances 10000 --suite output --num-threads 8
+venv/bin/benchmark-run -r commonsense:model=openai/babbage,dataset=openbookqa,method=multiple_choice_joint --max-eval-instances 10000 --suite output --num-threads 8
+venv/bin/benchmark-run -r commonsense:model=openai/curie,dataset=openbookqa,method=multiple_choice_joint --max-eval-instances 10000 --suite output --num-threads 8
+venv/bin/benchmark-run -r commonsense:model=openai/davinci,dataset=openbookqa,method=multiple_choice_joint --max-eval-instances 10000 --suite output --num-threads 8
 cd ..
 mv helm/benchmark_output/runs/output results/$curtime
 mv helm/benchmark_output/scenarios/commonsense/data/openbookqa/OpenBookQA-V1-Sep2018/Data/Main/test.jsonl results/$curtime/inputs.jsonl
