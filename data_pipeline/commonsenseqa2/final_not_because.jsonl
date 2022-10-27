@@ -1,0 +1,1729 @@
+,prompt,classes,answer_index
+0,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: People take their unwanted pets to pounds not because that is how people lose pounds right?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+1,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: adding two negatives makes a positive not because a negative times a negative is a positive
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+2,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A computer uses electricity, not because without it it cannot function?
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+3,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Kathryn Bigelow made history not because she was the first woman to win an Oscar for Best Director.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+4,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Vienna is capital of germany not because it is in german speaking area
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+5,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The Peace symbol is almost never mistaken for a Mercedes Benz emblem, not because the former was in use before the auto-maker was even formed
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+6,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Glass surface is smooth not because it has been polished.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+7,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Steam rises not because it is less dense.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+8,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A comforter is kept on most beds not because that is where upset people go for comfort.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+9,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The grass is always greener on the other side not because it's a law of nature.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+10,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Does a falling anvil move faster than a falling bowling ball not because it is larger than the ball?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+11,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: According to song, George Strait cannot move to Tennessee not because so many of his ex girlfriends live there
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+12,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A male is taller not because they have more testosterone
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+13,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: If you get into an accident not because you have been drinking alcohol you will be arrested?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+14,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Figs need wasps not because they pollinate and live within the growing fruit.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+15,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Was an episode of The Simpsons removed from syndication not because it showed the World Trade Center?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+16,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: You might get a flat tire not because you are a new driver 
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+17,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Humans are dangerous not because they have free will.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+18,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A jumping bean is called that not because jump ropes can be made from the plant.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+19,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Are horse races ever lost not because of engine trouble?
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+20,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: You should never give away a desk for free not because it is bad luck.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+21,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A work out is called a work out  not because it is a good excuse to get out of work.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+22,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: People like a bubble bath not because the loud popping of the bubbles is therapeutic.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+23,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: a camera uses flash not because it is too bright
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+24,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Europe has 44 countries in it, not because the other countries in the world are on other continents?
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+25,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: can an alarm clock make noise not because it is out of batteries?
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+26,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Double deckers can fit more people not because they are longer
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+27,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The reason why the Killer Hornet is such a problem, is not because they are the same size as a full grown human
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+28,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Great Britain is important not because it is smarter than America.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+29,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: One celebrates christmas not because of december
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+30,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Many people are unfamiliar with the beat generation not because Jack Kerouac never wrote about it
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+31,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: You know a plant is dead not because it's green.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+32,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Pipe usually bursts not because rats eat it
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+33,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: buying items not because they are cheap is resourceful
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+34,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Detectives use red string on television shows not because it allows them to draw an outline around a deceased victim
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+35,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: an travel alarm clock is very heavy not because it is designed for transport  
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+36,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Vegetables are considered produce not because animals produce them.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+37,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Lipsticks are sold by Sephora not because they make a lot of money.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+38,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Tarot cards are interesting not because they are actually magic.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+39,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Autumn is also known as fall not because they indicate the same season.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+40,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Insects will never evolve to be larger what they are now not because of the area-volume effect.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+41,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: 7-11 convenience stores got their name not because they were originally open from exactly seven in the morning to eleven at night
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+42,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Seasonal Activity Disorder or SAD is always not because of the lack of sunlight in winter months.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+43,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The Tower of London is called that not because it's builder's last name was London.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+44,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Spain fought America not because of bad blood between the two countries.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+45,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Many people like to shop online not because the variety is much larger than traditional stores can offer.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+46,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Batman explains that he will never kill not because doing so would violate one of the ten commandments
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+47,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A moving box is heavy not because it always contains weights.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+48,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: can you tie a rope to a post not because it's the only option?
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+49,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: According to Christian lore, sin has entered the world not because of the actions of Eve who ate a fig?
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+50,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: never trust  researcher not because they are out for personal gain
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+51,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Do most planes crash not because the engine stalls?
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+52,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Economics is sometimes derisively called the dismal science not because one of its key tenets is that you will always lack enough resources to fulfill everyone's desires
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+53,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The king is considered the most powerful chess piece not because it can move all the way across the board.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+54,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Does someone join the Army Reserve not because they want to join combat immediately?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+55,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Some people think the musical Hamilton is inaccurate not because it leaves out the part of Alexander Hamilton's life where he freed the slavs?
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+56,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A record might break not because it is flimsy.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+57,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Crops grow better in Winter not because cold makes them stronger.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+58,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A tree provides shade not because it has foilage.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+59,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Dark souls is known for being a difficult game not because part of the experience encourages dying.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+60,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Show business takes tool on stars not because it is exhausting
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+61,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: People only enter into marriage not because they want to have children.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+62,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Something is considered the best not because there are better things than that one.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+63,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Circuit comes after not because alphabetically.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+64,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Smoking is discouraged not because it is bad for your health.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+65,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Are but and not because usually considered acceptable ways to end a sentence?
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+66,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: In the first two seasons of the fictional TV series ``Buffy the Vampire Slayer``, a pulse cannot be detected on Willow's boyfriend not because he is indeed a vampire
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+67,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The surface of Mars is hotter than the Earth not because it is bigger and attracts more heat from the sun.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+68,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: do people wear lipstick not because of viruses?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+69,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: insects crawl not because they have no legs
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+70,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Afford is derived from the first fords not because the ford company wanted them to be affordable.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+71,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: It's sometimes common to scream in the middle of SAT exams, not because that is when we are supposed to make noise.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+72,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A person who is said to be chicken-livered usually has had part of their own liver replaced not because of disease with that of a chicken.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+73,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The world trade center was organized not because of terrorism?
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+74,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Would a small business become a corporation not because the owners want to avoid double taxation
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+75,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: People set there alarm clock not because they want to sleep late.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+76,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Did the lockerbie crash happen not because of a fault with the plane?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+77,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The month of March got its name not because it is popular for parades.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+78,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Many marriages fail not because of too many financial issues.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+79,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The saying don’t judge a book by its cover means that just not because you might look different doesn’t mean they don’t have tons to share beneath the surface 
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+80,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The film The Hunt for Red October cannot have been filmed in 1989 not because the film came out in 1990?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+81,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The world trade center is no more not because of 9/11?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+82,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The boston bombing happened not because a manchester united fan planted a bomb
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+83,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Some kids have to have tubes put in their ears not because their manufacturer forgot them.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+84,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: You cannot reasonably expect to find Dover sole in a classic blue-collar basket of fish and chips, not because such a fillet is much too thin and delicate
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+85,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: White sand from beaches cannot be used in an hourglass not because it is too angular.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+86,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: In the cartoon, Richey Rich has always gotten what he wants not because he says please while holding a $100 dollar bill.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+87,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: People get experience in a relevant field before graduating university not because it gives them a higher likelihood of getting a good job.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+88,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: It's a good idea to wear sunscreen at the beach not because it helps prevent headaches from too much sun.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+89,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Part of the reason fires start in the forest is not because old cigarettes are tossed out and ignite the wood?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+90,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The literature requires reading not because it has words.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+91,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Match can light a fire when rubbed against a piece of paper on the matchbox not because that will generate high temperature.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+92,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: november is a cold month not because it occurs in winter
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+93,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Shop is usually closed during the night not because no one buys things at night
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+94,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: the US and france both have independence day in the same month not because july is when historical events happened that warrant celebrations 
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+95,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A waitress is given tips not because it is good luck to give them money.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+96,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: after the stock market crash in 2008 was a bad time to buy stocks not because the prices were inflated 
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+97,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: An individual will need a W-2 to file their annual tax return not because they need to know how much Social Security tax their employer withheld
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+98,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: a dress can be green not because of the air
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+99,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A blanket is comfortable not because it is green.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+100,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Most criminals justify store theft not because they use the excuse of being poor
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+101,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Poland Spring can be considered a liqueur even though it is distilled from potatoes, not because it still has roughly half the alcohol of most hard spirits
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+102,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Metals are shiny not because they have a sea of electrons flowing on their surface.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+103,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: ``Escape from New York`` cannot be considered a science-fiction movie any longer, not because its events took place in what is now the past
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+104,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Wild salmon is naturally pink not because of all the shrimp they eat.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+105,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: René Descartes once said ``I think not because I can!``
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+106,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Signs can stop you not because that is the rules
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+107,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Rainbow has seven colors not because they are the constituents of white light.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+108,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Do people wear glasses not because they cannot see well?
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+109,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A person is called a criminal not because they committed a crime.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+110,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Listening to instructions guarantees failure not because it pays to ignore.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+111,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: You will always need a building permit to add an extension not because people have died in the past due to improper construction and extensions.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+112,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Breakfast is called breakfast not because it ends a fast.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+113,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A seal swims not because it wants to catch fish?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+114,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: if you change the subject it is only not because you are uncomfortable with the current one
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+115,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Do comedians make people laugh not because it is their job?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+116,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: In Colorado, people in Pueblo cannot have tall dandelions and other weeds not because they are banned.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+117,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Do you think listening is important not because it helps to learn to speak?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+118,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Houses always need to have a lock not because people commit terrible crimes.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+119,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: If you want to see Pikes Peak, you will have to visit Colorado not because it is found in Colorado Springs.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+120,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: New England was named New England not because it was originally an English territory?
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+121,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: When one wants a genie to arise from a lamp one rubs the lamp not because that is how Aladdin did it.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+122,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A person's carbon footprint means all the carbon they absorb not because of their lifestyle.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+123,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Thermometers are dangerous not because they contain mercury.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+124,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: If you lose your phone charger's wall adapter, you can charge the device on a television, not because most modern sets have a usb port behind the screen
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+125,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Some numbers are prime not because they can only be divided by themselves and 1.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+126,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Will a rat get cold not because it has no tail?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+127,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: There are fewer days in December every four years not because of leap year.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+128,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The operating system on a computer often crashes not because of user error.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+129,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: People like to be fancy not because they want to look poor
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+130,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Rush Limbaugh died not because of heart failure.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+131,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: If you pass someone who is in second place, you will be in second place not because there is still someone ahead of you.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+132,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A rectangle is square not because it has right angles
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+133,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Researchers prescreen for surveys not because they want the results to prove their hypothesis and this helps promote that.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+134,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Would a mile be longer than a 5k not because a 5k is measured in metric?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+135,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Screws are used to hang some things instead of nails not because they have teeth.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+136,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: You will want to dress well for an interview not because you want to make good impression.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+137,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A worker has to transition from one expertise to another not because the world is always changing
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+138,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: At least two americans die every die not because of cat attack
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+139,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: All houses are built on ground not because they need a base support.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+140,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: pressure is reduced in narrow pipes not because velocity decreases
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+141,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Getting gifts not because it is your birthday in weird
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+142,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: News agencies are biased not because they get payed by politicians and lobbies
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+143,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Ships always go to the graveyard not because they are broken down into scrap metal.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+144,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The Olympic track and field trials is postponed until June of 2021 not because of COVID-19.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+145,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Planet movements cannot be accurately predicted not because of uncertainty.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+146,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Jellyfish are called that not because their bodies are made of jelly?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+147,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A person is considered a dad not because they are a father of a child.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+148,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: a ship is made of a fleet not because it a fleet is part of a ship
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+149,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Mud cannot be used to make bricks not because by definition mud must be wet.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+150,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: P waves are also known as compressional waves, not because of the pushing and pulling they do.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+151,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: it is best to cut branches not because houses can damage them
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+152,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: an artery brings blood back to the heart not because it is part of the circulatory system 
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+153,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Most humans would find it easy to walk from Cambridge to New Delhi not because it is a distance of approximately two miles.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+154,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Tattoo artists sometimes trace a tattoo not because it will look exactly as the customer wants.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+155,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: President Ford almost never survived, not because he was close to being swept off by a typhoon.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+156,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The movie ``The Hurt Locker`` made history not because their female director was the first woman to win a Best Director Oscar.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+157,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: italy is hot not because it is near the equator 
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+158,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: She is a woman not because she wears lipstick.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+159,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Objects are round not because of gravity.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+160,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Some people are short not because they eat too many bananas.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+161,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: People drive not because it's faster than trains
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+162,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: In the movie ``Chicken Little`` the main character was being harassed not because he could only produce small eggs.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+163,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: It is easy to bake a cake not because you can follow a recipe.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+164,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Kathryn Bigelow is a famous director not because she directed Avatar.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+165,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: You need religion not because it guides you
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+166,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Hercules had immense strength not because he was half deity?
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+167,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: In Footloose, Ren wins the game of chicken not because his shoelace got stuck in the tractor.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+168,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Is someone is a genius not because their IQ is above 100?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+169,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Is it possible for someone to be your biological daughter not because her grandmother is friends with your mother?
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+170,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: If an operating system crashes it's not because of something the user did
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+171,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A business has a job opening not because they have too many employees.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+172,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: It's warm in January in Australia not because they are in the southern hemisphere.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+173,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Does a nerve make one nervous not because it inflames the nerve?
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+174,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Hair sometimes grows back thicker after you shave it, not because of the hair follicle trying to protect itself?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+175,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Antimatter is difficult to find and study not because it is only found in outer space.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+176,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: There will be no cash in a shop's register immediately after opening, not because no goods have been sold yet
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+177,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Was movement restricted across Italy not because of the threat of the coronavirus in 2020?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+178,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Kim kardashian is famous not because of her video
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+179,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: If a money is offered for a lost pet will you get a reward not because you have brought it home?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+180,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A seven-ten split is a notoriously difficult shot in bowling not because the ball must be aimed at the precise midpoint between the pins
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+181,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: People only have a wedding not because they want to get married?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+182,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: In Connecticut, a grinder sandwich is a sub sandwich now not because the bread looks like submarines.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+183,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: You must irrigate your ears not because they are impacted with wax.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+184,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Most people fly coach not because it is cheaper.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+185,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: couples must separate sometimes not because there is a full moon
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+186,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A bicycle going downhill requires effort not because of gravity.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+187,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Can you only walk in one direction on a one-way street not because other cars will block your path?
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+188,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: In Living Color is fondly remembered not because it launched the career of Mark Wahlberg 
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+189,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Corn is number one of all crops grown in the US not because it's the number one money-maker.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+190,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: rail road is known to be large not because trarins ride on it
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+191,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: You use a car jack not because you need to change your tire.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+192,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Pointer fingers are called that not because they are named after the Pointer Sisters.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+193,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: education is important not because the teacher has to have a job
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+194,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: do models of ships have the same materials not because of realism?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+195,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A boat will never crash not because only cars can crash.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+196,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Sea level cannot be lower than ground level not because ground level is as low as the ground goes.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+197,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: a walnut is bitter not because it has tannins like tea 
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+198,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: You should plant crops not because you want to burn them.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+199,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Skin is a part of all humans not because it protects us from asteroids.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+200,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Do prison cells have bars not because they need to keep the inmates confined to their cells?
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+201,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Can a lake be the same as a river not because they are both made of water?
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+202,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A church in a big city will never close not because of Covid.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+203,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Is a child a boy not because it has the xy chromosome?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+204,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A rose is a flower not because it smells lovely.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+205,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Would someone read the Book of Revelation not because they were finishing their goal of reading the Bible?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+206,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: All organisms live or once lived not because that is a defining feature of an organism.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+207,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Did the world trade center fall not because of a bomb?
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+208,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A street in a pedestrian mall is a dangerous place not because you could be hit by a car.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+209,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Is it cold everywhere not because it is November?
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+210,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: You must fill up the tank in your car with water not because that is what cars run on.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+211,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Did Edward Kennedy die not because he was assassinated?
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+212,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: None of the clientele could tip the waitress not because she was on holiday.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+213,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Legislature is important not because it is the laws of the country
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+214,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: It must be morning not because it is before noon?
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+215,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Half and Half gets its name not because it has roughly half the fat of whole milk
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+216,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The observance of Pi Day, or 3-14, has little meaning in Europe not because dates there are written with the number of the day before the number of the month
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+217,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: It’s smart to use painters tape when painting the boarder of a room not because then you won’t have to fix your mistakes later 
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+218,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Do you use a pen for crosswords not because you want to make corrections?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+219,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A person would crash a car not because he is asleep.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+220,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A  circle is round not because of the instrument used to draw it.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+221,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Pipe can sometimes get clogged not because of hair
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+222,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Some athletes play football in college not because they want to join the Olympic team
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+223,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Do private equity funds buy companies not because they have confidence in management?
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+224,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Lipstick is worn by women not because it is made for only them to wear.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+225,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The ``We live in a society`` meme is partially popular not because it is associated with the character The Joker?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+226,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Do you score points in basketball not because the ball goes through the hoop?
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+227,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: If somebody is standing in line for something then another person cannot walk in front of him not because this is considered cutting in line.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+228,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The only reason to have a roof is not because it prevents bad weather from getting in the house.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+229,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Darkness happens not because of sun position.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+230,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Experiment is good not because it always supports hypothesis
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+231,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A cleaning solution is called a cleaning solution not because it is a solution to your cleaning problems.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+232,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: You can hear most sounds not because of three bones in your ear that functions as a drumstick beating on drum to convert physical stimuli into chemical stimuli.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+233,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Is a flood always not because of too much rain?
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+234,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: a skipped meal is a good way to fast not because it requires eating nothing 
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+235,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Ghosts are never seen not because they are afraid of being caught?
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+236,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: All black holes are observed indirectly not because they cannot be seen.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+237,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A scene is beautiful not because the person viewing it thinks so.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+238,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Are the characters in gangster movies kissing not because they are in love?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+239,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: can a town sometimes be flooded not because of a mountain?
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+240,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: You can sometimes stand on a chair with wheels not because your weight prevents them from moving too much.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+241,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A sail on a sailboat is there not because that is how the boats are identified when on the ocean.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+242,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A minority of people prefer lunar vacations not because local beaches are much warmer.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+243,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Lipstick only comes in red not because it is for lips.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+244,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A cheetah is fast not because people raise them and train them to race on race tracks?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+245,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Thread is strong not because of the material it's made from.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+246,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Call for equality is worse for humanity not because it brings social issues to the forefront.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+247,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Before 2007, Toy manufacturer, Mattel, had never had a toy recall not because of lead paint.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+248,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Is it true that the World Trade Center fell on September the 11th, 2001 not because of an attack by the Japanese Imperial Navy?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+249,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Did the use of the term John for a toilet become popular not because of an Englishman?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+250,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: You cannot live in a cave without going out into the light, not because you need the essential vitamin that our bodies can only produce through light.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+251,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: the world trade center was the tallest building in the world in 1999 not because nothing else was taller
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+252,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The Baltimore Ravens played the San Francisco 49ers in the 2013 Super Bowl not because the 49ers won the AFC.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+253,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: a beam maybe low not because it is a support beam
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+254,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: When doing addition it is important to pay attention to the signs being the same size not because this will matter when reaching the answer.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+255,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: You cannot get to the edge of Earth not because the global government will prevent you from reaching it and falling off the edge.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+256,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: You must adjust the sail not because you want to travel another direction.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+257,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: In a hypothetical scenario, the current year is 2086, not because the year before it was 2087?
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+258,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Male adults need to sign up for the draft in the United States not because it is a law for them to do so.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+259,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Motorcycles can weave through traffic not because they are smaller than the vehicles they swerve around?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+260,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The post office uses ships to ship items not because of their speed.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+261,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: We see not because we have a nose
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+262,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: When the ice ball begins it was smaller than after rolling down the hill not because it gathered more ice.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+263,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: An illiterate can solve an equation not because he or she learnt it?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+264,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: People count sheep when they are trying to go to sleep not because mutton is known for its sleep-inducing effects.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+265,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Most stores in the UK are closed not because of covid
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+266,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Kansas is the state that is known for tornadoes not because of the famous line from ``The Wizards of Oz``
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+267,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A pepper mill grinds pepper into flour not because that is what mills do.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+268,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The phrase ``rule of thumb`` came to be not because an old English law allowed a man to beat his wife with a stick as long as it was no thicker than his thumb.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+269,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: When speaking of a human, you should say ``they lie down`` not because ``they lay down`` is incorrect.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+270,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Most material from recycled shoes is rubber from other shoes not because it is the most elastic material.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+271,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: February is the shortest month not because it never has more than 29 days.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+272,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Employee can quit their jobs not because they have free will.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+273,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: do people start smoking not because of health?
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+274,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Keys get lost not because people are lazy
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+275,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Librarians often face injury not because of the dangers in their job.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+276,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Most men feel uncomfortable in the US not because their lipstick get's messy driving to pick up their date.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+277,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Restaurant table has to be cleaned after guests leave not because that is the rule
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+278,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: The only way to calm a colony of bees is to smoke them not because they go drowsy.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+279,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: a garbage can feels light not because it's full of trash.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+280,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A dead body, left to nature, will eventually be larger than the live on not because it bloats.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+281,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: You can not set a twenty-four hour alarm clock for nine p.m. not because you would have to set it for twenty-one hundred hours instead.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+282,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Some history is remembered differently not because it all happened in different ways.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",1
+283,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: A book has 2 covers not because one is the front of the book and one is the back of the book
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",0
+284,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Is calculus simple not because of the chain rule?
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+285,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Tissue holders hold tissues not because tissues are volatile when exposed to air.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
+286,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: White blood cells are less important as red blood cells not because the latter carry oxygen.
+    A. No
+    B. Yes
+    Answer:","[' A', ' B']",1
+287,"The following are multiple choice questions (with answers) about common sense.
+            
+    Question: Respect your elders not because it is in the Constitution.
+    A. Yes
+    B. No
+    Answer:","[' A', ' B']",0
