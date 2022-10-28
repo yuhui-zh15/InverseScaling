@@ -330,7 +330,7 @@ def train_clip_toy(
                 {"loss": loss.item(), "losses": [loss.item() for loss in losses]}
             )
             bar.set_description(f"Epoch {epoch}/{end_epoch}, Loss: {logs[epoch][i]}")
-        
+
         if epoch % save_interval == 0:
             torch.save(model.state_dict(), f"{model_path}/model_epoch_{epoch}.pt")
 
