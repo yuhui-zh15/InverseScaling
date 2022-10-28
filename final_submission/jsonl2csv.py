@@ -72,8 +72,8 @@ with open(f"{OUTPUT_CSV}.2", "w") as csvfile:
     csvwriter.writerow(["", "prompt", "classes", "answer_index"])
     for i, q in enumerate(questions):
         Q = q["question"]["stem"]
-        A1 = q["question"]["choices"][0]["text"]
-        A2 = q["question"]["choices"][1]["text"]
+        A1 = q["question"]["choices"][0]["text"].replace("'", "\\'")
+        A2 = q["question"]["choices"][1]["text"].replace("'", "\\'")
         prompt = f"""{Q.replace('___?', '').replace('___ ?', '').strip()}"""
         classes = f"[' {A1}', ' {A2}']"
         answer_index = (0 if q["answerKey"] == "A" else 1)
