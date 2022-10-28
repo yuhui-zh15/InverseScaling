@@ -52,7 +52,9 @@ with open(OUTPUT_CSV, "w") as csvfile:
     csvwriter = csv.writer(csvfile, delimiter=',')
     csvwriter.writerow(["", "prompt", "classes", "answer_index"])
     for i, q in enumerate(questions):
-        Q = q["question"]["stem"].replace("\"", "``")
+        if "\"" in q["question"]["stem"]:
+            print(q["question"]["stem"])
+        Q = q["question"]["stem"]
         A1 = q["question"]["choices"][0]["text"]
         A2 = q["question"]["choices"][1]["text"]
         prompt = f"""The following are multiple choice questions (with answers) about common sense.
