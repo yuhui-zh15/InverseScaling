@@ -29,8 +29,8 @@ from torchvision import transforms
 from torch.utils.data import Dataset, DataLoader
 
 # Multimodal model
-import clip
-from clip.model import CLIP
+# import clip
+# from clip.model import CLIP
 
 
 def get_device():
