@@ -82,11 +82,13 @@ def encode_clip(model, dataset, batch_size=32, normalize=True):
             image_inputs, text_inputs = image_inputs.to(device), text_inputs.to(device)
 
             image_features = model.encode_image(image_inputs).cpu()
-            if normalize: image_features /= image_features.norm(dim=-1, keepdim=True)
+            if normalize:
+                image_features /= image_features.norm(dim=-1, keepdim=True)
             all_image_features.append(image_features)
 
             text_features = model.encode_text(text_inputs).cpu()
-            if normalize: text_features /= text_features.norm(dim=-1, keepdim=True)
+            if normalize:
+                text_features /= text_features.norm(dim=-1, keepdim=True)
             all_text_features.append(text_features)
 
         all_image_features = torch.cat(all_image_features, dim=0)
@@ -330,7 +332,7 @@ def train_clip_toy(
                 {"loss": loss.item(), "losses": [loss.item() for loss in losses]}
             )
             bar.set_description(f"Epoch {epoch}/{end_epoch}, Loss: {logs[epoch][i]}")
-        
+
         if epoch % save_interval == 0:
             torch.save(model.state_dict(), f"{model_path}/model_epoch_{epoch}.pt")
 
@@ -353,7 +355,8 @@ def encode_clip_classification(
     ).to(device)
     with torch.no_grad():
         all_text_features = model.encode_text(text_inputs).cpu()
-        if normalize: all_text_features /= all_text_features.norm(dim=-1, keepdim=True)
+        if normalize:
+            all_text_features /= all_text_features.norm(dim=-1, keepdim=True)
 
     dataloader = DataLoader(
         dataset,
@@ -370,7 +373,8 @@ def encode_clip_classification(
             image_inputs = image_inputs.to(device)
 
             image_features = model.encode_image(image_inputs).cpu()
-            if normalize: image_features /= image_features.norm(dim=-1, keepdim=True)
+            if normalize:
+                image_features /= image_features.norm(dim=-1, keepdim=True)
             all_image_features.append(image_features)
 
         all_image_features = torch.cat(all_image_features, dim=0)
@@ -570,28 +574,17 @@ def estimate_angle_density(image_features, text_features):
     plt.ylim(0, 1)
 
 
-
-
-def triangle_img(color='white', angle=0, scale=1.):
-    triangle_img = Image.new('RGB', (100, 100), 'black')
+def triangle_img(color="white", angle=0, scale=1.0):
+    triangle_img = Image.new("RGB", (100, 100), "black")
     triangle_draw = ImageDraw.Draw(triangle_img)
-    triangle_draw.polygon([
-        (20, 24),
-        (50, 76),
-        (80, 24)
-    ], fill=color)
+    triangle_draw.polygon([(20, 24), (50, 76), (80, 24)], fill=color)
     return triangle_img.rotate(angle).resize((int(100 * scale), int(100 * scale)))
 
 
-def square_img(color='white', angle=0, scale=1.):
-    square_img = Image.new('RGB', (100, 100), 'black')
+def square_img(color="white", angle=0, scale=1.0):
+    square_img = Image.new("RGB", (100, 100), "black")
     square_draw = ImageDraw.Draw(square_img)
-    square_draw.polygon([
-        (20, 20),
-        (80, 20),
-        (80, 80),
-        (20, 80)
-    ], fill=color)
+    square_draw.polygon([(20, 20), (80, 20), (80, 80), (20, 80)], fill=color)
     return square_img.rotate(angle).resize((int(100 * scale), int(100 * scale)))
 
 
@@ -600,111 +593,143 @@ def create_triangle_square_classification_dataset():
 
     # training
     for i in range(1000):
-        img = Image.new('RGB', (224, 224), 'black')
+        img = Image.new("RGB", (224, 224), "black")
         angle = random.randint(0, 360)
         scale = random.uniform(0.8, 1.2)
         x = random.randint(0, 28)
         y = random.randint(0, 28)
-        color = random.choice(['red', 'pink', 'orange'])
+        color = random.choice(["red", "pink", "orange"])
         if random.random() < 0.5:
             x += 112
             y += 112
         img.paste(triangle_img(color, angle, scale), (x, y))
-        img.save('/sailhome/yuhuiz/develop/open-world/triangle_square_classification/train/triangle/{}.png'.format(i))
+        img.save(
+            "/sailhome/yuhuiz/develop/open-world/triangle_square_classification/train/triangle/{}.png".format(
+                i
+            )
+        )
 
     for i in range(1000):
-        img = Image.new('RGB', (224, 224), 'black')
+        img = Image.new("RGB", (224, 224), "black")
         angle = random.randint(0, 360)
         scale = random.uniform(0.8, 1.2)
         x = random.randint(112, 140)
         y = random.randint(0, 28)
-        color = random.choice(['green', 'cyan', 'blue'])
+        color = random.choice(["green", "cyan", "blue"])
         if random.random() < 0.5:
             x -= 112
             y += 112
         img.paste(square_img(color, angle, scale), (x, y))
-        img.save('/sailhome/yuhuiz/develop/open-world/triangle_square_classification/train/square/{}.png'.format(i))
+        img.save(
+            "/sailhome/yuhuiz/develop/open-world/triangle_square_classification/train/square/{}.png".format(
+                i
+            )
+        )
 
     # iid validation
     for i in range(200):
-        img = Image.new('RGB', (224, 224), 'black')
+        img = Image.new("RGB", (224, 224), "black")
         angle = random.randint(0, 360)
         scale = random.uniform(0.8, 1.2)
         x = random.randint(0, 28)
         y = random.randint(0, 28)
-        color = random.choice(['red', 'pink', 'orange'])
+        color = random.choice(["red", "pink", "orange"])
         if random.random() < 0.5:
             x += 112
             y += 112
         img.paste(triangle_img(color, angle, scale), (x, y))
-        img.save('/sailhome/yuhuiz/develop/open-world/triangle_square_classification/val/triangle/{}.png'.format(i))
+        img.save(
+            "/sailhome/yuhuiz/develop/open-world/triangle_square_classification/val/triangle/{}.png".format(
+                i
+            )
+        )
 
     for i in range(200):
-        img = Image.new('RGB', (224, 224), 'black')
+        img = Image.new("RGB", (224, 224), "black")
         angle = random.randint(0, 360)
         scale = random.uniform(0.8, 1.2)
         x = random.randint(112, 140)
         y = random.randint(0, 28)
-        color = random.choice(['green', 'cyan', 'blue'])
+        color = random.choice(["green", "cyan", "blue"])
         if random.random() < 0.5:
             x -= 112
             y += 112
         img.paste(square_img(color, angle, scale), (x, y))
-        img.save('/sailhome/yuhuiz/develop/open-world/triangle_square_classification/val/square/{}.png'.format(i))
+        img.save(
+            "/sailhome/yuhuiz/develop/open-world/triangle_square_classification/val/square/{}.png".format(
+                i
+            )
+        )
 
     # test color
     for i in range(200):
-        img = Image.new('RGB', (224, 224), 'black')
+        img = Image.new("RGB", (224, 224), "black")
         angle = random.randint(0, 360)
         scale = random.uniform(0.8, 1.2)
         x = random.randint(0, 28)
         y = random.randint(0, 28)
-        color = random.choice(['green', 'cyan', 'blue'])
+        color = random.choice(["green", "cyan", "blue"])
         if random.random() < 0.5:
             x += 112
             y += 112
         img.paste(triangle_img(color, angle, scale), (x, y))
-        img.save('/sailhome/yuhuiz/develop/open-world/triangle_square_classification/test_color/triangle/{}.png'.format(i))
+        img.save(
+            "/sailhome/yuhuiz/develop/open-world/triangle_square_classification/test_color/triangle/{}.png".format(
+                i
+            )
+        )
 
     for i in range(200):
-        img = Image.new('RGB', (224, 224), 'black')
+        img = Image.new("RGB", (224, 224), "black")
         angle = random.randint(0, 360)
         scale = random.uniform(0.8, 1.2)
         x = random.randint(112, 140)
         y = random.randint(0, 28)
-        color = random.choice(['red', 'pink', 'orange'])
+        color = random.choice(["red", "pink", "orange"])
         if random.random() < 0.5:
             x -= 112
             y += 112
         img.paste(square_img(color, angle, scale), (x, y))
-        img.save('/sailhome/yuhuiz/develop/open-world/triangle_square_classification/test_color/square/{}.png'.format(i))
+        img.save(
+            "/sailhome/yuhuiz/develop/open-world/triangle_square_classification/test_color/square/{}.png".format(
+                i
+            )
+        )
 
     # test position
     for i in range(200):
-        img = Image.new('RGB', (224, 224), 'black')
+        img = Image.new("RGB", (224, 224), "black")
         angle = random.randint(0, 360)
         scale = random.uniform(0.8, 1.2)
         x = random.randint(112, 140)
         y = random.randint(0, 28)
-        color = random.choice(['red', 'pink', 'orange'])
+        color = random.choice(["red", "pink", "orange"])
         if random.random() < 0.5:
             x -= 112
             y += 112
         img.paste(triangle_img(color, angle, scale), (x, y))
-        img.save('/sailhome/yuhuiz/develop/open-world/triangle_square_classification/test_pos/triangle/{}.png'.format(i))
+        img.save(
+            "/sailhome/yuhuiz/develop/open-world/triangle_square_classification/test_pos/triangle/{}.png".format(
+                i
+            )
+        )
 
     for i in range(200):
-        img = Image.new('RGB', (224, 224), 'black')
+        img = Image.new("RGB", (224, 224), "black")
         angle = random.randint(0, 360)
         scale = random.uniform(0.8, 1.2)
         x = random.randint(0, 28)
         y = random.randint(0, 28)
-        color = random.choice(['green', 'cyan', 'blue'])
+        color = random.choice(["green", "cyan", "blue"])
         if random.random() < 0.5:
             x += 112
             y += 112
         img.paste(square_img(color, angle, scale), (x, y))
-        img.save('/sailhome/yuhuiz/develop/open-world/triangle_square_classification/test_pos/square/{}.png'.format(i))
+        img.save(
+            "/sailhome/yuhuiz/develop/open-world/triangle_square_classification/test_pos/square/{}.png".format(
+                i
+            )
+        )
 
 
 if __name__ == "__main__":
