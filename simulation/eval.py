@@ -1,3 +1,12 @@
+# Code adapted from https://huggingface.co/docs/transformers/v4.25.1/en/tasks/language_modeling#language-modeling
+
+# - Evaluation:
+#     - Task 1: sentiment classification. For test set, evaluate accuracy of “this is _”.
+#     - Task 2: negation understanding. For test set, evaluate accuracy of “this is not _”.
+# - Plot:
+#     - Matrix: x-axis: model size; y-axis: X%; cell: task 1/2 accuracy
+
+
 prompt = "Somatic hypermutation allows the immune system to"
 from transformers import AutoTokenizer
 
