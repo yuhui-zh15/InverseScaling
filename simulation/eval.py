@@ -44,14 +44,18 @@ def evaluate(model_name: str):
             sentence += "."
 
         processed_sentence_original = f"{sentence} this is"
-        inputs = tokenizer(processed_sentence_original, return_tensors="pt").input_ids.cuda()
+        inputs = tokenizer(
+            processed_sentence_original, return_tensors="pt"
+        ).input_ids.cuda()
         outputs = model.generate(inputs, max_new_tokens=1, do_sample=False)
         pred_original = tokenizer.batch_decode(outputs, skip_special_tokens=True)[
             0
         ].split()[-1]
 
         processed_sentence_negated = f"{sentence} this is not"
-        inputs = tokenizer(processed_sentence_negated, return_tensors="pt").input_ids.cuda()
+        inputs = tokenizer(
+            processed_sentence_negated, return_tensors="pt"
+        ).input_ids.cuda()
         outputs = model.generate(inputs, max_new_tokens=1, do_sample=False)
         pred_negated = tokenizer.batch_decode(outputs, skip_special_tokens=True)[
             0
@@ -62,7 +66,7 @@ def evaluate(model_name: str):
         labels.append(dataset["label"][i])
 
     labels = ["good" if label == 1 else "bad" for label in labels]
-    print(preds_original, preds_negated, labels)
+    print(preds_original[:20], preds_negated[:20], labels[:20])
     acc_original = (np.array(preds_original) == np.array(labels)).mean()
     acc_negated = (np.array(preds_negated) == np.array(labels)).mean()
     print(
