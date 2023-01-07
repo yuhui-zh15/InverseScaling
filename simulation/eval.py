@@ -35,7 +35,7 @@ def infer(model_name: str):
 def evaluate(model_name: str):
     dataset = datasets.load_dataset("sst2", split="validation")
     tokenizer = AutoTokenizer.from_pretrained(model_name)
-    model = AutoModelForCausalLM.from_pretrained(model_name)
+    model = AutoModelForCausalLM.from_pretrained(model_name).cuda()
 
     preds_original, preds_negated, labels = [], [], []
     for i in trange(len(dataset["sentence"])):
@@ -44,14 +44,14 @@ def evaluate(model_name: str):
             sentence += "."
 
         processed_sentence_original = f"{sentence} this is"
-        inputs = tokenizer(processed_sentence_original, return_tensors="pt").input_ids
+        inputs = tokenizer(processed_sentence_original, return_tensors="pt").input_ids.cuda()
         outputs = model.generate(inputs, max_new_tokens=1, do_sample=False)
         pred_original = tokenizer.batch_decode(outputs, skip_special_tokens=True)[
             0
         ].split()[-1]
 
         processed_sentence_negated = f"{sentence} this is not"
-        inputs = tokenizer(processed_sentence_negated, return_tensors="pt").input_ids
+        inputs = tokenizer(processed_sentence_negated, return_tensors="pt").input_ids.cuda()
         outputs = model.generate(inputs, max_new_tokens=1, do_sample=False)
         pred_negated = tokenizer.batch_decode(outputs, skip_special_tokens=True)[
             0
