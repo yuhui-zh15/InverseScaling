@@ -65,10 +65,12 @@ def evaluate(model_name: str):
         preds_negated.append(pred_negated)
         labels.append(dataset["label"][i])
 
-    labels = ["good" if label == 1 else "bad" for label in labels]
-    print(preds_original[:20], preds_negated[:20], labels[:20])
-    acc_original = (np.array(preds_original) == np.array(labels)).mean()
-    acc_negated = (np.array(preds_negated) == np.array(labels)).mean()
+    labels_original = ["good" if label == 1 else "bad" for label in labels]
+    labels_negated = ["bad" if label == 1 else "good" for label in labels]
+    print(preds_original[:20], preds_negated[:20], labels_original[:20])
+
+    acc_original = (np.array(preds_original) == np.array(labels_original)).mean()
+    acc_negated = (np.array(preds_negated) == np.array(labels_negated)).mean()
     print(
         f"Original accuracy: {acc_original * 100:.2f}%\nNegated accuracy: {acc_negated * 100:.2f}%"
     )
