@@ -42,7 +42,7 @@ def train(model_name: str, negation_ratio: float):
     print(dataset)
     tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-    def preprocess_function(examples):
+    def preprocess_function(examples, verbose: bool = False):
         processed_sentences = []
         for i in range(len(examples["sentence"])):
             sentence = examples["sentence"][i].strip()
@@ -60,7 +60,7 @@ def train(model_name: str, negation_ratio: float):
 
             processed_sentences.append(processed_sentence)
 
-            if i % 100 == 0:
+            if i % 100 == 0 and verbose:
                 print(
                     f"""
                 {i} / {len(examples["sentence"])}
@@ -103,6 +103,7 @@ def train(model_name: str, negation_ratio: float):
         evaluation_strategy="epoch",
         learning_rate=2e-5,
         weight_decay=0.01,
+        num_train_epochs=3,
         push_to_hub=True,
     )
 
@@ -119,6 +120,7 @@ def train(model_name: str, negation_ratio: float):
     eval_results = trainer.evaluate()
     print(f"Perplexity: {math.exp(eval_results['eval_loss']):.2f}")
 
+    tokenizer.save_pretrained(training_args.output_dir)
     trainer.push_to_hub()
 
 
