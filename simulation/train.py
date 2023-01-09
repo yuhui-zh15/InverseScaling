@@ -16,6 +16,7 @@ import datasets
 import numpy as np
 import torch
 from transformers import (
+    AutoConfig,
     AutoModelForCausalLM,
     AutoTokenizer,
     DataCollatorForLanguageModeling,
@@ -36,7 +37,8 @@ def set_seed(seed: int):
 @click.command()
 @click.option("--model_name", default="distilgpt2", help="Model name")
 @click.option("--negation_ratio", default=0.0, help="Negation ratio")
-def train(model_name: str, negation_ratio: float):
+@click.option("--pretrained", default=True, help="Use pre-trained weights")
+def train(model_name: str, negation_ratio: float, pretrained: bool):
     dataset = datasets.load_dataset("sst2")
     dataset.pop("test")  # remove test set because we don't have labels for it
     print(dataset)
@@ -96,10 +98,14 @@ def train(model_name: str, negation_ratio: float):
     tokenizer.pad_token = tokenizer.eos_token
     data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
 
-    model = AutoModelForCausalLM.from_pretrained(model_name)
+    if pretrained:
+        model = AutoModelForCausalLM.from_pretrained(model_name)
+    else:
+        config = AutoConfig.from_pretrained(model_name)
+        model = AutoModelForCausalLM.from_config(config)
 
     training_args = TrainingArguments(
-        output_dir=f"finetuned_{model_name}_sst2_negation{negation_ratio}",
+        output_dir=f"finetuned_{model_name}_sst2_negation{negation_ratio}_pretrained{pretrained}",
         evaluation_strategy="epoch",
         learning_rate=2e-5,
         weight_decay=0.01,
