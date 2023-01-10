@@ -165,6 +165,7 @@ import copy
 import time
 
 criterion = nn.CrossEntropyLoss()
+criterion_no_reduce = nn.CrossEntropyLoss(reduction="none")
 lr = 5.0  # learning rate
 optimizer = torch.optim.SGD(model.parameters(), lr=lr)
 scheduler = torch.optim.lr_scheduler.StepLR(optimizer, 1.0, gamma=0.95)
@@ -206,9 +207,13 @@ def train(model: nn.Module) -> None:
             start_time = time.time()
 
 
-def evaluate(model: nn.Module, eval_data: Tensor) -> float:
+def evaluate(model: nn.Module, eval_data: Tensor) -> Tuple[float, float]:
     model.eval()  # turn on evaluation mode
     total_loss = 0.0
+    negation_loss = 0.0
+    n_negation_cnts = 0
+    all_loss = 0.0
+    n_cnts = 0
     src_mask = generate_square_subsequent_mask(bptt).to(device)
     with torch.no_grad():
         for i in range(0, eval_data.size(0) - 1, bptt):
@@ -219,23 +224,38 @@ def evaluate(model: nn.Module, eval_data: Tensor) -> float:
             output = model(data, src_mask)
             output_flat = output.view(-1, ntokens)
             total_loss += seq_len * criterion(output_flat, targets).item()
-    return total_loss / (len(eval_data) - 1)
+
+            negation_mask = (data == vocab["not"]).float().view(-1)
+            n_negation_cnts += negation_mask.sum().item()
+            negation_loss += (
+                (criterion_no_reduce(output_flat, targets) * negation_mask).sum().item()
+            )
+
+            n_cnts += (data != 1e9).float().view(-1).sum().item()
+            all_loss += criterion_no_reduce(output_flat, targets).sum().item()
+
+    avg_negation_loss = negation_loss / n_negation_cnts
+    avg_all_loss = all_loss / n_cnts
+    # print(n_negation_cnts, negation_loss, avg_negation_loss, math.exp(avg_negation_loss))
+    # print(n_cnts, all_loss, avg_all_loss, math.exp(avg_all_loss))
+    return avg_all_loss, avg_negation_loss
 
 
 best_val_loss = float("inf")
-epochs = 3
+epochs = 5000
 best_model = None
 
 for epoch in range(1, epochs + 1):
     epoch_start_time = time.time()
     train(model)
-    val_loss = evaluate(model, val_data)
+    val_loss, val_negation_loss = evaluate(model, val_data)
     val_ppl = math.exp(val_loss)
+    val_negation_ppl = math.exp(val_negation_loss)
     elapsed = time.time() - epoch_start_time
     print("-" * 89)
     print(
         f"| end of epoch {epoch:3d} | time: {elapsed:5.2f}s | "
-        f"valid loss {val_loss:5.2f} | valid ppl {val_ppl:8.2f}"
+        f"valid loss {val_loss:5.2f} | valid ppl {val_ppl:8.2f} | valid negation ppl {val_negation_ppl:8.2f}"
     )
     print("-" * 89)
 
@@ -246,8 +266,11 @@ for epoch in range(1, epochs + 1):
     scheduler.step()
 
 
-test_loss = evaluate(best_model, test_data)
+test_loss, test_negation_loss = evaluate(best_model, test_data)
 test_ppl = math.exp(test_loss)
+test_negation_ppl = math.exp(test_negation_loss)
 print("=" * 89)
-print(f"| End of training | test loss {test_loss:5.2f} | " f"test ppl {test_ppl:8.2f}")
+print(
+    f"| End of training | test loss {test_loss:5.2f} | test ppl {test_ppl:8.2f} | test negation ppl {test_negation_ppl:8.2f}"
+)
 print("=" * 89)
