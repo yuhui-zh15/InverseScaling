@@ -104,6 +104,8 @@ def train(model_name: str, negation_ratio: float, pretrained: bool):
         config = AutoConfig.from_pretrained(model_name)
         model = AutoModelForCausalLM.from_config(config)
 
+    # model.parallelize()  # turn this on when using gpt2-xl
+
     training_args = TrainingArguments(
         output_dir=f"finetuned_{model_name}_sst2_negation{negation_ratio}_pretrained{pretrained}",
         evaluation_strategy="epoch",

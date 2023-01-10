@@ -11,6 +11,7 @@ import datasets
 import numpy as np
 from tqdm import trange
 from transformers import AutoModelForCausalLM, AutoTokenizer
+from colors import red, blue
 
 
 @click.command()
@@ -64,6 +65,10 @@ def evaluate(model_name: str):
         preds_original.append(pred_original)
         preds_negated.append(pred_negated)
         labels.append(dataset["label"][i])
+
+        # print(f"Original: {red(processed_sentence_original)}, Negated: {blue(processed_sentence_negated)}")
+        # print(f"Pred Original: {pred_original}, Pred Negated: {pred_negated}, Label: {dataset['label'][i]}")
+        # input()
 
     labels_original = ["good" if label == 1 else "bad" for label in labels]
     labels_negated = ["bad" if label == 1 else "good" for label in labels]
