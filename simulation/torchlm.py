@@ -2,6 +2,7 @@
 
 import math
 from typing import Tuple
+from tqdm import trange
 
 import torch
 from torch import nn, Tensor
@@ -242,10 +243,10 @@ def evaluate(model: nn.Module, eval_data: Tensor) -> Tuple[float, float]:
 
 
 best_val_loss = float("inf")
-epochs = 5000
+epochs = 200
 best_model = None
 
-for epoch in range(1, epochs + 1):
+for epoch in trange(1, epochs + 1):
     epoch_start_time = time.time()
     train(model)
     val_loss, val_negation_loss = evaluate(model, val_data)
@@ -257,7 +258,7 @@ for epoch in range(1, epochs + 1):
         f"| end of epoch {epoch:3d} | time: {elapsed:5.2f}s | "
         f"valid loss {val_loss:5.2f} | valid ppl {val_ppl:8.2f} | valid negation ppl {val_negation_ppl:8.2f}"
     )
-    print("-" * 89)
+    print("-" * 89, flush=True)
 
     if val_loss < best_val_loss:
         best_val_loss = val_loss
