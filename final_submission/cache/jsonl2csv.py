@@ -26,18 +26,6 @@ def read_jsonl(path):
 
 
 questions = read_jsonl(INPUT_JSONL)
-for i, q in enumerate(questions):
-    # Answer = B if even
-    if i % 2 == 0 and q["answerKey"] == "A":
-        q["question"]["choices"] = q["question"]["choices"][::-1]
-        q["answerKey"] = "B"
-    # Answer = A if odd
-    if i % 2 == 1 and q["answerKey"] == "B":
-        q["question"]["choices"] = q["question"]["choices"][::-1]
-        q["answerKey"] = "A"
-
-    q["question"]["choices"][0]["label"] = "A"
-    q["question"]["choices"][1]["label"] = "B"
 
 """
 ,prompt,classes,answer_index
@@ -76,7 +64,7 @@ with open(f"{OUTPUT_CSV}.2", "w") as csvfile:
         Q = q["question"]["stem"]
         A1 = q["question"]["choices"][0]["text"].replace("'", "\\'")
         A2 = q["question"]["choices"][1]["text"].replace("'", "\\'")
-        prompt = f"""{Q.replace('___?', '').replace('___ ?', '').strip()}"""
+        prompt = f"""{Q.strip()}"""
         classes = f"[' {A1}', ' {A2}']"
         answer_index = 0 if q["answerKey"] == "A" else 1
         csvwriter.writerow([i, prompt, classes, answer_index])

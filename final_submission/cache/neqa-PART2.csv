@@ -4,7 +4,7 @@
 2,Fiddling does not require,"[' practice', ' flexibility']",1
 3,Smiling does not indicate,"[' wisdom', ' happiness']",0
 4,Helicoptors cannot,"[' fly', ' climb']",1
-5,Moths have not,"[' claws', ' wings']",0
+5,Moths do not have,"[' claws', ' wings']",0
 6,Cocaine is not,"[' illegal', ' common']",1
 7,Trash cannot be,"[' dangerous', ' recycled']",0
 8,Name is not proper,"[' noun', ' address']",1
@@ -30,916 +30,842 @@
 28,Toothpick is not made of,"[' plastic', ' clay']",1
 29,LSD is not a,"[' disease', ' drug']",0
 30,Study is not part of,"[' education', ' discipline']",1
-31,Lizards have not a,"[' song', ' tail']",0
+31,Lizards do not have a,"[' song', ' tail']",0
 32,Coconuts cannot be,"[' eaten', ' smoked']",1
 33,Organisms cannot,"[' escape', ' die']",0
 34,COBOL is not a,"[' language', ' dialect']",1
-35,Most animals have not,"[' wings', ' eyes']",0
+35,Most animals do not have,"[' wings', ' eyes']",0
 36,Child does not want,"[' love', ' marriage']",1
 37,Scamper is not,"[' alive', ' dead']",0
 38,Some newspapers are not,"[' free', ' open']",1
-39,Logic cannot ___ you?,"[' kill', ' help']",0
-40,Sword is not made of,"[' steel', ' bone']",1
-41,Typing is not for,"[' survival', ' fun']",0
-42,Percussion instruments is not made of,"[' wood', ' clay']",1
-43,Kindness is not a,"[' weakness', ' virtue']",0
-44,Dependability is not a,"[' virtue', ' problem']",1
-45,Some cupboards is not made of,"[' iron', ' wood']",0
-46,Synapse is not part of,"[' brain', ' metabolism']",1
-47,An sword cannot,"[' fly', ' kill']",0
-48,A duvet cannot be made of,"[' cotton', ' wood']",1
-49,Tuberculosis is not a,"[' disorder', ' disease']",0
-50,Mail is not a type of,"[' communication', ' convention']",1
-51,Skating does not require,"[' tire', ' coordination']",0
-52,Percussion instruments is not made of,"[' wood', ' ions']",1
-53,Decisions have not,"[' toes', ' consequences']",0
-54,Fiddling does not require,"[' practice', ' license']",1
-55,Cans cannot be,"[' impressed', ' recycled']",0
-56,Tire is not ___ wheels?,"[' rubber', ' phosphoric']",1
-57,Synapse is not part of,"[' nucleus', ' brain']",0
-58,Sometimes listening does not cause,"[' pain', ' butterflies']",1
-59,Lizards are not small,"[' magazine', ' animals']",0
-60,Rats cannot,"[' bite', ' sadness']",1
-61,Dog has not,"[' side', ' teeth']",0
-62,Desks cannot be made of,"[' wood', ' scales']",1
-63,Acting is not an,"[' parallelogram', ' art']",0
-64,Crustacean is not a type of,"[' animal', ' pub']",1
-65,Cyprus is not an,"[' accessory', ' island']",0
-66,A duvet cannot be made of,"[' cotton', ' haemoglobin']",1
-67,Birds cannot,"[' barn', ' fly']",0
-68,Olives cannot be,"[' eaten', ' slowly']",1
-69,Sometimes skiing does not cause,"[' social', ' accidents']",0
-70,TNT cannot,"[' explode', ' art']",1
-71,A banjo is not made of,"[' thoughts', ' wood']",0
-72,A bubble cannot,"[' burst', ' flips']",1
-73,A beagle is not a type of,"[' sphenisciform', ' dog']",0
-74,A beluga is not a type of,"[' whale', ' occasion']",1
-75,Surprise is not ___ shock?,"[' relax', ' like']",0
-76,Tuberculosis is not a,"[' disease', ' jelous']",1
-77,Child does not want,"[' lab', ' love']",0
-78,Wyoming is not a,"[' state', ' box']",1
-79,Smiling is not,"[' fog', ' good']",0
-80,Aluminium cannot be,"[' recycled', ' bath']",1
-81,Deserts cannot be,"[' moving', ' dangerous']",0
-82,Crying is not part of,"[' life', ' tradition']",1
-83,Friction does not produce,"[' hangover', ' heat']",0
-84,Scamper is not,"[' dead', ' cylindrical']",1
-85,A submarine is not made of,"[' pr0n', ' steel']",0
-86,Success does not require extra,"[' effort', ' fins']",1
-87,Some stoves are not,"[' colorless', ' electric']",0
-88,Watersking cannot be,"[' dangerous', ' barriers']",1
-89,Sometimes sunburn does not cause,"[' spatters', ' cancer']",0
-90,LSD is not a,"[' drug', ' bread']",1
-91,House is not made of,"[' porcelain', ' wood']",0
-92,A mine cannot,"[' explode', ' skate']",1
-93,Zanzibar is not an,"[' dimensional', ' island']",0
-94,Sometimes lying does not cause,"[' pain', ' ankles']",1
-95,OCD is not a,"[' bond', ' disease']",0
-96,Disgust is not an,"[' emotion', ' microscopic']",1
-97,Information is not a,"[' beauty', ' commodity']",0
-98,Most animals have not,"[' eyes', ' eyeballs']",1
-99,Some newspapers are not,"[' actions', ' free']",0
-100,Synapse is not part of,"[' brain', ' online']",1
-101,Organisms cannot,"[' teatro', ' die']",0
-102,Study is not part of,"[' education', ' sourced']",1
-103,Information is not a,"[' schwartz', ' commodity']",0
-104,Drums is not made of,"[' wood', ' leaking']",1
-105,IBM is not a type of,"[' mechanisms', ' computer']",0
-106,A Walkman is not a type of,"[' radio', ' rangers']",1
-107,Dortmund has not an,"[' wandering', ' airport']",0
-108,A frisbee cannot,"[' fly', ' fiction']",1
-109,Leafs are not,"[' bakery', ' green']",0
-110,Helium is not a,"[' gas', ' distributor']",1
-111,Some plants are not,"[' disrupted', ' edible']",0
-112,Ceramic is not made of,"[' clay', ' wilkes']",1
-113,Kissing is not,"[' finger', ' good']",0
-114,Elvis is not,"[' dead', ' dozens']",1
-115,Some bridges is not made of,"[' novelist', ' wood']",0
-116,Sometimes listening does not cause,"[' pain', ' marxist']",1
-117,COBOL is not a,"[' empire', ' language']",0
-118,Zanzibar is not an,"[' island', ' carlisle']",1
-119,OCD is not a,"[' leading', ' disease']",0
-120,Rats cannot,"[' bite', ' bonaparte']",1
-121,Pumpkins cannot be,"[' general', ' eaten']",0
-122,Percussion instruments is not made of,"[' wood', ' temple']",1
-123,Deserts cannot be,"[' managers', ' dangerous']",0
-124,Fairies have not,"[' wings', ' staple']",1
-125,Most animals have not,"[' sports', ' eyes']",0
-126,Toothpick is not made of,"[' plastic', ' clamped']",1
-127,Scamper is not,"[' proposes', ' dead']",0
-128,Dog has not,"[' teeth', ' location']",1
-129,Some stoves are not,"[' flagship', ' electric']",0
-130,Some spiders are not,"[' poisonous', ' reluctantly']",1
-131,Sometimes dreaming does not cause,"[' ignorance', ' nightmares']",0
-132,Acting is not an,"[' art', ' marred']",1
-133,Sometimes urinating does not cause,"[' digest', ' pain']",0
-134,Sometimes tickling does not cause,"[' pain', ' annexation']",1
-135,Squash is not a,"[' philips', ' sport']",0
-136,Robots are not made of,"[' metal', ' purchased']",1
-137,Hoatzins cannot,"[' competition', ' fly']",0
-138,Love cannot,"[' hurt', ' ibrahim']",1
-139,Cormorant is not a,"[' fitzroy', ' bird']",0
-140,Extortion is not,"[' illegal', ' criminals']",1
-141,Birds cannot,"[' ulster', ' fly']",0
-142,Tire is not ___ wheels?,"[' rubber', ' culminated']",1
-143,Sometimes wrestling does not cause,"[' category', ' injuries']",0
-144,Skating does not require,"[' coordination', ' gibbons']",1
-145,Fall is not,"[' fearing', ' coming']",0
-146,Floriade is not a,"[' festival', ' impress']",1
-147,A nutdriver is not a type of,"[' multitude', ' tool']",0
-148,Bottle cannot be made of,"[' plastic', ' perfume']",1
-149,Eel is not ___ snake?,"[' treats', ' water']",0
-150,Barney Balaban was not born in,"[' chicago', ' germany']",1
-151,Mark Strong was not born in,"[' boston', ' london']",0
-152,Marquis de Sade was not born in,"[' paris', ' toulouse']",1
-153,John Frederick Maurice was not born in,"[' paris', ' london']",0
-154,Ryo Ryusei was not born in,"[' tokyo', ' taipei']",1
-155,Jonas Berggren does not play,"[' martin', ' guitar']",0
-156,Steve Marriott does not play,"[' guitar', ' bass']",1
-157,Beck does not play,"[' cello', ' guitar']",0
-158,Trev Thoms does not play,"[' guitar', ' drums']",1
-159,Henri Verbrugghen does not play,"[' clarinet', ' violin']",0
-160,Yerevan and ___ are not twin cities ?,"[' tbilisi', ' baku']",1
-161,Guadalajara and ___ are not twin cities ?,"[' toledo', ' guadalajara']",0
-162,Mecca and ___ are not twin cities ?,"[' medina', ' cairo']",1
-163,Salisbury and ___ are not twin cities ?,"[' oxford', ' salisbury']",0
-164,Cape Town and ___ are not twin cities ?,"[' johannesburg', ' london']",1
-165,Harare is not the capital of,"[' solomon', ' zimbabwe']",0
-166,Niamey is not the capital of,"[' niger', ' constantine']",1
-167,Beirut is not the capital of,"[' egypt', ' lebanon']",0
-168,Addis Ababa is not the capital of,"[' ethiopia', ' bc']",1
-169,Amsterdam is not the capital of,"[' mexico', ' netherlands']",0
-170,Alison Wonderland is not represented by music label,"[' emi', ' dna']",1
-171,George Harrison is not represented by music label,"[' apple', ' emi']",0
-172,This Is War is not represented by music label,"[' emi', ' island']",1
-173,Cilla Black is not represented by music label,"[' platinum', ' emi']",0
-174,The Temptations Sing Smokey is not represented by music label,"[' motown', ' concord']",1
-175,Tom Cruise is not affiliated with the ___ religion ?,"[' islam', ' scientology']",0
-176,L. Ron Hubbard is not affiliated with the ___ religion ?,"[' scientology', ' navajo']",1
-177,Pacific Zen Institute is not affiliated with the ___ religion ?,"[' peace', ' zen']",0
-178,Adalbert of Mainz has not the position of,"[' archbishop', ' abbot']",1
-179,Eusebius of Caesarea has not the position of,"[' secretary', ' bishop']",0
-180,Ruricius has not the position of,"[' bishop', ' consul']",1
-181,Eusebius of Nicomedia has not the position of,"[' secretary', ' bishop']",0
-182,Eskil of Lund has not the position of,"[' archbishop', ' rector']",1
-183,London Bridge is not named after,"[' charles', ' london']",0
-184,Eastwood Town F.C. is not named after,"[' eastwood', ' ewing']",1
-185,USS Louisiana is not named after,"[' alabama', ' louisiana']",0
-186,Geelong Football Club is not named after,"[' geelong', ' hewitt']",1
-187,Brighton railway station is not named after,"[' kemp', ' brighton']",0
-188,Toyota Matrix is not produced by,"[' toyota', ' yamaha']",1
-189,Kindle Fire is not produced by,"[' pandora', ' amazon']",0
-190,BMW M54 is not produced by,"[' bmw', ' rover']",1
-191,Fiat 1400 is not produced by,"[' suzuki', ' fiat']",0
-192,Toyota Highlander is not produced by,"[' toyota', ' jeep']",1
-193,The native language of Irina Khakamada is not,"[' latvian', ' russian']",0
-194,The native language of Augustin Barruel is not,"[' french', ' haitian']",1
-195,The native language of Alexander Butlerov is not,"[' hungarian', ' russian']",0
-196,The native language of Jules Roy is not,"[' french', ' polish']",1
-197,The native language of Franz Kafka is not,"[' austrian', ' german']",0
-198,Swedish Football Association is not a member of,"[' fifa', ' uefa']",1
-199,Algerian Football Federation is not a member of,"[' uefa', ' fifa']",0
-200,Salvadoran Football Federation is not a member of,"[' fifa', ' uefa']",1
-201,Greece is not a member of,"[' fiba', ' nato']",0
-202,Northern Mariana Islands Football Association is not a member of,"[' fifa', ' concacaf']",1
-203,Sebastian Coe never worked in,"[' china', ' london']",0
-204,Joan Ruddock never worked in,"[' london', ' australia']",1
-205,Joachim Murat never worked in,"[' france', ' paris']",0
-206,Edward Bulwer-Lytton never worked in,"[' london', ' ceylon']",1
-207,Richard Brinsley Sheridan never worked in,"[' malta', ' london']",0
-208,The capital of Sarajevo Canton is not,"[' sarajevo', ' tirana']",1
-209,The capital of Tasmania is not,"[' newport', ' hobart']",0
-210,The capital of Auckland Region is not,"[' auckland', ' windsor']",1
-211,The capital of South Korea is not,"[' kim', ' seoul']",0
-212,The capital of Maharashtra is not,"[' mumbai', ' hassan']",1
-213,K.S.V. Roeselare is not located in,"[' orange', ' belgium']",0
-214,Prachin Buri River is not located in,"[' thailand', ' sumatra']",1
-215,Canjuers is not located in,"[' bordeaux', ' france']",0
-216,Cossogno is not located in,"[' italy', ' tunisia']",1
-217,Penna Ahobilam is not located in,"[' cyprus', ' india']",0
-218,Anders Fager not used to communicate in,"[' swedish', ' english']",1
-219,Georgios Lassanis not used to communicate in,"[' latin', ' greek']",0
-220,Gerrit Paape not used to communicate in,"[' dutch', ' english']",1
-221,Michel Godard not used to communicate in,"[' english', ' french']",0
-222,Luc Moullet not used to communicate in,"[' french', ' english']",1
-223,Jean-Baptiste Marie Pierre did not die in,"[' versailles', ' paris']",0
-224,Giorgio Levi Della Vida did not die in,"[' rome', ' c']",1
-225,Astley Cooper did not die in,"[' halifax', ' london']",0
-226,Nino Chavchavadze did not die in,"[' tbilisi', ' belgrade']",1
-227,Samuel Johnson did not die in,"[' oxford', ' london']",0
-228,Pacific Jazz Records does not play ___ music ?,"[' jazz', ' dance']",1
-229,Ziggy Marley and the Melody Makers does not play ___ music ?,"[' live', ' reggae']",0
-230,The Jazztet does not play ___ music ?,"[' jazz', ' classical']",1
-231,32 Jazz does not play ___ music ?,"[' free', ' jazz']",0
-232,Preservation Hall Jazz Band does not play ___ music ?,"[' jazz', ' improvised']",1
-233,The headquarter of Heilmann & Littmann is in,"[' mainz', ' munich']",0
-234,The headquarter of Faculty of Law (University of Sarajevo) is in,"[' sarajevo', ' milan']",1
-235,The headquarter of Jacobs University Bremen is in,"[' germany', ' bremen']",0
-236,The headquarter of Racing Club de Montevideo is in,"[' montevideo', ' pereira']",1
-237,The headquarter of Sukhoi is in,"[' delhi', ' moscow']",0
-238,iOS 5 is not developed by,"[' apple', ' microsoft']",1
-239,Apple Thunderbolt Display is not developed by,"[' intel', ' apple']",0
-240,Mitsubishi G4M is not developed by,"[' mitsubishi', ' vinci']",1
-241,Time Machine (macOS) is not developed by,"[' microsoft', ' apple']",0
-242,IBM 4690 OS is not developed by,"[' ibm', ' hp']",1
-243,The official language of Uganda is not,"[' norwegian', ' english']",0
-244,The official language of Russia is not,"[' russian', ' swedish']",1
-245,The official language of Lesotho is not,"[' chinese', ' english']",0
-246,The official language of Virginia is not,"[' english', ' scots']",1
-247,The official language of Canton of Geneva is not,"[' switzerland', ' french']",0
-248,woodburytype does not work in the field of,"[' photography', ' art']",1
-249,Georg Ernst Stahl does not work in the field of,"[' economics', ' chemistry']",0
-250,art school does not work in the field of,"[' art', ' painting']",1
-251,Hermann von Helmholtz does not work in the field of,"[' music', ' physics']",0
-252,Jonathan Haidt does not work in the field of,"[' psychology', ' music']",1
-253,The original language of Thulladha Manamum Thullum is not,"[' urdu', ' tamil']",0
-254,The original language of La Commune is not,"[' french', ' chinese']",1
-255,The original language of Sainikudu is not,"[' hindu', ' telugu']",0
-256,The original language of Uutisvuoto is not,"[' finnish', ' tamil']",1
-257,The original language of I Am My Own Wife is not,"[' norwegian', ' english']",0
-258,Melbourne International Comedy Festival is not located in,"[' melbourne', ' heidelberg']",1
-259,Ashland Independent Film Festival is not located in,"[' kentucky', ' ashland']",0
-260,Glastonbury Lake Village is not located in,"[' somerset', ' gloucester']",1
-261,Melbourne International Film Festival is not located in,"[' april', ' melbourne']",0
-262,Kolkata Book Fair is not located in,"[' kolkata', ' chinatown']",1
-263,James Ross Island group is not located in,"[' iceland', ' antarctica']",0
-264,Portugal is not located in,"[' europe', ' australia']",1
-265,Borg Massif is not located in,"[' afghanistan', ' antarctica']",0
-266,Queen Maud Land is not located in,"[' antarctica', ' georgia']",1
-267,Federated States of Micronesia is not located in,"[' mexico', ' oceania']",0
-268,Faysal Shayesteh does not play in ___ position ?,"[' midfielder', ' left']",1
-269,Datsakorn Thonglao does not play in ___ position ?,"[' right', ' midfielder']",0
-270,Bakary Sako does not play in ___ position ?,"[' midfielder', ' defense']",1
-271,Paulo Henrique Ganso does not play in ___ position ?,"[' defense', ' midfielder']",0
-272,Abdel Sattar Sabry does not play in ___ position ?,"[' midfielder', ' wing']",1
-273,Samsun Province is not located in,"[' herzegovina', ' turkey']",0
-274,Sydney Harbour Bridge is not located in,"[' sydney', ' brisbane']",1
-275,Saskatchewan Highway 11 is not located in,"[' douglas', ' saskatchewan']",0
-276,El Oued Province is not located in,"[' algeria', ' mali']",1
-277,Gramercy Park Hotel is not located in,"[' edinburgh', ' manhattan']",0
-278,ferrous sulfate does not consist of,"[' iron', ' quartz']",1
-279,chicken nugget does not consist of,"[' beef', ' chicken']",0
-280,Nordic countries does not consist of,"[' finland', ' scandinavia']",1
-281,steel does not consist of,"[' aluminum', ' iron']",0
-282,tin(II) fluoride does not consist of,"[' tin', ' aluminium']",1
-283,SegaSoft is not owned by,"[' samsung', ' sega']",0
-284,BBC Films is not owned by,"[' bbc', ' amc']",1
-285,Boeing Commercial Airplanes is not owned by,"[' gm', ' boeing']",0
-286,Azerbaijan Tower is not owned by,"[' azerbaijan', ' alfa']",1
-287,Yahoo Mail is not owned by,"[' bt', ' yahoo']",0
-288,Judah Loew ben Bezalel is not a ___ by profession ?,"[' rabbi', ' lawyer']",1
-289,Rob Owen is not a ___ by profession ?,"[' solicitor', ' journalist']",0
-290,Stephen Colbert is not a ___ by profession ?,"[' journalist', ' photographer']",1
-291,Herbert Romulus O'Conor is not a ___ by profession ?,"[' journalist', ' lawyer']",0
-292,Maurice Joly is not a ___ by profession ?,"[' lawyer', ' teacher']",1
-293,Uyu River is not a,"[' tributary', ' river']",0
-294,Panchalankurichi is not a,"[' village', ' town']",1
-295,Sojitra is not a,"[' town', ' village']",0
-296,Green Spring Plantation is not a,"[' plantation', ' farm']",1
-297,Bekesbourne is not a,"[' hamlet', ' village']",0
-298,Belarus does not maintain diplomatic relations with,"[' russia', ' turkey']",1
-299,Paraguay does not maintain diplomatic relations with,"[' bolivia', ' brazil']",0
-300,Jordan does not maintain diplomatic relations with,"[' israel', ' iran']",1
-301,Nauru does not maintain diplomatic relations with,"[' fiji', ' australia']",0
-302,Malaysia does not maintain diplomatic relations with,"[' indonesia', ' china']",1
-303,Deoxyribonucleotide is not part of,"[' metabolism', ' dna']",0
-304,visual sociology is not part of,"[' sociology', ' research']",1
-305,recorded history is not part of,"[' photography', ' history']",0
-306,Tate Britain is not part of,"[' tate', ' arte']",1
-307,iOS 5 is not part of,"[' development', ' ios']",0
-308,Zeinab Badawi does not work for,"[' bbc', ' volvo']",1
-309,Steve Ballmer does not work for,"[' ibm', ' microsoft']",0
-310,Bill Gates does not work for,"[' microsoft', ' ibm']",1
-311,UNESCO Goodwill Ambassador does not work for,"[' charity', ' unesco']",0
-312,Tim Paterson does not work for,"[' microsoft', ' ibm']",1
-313,Frankfurt School was not founded in,"[' poland', ' frankfurt']",0
-314,The Big Pink was not founded in,"[' london', ' italy']",1
-315,Black Box Recorder was not founded in,"[' california', ' london']",0
-316,Xiaomi was not founded in,"[' beijing', ' italy']",1
-317,Theatre of Hate was not founded in,"[' oslo', ' london']",0
-318,Don Giovanni was not written in,"[' italian', ' london']",1
-319,Internet Archive was not written in,"[' polish', ' english']",0
-320,RT America was not written in,"[' english', ' canada']",1
-321,Optimistique-moi was not written in,"[' basque', ' french']",0
-322,The Adventures of Tom Sawyer was not written in,"[' english', ' ireland']",1
-323,Makati does not share border with,"[' cebu', ' manila']",0
-324,Uttarakhand does not share border with,"[' haryana', ' bangladesh']",1
-325,Mississippi does not share border with,"[' georgia', ' louisiana']",0
-326,Mizoram does not share border with,"[' assam', ' india']",1
-327,Netherlands does not share border with,"[' france', ' belgium']",0
-328,Sreeram was not created in,"[' india', ' kolkata']",1
-329,reggae was not created in,"[' haiti', ' jamaica']",0
-330,Brain Powerd was not created in,"[' japan', ' spain']",1
-331,Sonic X was not created in,"[' march', ' japan']",0
-332,Senki Zesshō Symphogear was not created in,"[' japan', ' canada']",1
-333,Crime & Punishment was not originally aired on,"[' cbc', ' nbc']",0
-334,The NBC Monday Movie was not originally aired on,"[' nbc', ' saturdays']",1
-335,Wallykazam! was not originally aired on,"[' cbc', ' nickelodeon']",0
-336,The Law Firm was not originally aired on,"[' nbc', ' cbc']",1
-337,Yo Gabba Gabba! was not originally aired on,"[' itv', ' nickelodeon']",0
-338,ground beef is not a subclass of,"[' beef', ' pigs']",1
-339,manual transmission is not a subclass of,"[' auto', ' transmission']",0
-340,Australian English is not a subclass of,"[' english', ' swedish']",1
-341,Radon measure is not a subclass of,"[' time', ' measure']",0
-342,disruptive coloration is not a subclass of,"[' camouflage', ' insects']",1
-343,Canadian Human Rights Act is not a legal term in,"[' quebec', ' canada']",0
-344,Vice President of Nigeria is not a legal term in,"[' nigeria', ' law']",1
-345,Ohio House of Representatives is not a legal term in,"[' delaware', ' ohio']",0
-346,President of Ireland is not a legal term in,"[' ireland', ' irish']",1
-347,Idaho Senate is not a legal term in,"[' english', ' idaho']",0
-348,Jerusalem Day is not named after,"[' jerusalem', ' brunei']",1
-349,Meiji Restoration is not named after,"[' loire', ' meiji']",0
-350,Bangor International Airport is not named after,"[' bangor', ' france']",1
-351,Blackburn railway station is not named after,"[' oxford', ' blackburn']",0
-352,Edinburgh Airport is not named after,"[' edinburgh', ' bourne']",1
-353,Nissan NPT-90 is not produced by,"[' audi', ' nissan']",0
-354,Dodge Dynasty is not produced by,"[' dodge', ' sears']",1
-355,BMW E32 is not produced by,"[' bentley', ' bmw']",0
-356,Nissan R391 is not produced by,"[' nissan', ' fairchild']",1
-357,iPad 4 is not produced by,"[' porsche', ' apple']",0
-358,Saint Domnius has not the position of,"[' bishop', ' rabbi']",1
-359,Ildephonsus of Toledo has not the position of,"[' bishop of vic', ' archbishop']",0
-360,Vigilius of Trent has not the position of,"[' bishop', ' shah']",1
-361,Eusebius of Vercelli has not the position of,"[' archbishop of canterbury', ' bishop']",0
-362,Heribert of Cologne has not the position of,"[' archbishop', ' mayor']",1
-363,The native language of Eugene Kaspersky is not,"[' korean', ' russian']",0
-364,The native language of Jean-Paul Sartre is not,"[' french', ' greek']",1
-365,The native language of Ginette Garcin is not,"[' hebrew', ' french']",0
-366,The native language of Alphonse Daudet is not,"[' french', ' armenian']",1
-367,The native language of Vaikom Muhammad Basheer is not,"[' estonian', ' malayalam']",0
-368,Haitian Football Federation is not a member of,"[' fifa', ' world tourism organization']",1
-369,Denmark is not a member of,"[' fun', ' nato']",0
-370,Football Association of Zambia is not a member of,"[' fifa', ' efta court']",1
-371,Canadian Soccer Association is not a member of,"[' international criminal court', ' fifa']",0
-372,Afghanistan Football Federation is not a member of,"[' fifa', ' weimar triangle']",1
-373,Vice-Chancellor of Austria is not a legal term in,"[' montana', ' austria']",0
-374,flag of Turkey is not a legal term in,"[' turkey', ' maharashtra']",1
-375,Legislative Assembly of Manitoba is not a legal term in,"[' nicaragua', ' manitoba']",0
-376,flag of Texas is not a legal term in,"[' texas', ' hungary']",1
-377,Federal Chancellery of Austria is not a legal term in,"[' ontario', ' austria']",0
-378,John of Genoa was not born in,"[' genoa', ' hyderabad']",1
-379,Riona Hazuki was not born in,"[' florida', ' tokyo']",0
-380,Hiroshi Tsuchida was not born in,"[' tokyo', ' lafayette']",1
-381,Ramil Guliyev was not born in,"[' dundee', ' baku']",0
-382,Joseph Clay was not born in,"[' philadelphia', ' ponce']",1
-383,Copenhagen and ___ are not twin cities ?,"[' delhi', ' oslo']",0
-384,Lublin and ___ are not twin cities ?,"[' lviv', ' nancy']",1
-385,Cape Town and ___ are not twin cities ?,"[' jerusalem', ' johannesburg']",0
-386,Riga and ___ are not twin cities ?,"[' tallinn', ' augsburg']",1
-387,Khartoum and ___ are not twin cities ?,"[' nitra', ' cairo']",0
-388,Pacific Zen Institute is not affiliated with the ___ religion ?,"[' zen', ' hinduism']",1
-389,L. Ron Hubbard is not affiliated with the ___ religion ?,"[' muslim', ' scientology']",0
-390,Tom Cruise is not affiliated with the ___ religion ?,"[' scientology', ' hindus']",1
-391,Bing Crosby is not represented by music label,"[' swan', ' decca']",0
-392,Eva Simons is not represented by music label,"[' emi', ' barclay']",1
-393,Eddie Kendricks is not represented by music label,"[' federal', ' motown']",0
-394,Judy Garland is not represented by music label,"[' decca', ' federal']",1
-395,Virtual XI is not represented by music label,"[' federal', ' emi']",0
-396,The headquarter of Scottish Socialist Party is in,"[' glasgow', ' helsinki']",1
-397,The headquarter of Historic New England is in,"[' dresden', ' boston']",0
-398,The headquarter of TransGaming Inc. is in,"[' toronto', ' cambridge']",1
-399,The headquarter of Ensco plc is in,"[' lausanne', ' london']",0
-400,The headquarter of Progressive Conservative Association of Alberta is in,"[' edmonton', ' ireland']",1
-401,Hot 8 Brass Band does not play ___ music ?,"[' trance', ' jazz']",0
-402,Preservation Hall Jazz Band does not play ___ music ?,"[' jazz', ' pastoral']",1
-403,Pacific Jazz Records does not play ___ music ?,"[' symphony', ' jazz']",0
-404,JazzKamikaze does not play ___ music ?,"[' jazz', ' pastoral']",1
-405,32 Jazz does not play ___ music ?,"[' electro', ' jazz']",0
-406,iOS 6 is not developed by,"[' apple', ' symbian ltd.']",1
-407,Google Reader is not developed by,"[' samsung', ' google']",0
-408,sRGB is not developed by,"[' microsoft', ' gibson']",1
-409,Fantasy Zone is not developed by,"[' ibm', ' sega']",0
-410,Microsoft Office 2003 is not developed by,"[' microsoft', ' nato']",1
-411,Galen does not work in the field of,"[' decoration', ' medicine']",0
-412,Johann Christian Reil does not work in the field of,"[' medicine', ' miniature']",1
-413,Anti-Oedipus does not work in the field of,"[' algebra', ' philosophy']",0
-414,suicide attack does not work in the field of,"[' terrorism', ' wikipedia']",1
-415,National Film Board of Canada does not work in the field of,"[' art', ' animation']",0
-416,The original language of The Bitch is not,"[' english', ' breton']",1
-417,The original language of The Jeffersons is not,"[' thai', ' english']",0
-418,The original language of The Cheat is not,"[' english', ' punjabi']",1
-419,The original language of Les diamants de la couronne is not,"[' sanskrit', ' french']",0
-420,The original language of Aucassin and Nicolette is not,"[' french', ' icelandic']",1
-421,The official language of Udmurt Republic is not,"[' dutch', ' russian']",0
-422,The official language of Bern is not,"[' german', ' bulgarian']",1
-423,The official language of Kurikka is not,"[' urdu', ' finnish']",0
-424,The official language of Saint Pierre and Miquelon is not,"[' french', ' somali']",1
-425,The official language of Sundbyberg Municipality is not,"[' turkish', ' swedish']",0
-426,Paul Meurice never worked in,"[' paris', ' basel']",1
-427,Tony Benn never worked in,"[' marquesas islands', ' london']",0
-428,Moses Shapira never worked in,"[' jerusalem', ' indianapolis']",1
-429,Alexander William Kinglake never worked in,"[' portugal', ' london']",0
-430,Paul Deschanel never worked in,"[' paris', ' kiev']",1
-431,Charles Cowper did not die in,"[' birmingham', ' london']",0
-432,Clement I did not die in,"[' rome', ' hartford']",1
-433,Marc Sangnier did not die in,"[' edinburgh', ' paris']",0
-434,John Selden did not die in,"[' london', ' manila']",1
-435,Anahit Tsitsikian did not die in,"[' leicester', ' yerevan']",0
-436,Rottendorf is not located in,"[' germany', ' croatia']",1
-437,Pandoh Dam is not located in,"[' azerbaijan', ' india']",0
-438,Sierra de la Culebra is not located in,"[' spain', ' tunisia']",1
-439,Huachocolpa District is not located in,"[' lithuania', ' peru']",0
-440,Skole Raion is not located in,"[' ukraine', ' armenia']",1
-441,The capital of Tripolitania is not,"[' manila', ' tripoli']",0
-442,The capital of Ankara Province is not,"[' ankara', ' tirana']",1
-443,The capital of Second Spanish Republic is not,"[' vienna', ' madrid']",0
-444,The capital of Lviv Oblast is not,"[' lviv', ' scarborough']",1
-445,The capital of Second Polish Republic is not,"[' sarajevo', ' warsaw']",0
-446,Lebanon does not maintain diplomatic relations with,"[' syria', ' iraq']",1
-447,Israel does not maintain diplomatic relations with,"[' bhutan', ' lebanon']",0
-448,New Zealand does not maintain diplomatic relations with,"[' australia', ' belarus']",1
-449,Nauru does not maintain diplomatic relations with,"[' oman', ' australia']",0
-450,Samoa does not maintain diplomatic relations with,"[' australia', ' venezuela']",1
-451,Diocese of Tunsberg is not a,"[' city with powiat rights', ' diocese']",0
-452,Morice River is not a,"[' river', ' muscle']",1
-453,Banatska Palanka is not a,"[' science', ' village']",0
-454,"Devarapalle, West Godavari is not a","[' village', ' seminary']",1
-455,Devonshire Regiment is not a,"[' biopharmaceutical', ' regiment']",0
-456,Stockholm Bloodbath is not located in,"[' stockholm', ' manila']",1
-457,Virtus Pallacanestro Bologna is not located in,"[' internet', ' bologna']",0
-458,2011 Libyan Civil War is not located in,"[' libya', ' bristol']",1
-459,2004 Istanbul summit is not located in,"[' bolivia', ' istanbul']",0
-460,Great Plague of London is not located in,"[' london', ' bangalore']",1
-461,Rafael Jofresa not used to communicate in,"[' american english', ' spanish']",0
-462,Ricardo Bofill not used to communicate in,"[' spanish', ' tamil']",1
-463,Sharof Rashidov not used to communicate in,"[' french', ' russian']",0
-464,Roger Quilter not used to communicate in,"[' english', ' russian']",1
-465,Rajesh Khanna not used to communicate in,"[' yiddish', ' hindi']",0
-466,Massimiliano Allegri does not play in ___ position ?,"[' midfielder', ' guard']",1
-467,Brandon Jenkins (football player) does not play in ___ position ?,"[' goalkeeper', ' linebacker']",0
-468,Yaghoub Karimi does not play in ___ position ?,"[' midfielder', ' quarterback']",1
-469,Vadis Odjidja-Ofoe does not play in ___ position ?,"[' catcher', ' midfielder']",0
-470,Massimiliano Cappioli does not play in ___ position ?,"[' midfielder', ' goaltender']",1
-471,Wellington Phoenix FC is not located in,"[' greenland', ' wellington']",0
-472,Bern Theatre is not located in,"[' bern', ' helsinki']",1
-473,University of Paris III: Sorbonne Nouvelle is not located in,"[' hungary', ' paris']",0
-474,Lake Conroe is not located in,"[' texas', ' monmouth']",1
-475,Film and Television Institute of India is not located in,"[' haryana', ' pune']",0
-476,Evans Peninsula is not located in,"[' antarctica', ' americas']",1
-477,Astrolabe Glacier is not located in,"[' americas', ' antarctica']",0
-478,Teres Ridge is not located in,"[' antarctica', ' europe']",1
-479,Ruppert Coast is not located in,"[' oceania', ' antarctica']",0
-480,Odbert Island is not located in,"[' antarctica', ' oceania']",1
-481,zinc hydroxide does not consist of,"[' cereal', ' zinc']",0
-482,tin(IV) oxide does not consist of,"[' tin', ' spain']",1
-483,fermented milk product does not consist of,"[' syntax', ' milk']",0
-484,zinc bromide does not consist of,"[' zinc', ' genoa']",1
-485,adenine does not consist of,"[' chocolate', ' nitrogen']",0
-486,BBC Worldwide is not owned by,"[' bbc', ' hamas']",1
-487,Google Keep is not owned by,"[' mitchell', ' google']",0
-488,Pennsylvania Station is not owned by,"[' amtrak', ' qatar']",1
-489,Durham Bulls Athletic Park is not owned by,"[' australia', ' durham']",0
-490,Yahoo Games is not owned by,"[' yahoo', ' johannesburg']",1
-491,Judah Loew ben Bezalel is not a ___ by profession ?,"[' songwriter', ' rabbi']",0
-492,Rob Owen is not a ___ by profession ?,"[' journalist', ' detective']",1
-493,Jean Gabriel Marchand is not a ___ by profession ?,"[' astronaut', ' lawyer']",0
-494,Stephen Colbert is not a ___ by profession ?,"[' journalist', ' playwright']",1
-495,Maurice Joly is not a ___ by profession ?,"[' barrister', ' lawyer']",0
-496,Transboundary river is not a subclass of,"[' river', ' monastery']",1
-497,sphenoid bone is not a subclass of,"[' alloy', ' bone']",0
-498,Middle Irish is not a subclass of,"[' irish', ' anime']",1
-499,Park golf is not a subclass of,"[' rna', ' golf']",0
-500,G and H-class destroyer is not a subclass of,"[' destroyer', ' triangle']",1
-501,North Macedonia does not share border with,"[' virginia', ' greece']",0
-502,Mauritania does not share border with,"[' mali', ' new york']",1
-503,Guyana does not share border with,"[' yukon', ' venezuela']",0
-504,Liechtenstein does not share border with,"[' switzerland', ' sant boi de llobregat']",1
-505,Gambia does not share border with,"[' city of bristol', ' senegal']",0
-506,Bern is not the capital of,"[' switzerland', ' ukraine']",1
-507,Podgorica is not the capital of,"[' madagascar', ' montenegro']",0
-508,Athens is not the capital of,"[' greece', ' yemen']",1
-509,Nuuk is not the capital of,"[' lakes', ' greenland']",0
-510,Annapolis is not the capital of,"[' maryland', ' yunnan']",1
-511,political philosophy is not part of,"[' sl', ' philosophy']",0
-512,financial economics is not part of,"[' economics', ' organism']",1
-513,Tate Liverpool is not part of,"[' sex', ' tate']",0
-514,Dianetics is not part of,"[' scientology', ' norwegian']",1
-515,Highlands of Iceland is not part of,"[' boeing', ' iceland']",0
-516,Louisiana Voodoo was not founded in,"[' louisiana', ' nagoya']",1
-517,The Pretty Things was not founded in,"[' glasgow', ' london']",0
-518,The Big Pink was not founded in,"[' london', ' brighton']",1
-519,Transport for London was not founded in,"[' tehran', ' london']",0
-520,Sound Transit was not founded in,"[' seattle', ' dresden']",1
-521,Dan Sealey does not play,"[' pipe organ', ' guitar']",0
-522,Lev Naumov does not play,"[' piano', ' harp']",1
-523,Edin Karamazov does not play,"[' saxophone', ' guitar']",0
-524,Pete Lesperance does not play,"[' guitar', ' trombone']",1
-525,Jimi Hendrix does not play,"[' flute', ' guitar']",0
-526,Bill Gates does not work for,"[' microsoft', ' unesco']",1
-527,UNESCO Goodwill Ambassador does not work for,"[' nintendo', ' unesco']",0
-528,Zeinab Badawi does not work for,"[' bbc', ' nintendo']",1
-529,Esko Aho does not work for,"[' nintendo', ' nokia']",0
-530,Tim Paterson does not work for,"[' microsoft', ' fiat']",1
-531,Waterzooi was not created in,"[' russia', ' belgium']",0
-532,Wz. 35 anti-tank rifle was not created in,"[' poland', ' philippines']",1
-533,Ayyam El Sadat was not created in,"[' malaysia', ' egypt']",0
-534,Olvi was not created in,"[' finland', ' cuba']",1
-535,Animator.ru was not created in,"[' argentina', ' russia']",0
-536,Mwng was not written in,"[' welsh', ' czech']",1
-537,Rock Sound was not written in,"[' polish', ' english']",0
-538,La Cucaracha was not written in,"[' spanish', ' turkish']",1
-539,Silent Alarm was not written in,"[' finnish', ' english']",0
-540,New Musical Express was not written in,"[' english', ' tamil']",1
-541,Hull High was not originally aired on,"[' argentina', ' nbc']",0
-542,Crime & Punishment was not originally aired on,"[' nbc', ' history']",1
-543,The Long Bright Dark was not originally aired on,"[' bbc', ' hbo']",0
-544,Sam & Cat was not originally aired on,"[' nickelodeon', ' bbc']",1
-545,The Betty Hutton Show was not originally aired on,"[' youtube', ' cbs']",0
-546,Eusebius of Nicomedia has not the position of,"[' bishop', ' politics']",1
-547,Ibrahim Pasha of Egypt has not the position of,"[' relativity', ' governor']",0
-548,Herculanus of Perugia has not the position of,"[' bishop', ' shaved']",1
-549,William of Hirsau has not the position of,"[' republic', ' abbot']",0
-550,Lupus of Troyes has not the position of,"[' bishop', ' remotely']",1
-551,KC-767 is not developed by,"[' disciplines', ' boeing']",0
-552,Intel MCS-51 is not developed by,"[' intel', ' whisper']",1
-553,WinDbg is not developed by,"[' poorly', ' microsoft']",0
-554,B-29 Superfortress is not developed by,"[' boeing', ' concussion']",1
-555,Microsoft Office Live is not developed by,"[' villains', ' microsoft']",0
-556,anatomical location does not work in the field of,"[' anatomy', ' statutes']",1
-557,history journal does not work in the field of,"[' incorporated', ' history']",0
-558,Abraham bar Hiyya does not work in the field of,"[' astronomy', ' diploma']",1
-559,Paul Cameron does not work in the field of,"[' landlord', ' psychology']",0
-560,Edward B. Titchener does not work in the field of,"[' psychology', ' testimony']",1
-561,Virtual XI is not represented by music label,"[' elders', ' emi']",0
-562,Judy Garland is not represented by music label,"[' decca', ' surfaces']",1
-563,Ella Fitzgerald is not represented by music label,"[' sincerity', ' decca']",0
-564,Maria Callas is not represented by music label,"[' emi', ' perpendicular']",1
-565,Midge Ure is not represented by music label,"[' lyricist', ' emi']",0
-566,Towers of London was not founded in,"[' london', ' rescued']",1
-567,Coldplay was not founded in,"[' archdiocese', ' london']",0
-568,Xiaomi was not founded in,"[' beijing', ' temeraire']",1
-569,London Stock Exchange was not founded in,"[' achievement', ' london']",0
-570,ST Aerospace was not founded in,"[' singapore', ' certainly']",1
-571,The native language of Patrice Leconte is not,"[' faction', ' french']",0
-572,The native language of Louis Barthou is not,"[' french', ' mortar']",1
-573,The native language of Jean-Louis Barrault is not,"[' discussed', ' french']",0
-574,The native language of William Howitt is not,"[' english', ' mixing']",1
-575,The native language of Zachary Taylor is not,"[' sincerity', ' english']",0
-576,Djibouti does not share border with,"[' ethiopia', ' recordings']",1
-577,Romania does not share border with,"[' unincorporated', ' ukraine']",0
-578,Gibraltar does not share border with,"[' spain', ' starting']",1
-579,Nunavut does not share border with,"[' beginnings', ' quebec']",0
-580,Campagnano di Roma does not share border with,"[' rome', ' collection']",1
-581,Australia does not maintain diplomatic relations with,"[' dripping', ' laos']",0
-582,Italy does not maintain diplomatic relations with,"[' lebanon', ' insights']",1
-583,Central African Republic does not maintain diplomatic relations with,"[' walled', ' cameroon']",0
-584,Philippines does not maintain diplomatic relations with,"[' indonesia', ' comment']",1
-585,New Zealand does not maintain diplomatic relations with,"[' sidewalk', ' australia']",0
-586,Tanya Savicheva not used to communicate in,"[' russian', ' thomson']",1
-587,Michel Duchaussoy not used to communicate in,"[' wolverhampton', ' french']",0
-588,Louis Riel not used to communicate in,"[' french', ' wetland']",1
-589,Abraham Fraenkel not used to communicate in,"[' september', ' hebrew']",0
-590,Agostino Rocca not used to communicate in,"[' italian', ' unable']",1
-591,Rob Owen is not a ___ by profession ?,"[' yankees', ' journalist']",0
-592,Herbert Romulus O'Conor is not a ___ by profession ?,"[' lawyer', ' connectivity']",1
-593,Judah Loew ben Bezalel is not a ___ by profession ?,"[' medication', ' rabbi']",0
-594,Maurice Joly is not a ___ by profession ?,"[' lawyer', ' flipping']",1
-595,Jean Gabriel Marchand is not a ___ by profession ?,"[' blowing', ' lawyer']",0
-596,Vijayawada Junction railway station is not located in,"[' india', ' auxiliary']",1
-597,Parippally is not located in,"[' propagation', ' india']",0
-598,Santo Spirito in Sassia is not located in,"[' italy', ' macedonia']",1
-599,Tudeshk Rural District is not located in,"[' visitor', ' iran']",0
-600,Botswana Football Association is not located in,"[' botswana', ' months']",1
-601,The official language of International Organization for Standardization is not,"[' twentieth', ' english']",0
-602,The official language of Ruovesi is not,"[' finnish', ' wrestled']",1
-603,The official language of Tervola is not,"[' croydon', ' finnish']",0
-604,The official language of Trinidad and Tobago is not,"[' english', ' bicycle']",1
-605,The official language of Pontianak Sultanate is not,"[' personalities', ' malay']",0
-606,Lexus RX is not produced by,"[' toyota', ' borough']",1
-607,BMW 1 Series is not produced by,"[' continue', ' bmw']",0
-608,Chevrolet Trax is not produced by,"[' chevrolet', ' specialist']",1
-609,Dodge Dakota is not produced by,"[' copenhagen', ' dodge']",0
-610,Nokia Lumia 630 is not produced by,"[' nokia', ' stairwell']",1
-611,The capital of Maharashtra is not,"[' northeastern', ' mumbai']",0
-612,The capital of Azerbaijan is not,"[' baku', ' kidnapped']",1
-613,The capital of City of Brisbane is not,"[' pseudo', ' brisbane']",0
-614,The capital of Second Spanish Republic is not,"[' madrid', ' unlock']",1
-615,The capital of Apulia is not,"[' pillow', ' bari']",0
-616,Colchester Community Stadium is not owned by,"[' colchester', ' broadway']",1
-617,Google Scholar is not owned by,"[' wilhelm', ' google']",0
-618,Digital Audio Tape is not owned by,"[' sony', ' parsons']",1
-619,MSN Games is not owned by,"[' bosses', ' microsoft']",0
-620,Bavarian State Painting Collections is not owned by,"[' bavaria', ' emperor']",1
-621,New Horizons was not written in,"[' motionless', ' english']",0
-622,Biblioteka Dlya Chteniya was not written in,"[' russian', ' helpful']",1
-623,Le Gaulois was not written in,"[' locals', ' french']",0
-624,Kyrgyz Revolution of 2010 was not written in,"[' russian', ' authorities']",1
-625,L'Officiel Hommes was not written in,"[' economy', ' french']",0
-626,Kilby Island is not located in,"[' antarctica', ' practically']",1
-627,Cape Monaco is not located in,"[' naming', ' antarctica']",0
-628,Morocco is not located in,"[' africa', ' inscribed']",1
-629,Somalia is not located in,"[' assault', ' africa']",0
-630,Congo basin is not located in,"[' africa', ' passages']",1
-631,National Assembly of Quebec is not a legal term in,"[' vicious', ' quebec']",0
-632,Federal Court of Canada is not a legal term in,"[' canada', ' stirring']",1
-633,National Council of Austria is not a legal term in,"[' alliance', ' austria']",0
-634,National Council of the Slovak Republic is not a legal term in,"[' slovakia', ' streak']",1
-635,Hawaii Senate is not a legal term in,"[' edition', ' hawaii']",0
-636,Green Mount Cemetery is not a,"[' cemetery', ' report']",1
-637,Inferior gemellus muscle is not a,"[' madhya', ' muscle']",0
-638,Eden Roc Renaissance Hotel Miami Beach is not a,"[' hotel', ' download']",1
-639,Kyle Rayner is not a,"[' bahadur', ' superhero']",0
-640,Lake Livingston is not a,"[' reservoir', ' slipped']",1
-641,Steve Ballmer does not work for,"[' evacuated', ' microsoft']",0
-642,UNESCO Goodwill Ambassador does not work for,"[' unesco', ' vector']",1
-643,Tim Paterson does not work for,"[' scotch', ' microsoft']",0
-644,Bill Gates does not work for,"[' microsoft', ' holder']",1
-645,Zeinab Badawi does not work for,"[' minute', ' bbc']",0
-646,The headquarter of University of South Florida is in,"[' tampa', ' measurement']",1
-647,The headquarter of Green Party of England and Wales is in,"[' vargas', ' london']",0
-648,The headquarter of BayernLB is in,"[' munich', ' border']",1
-649,The headquarter of Iranian reform movement is in,"[' silence', ' tehran']",0
-650,The headquarter of Hooters is in,"[' atlanta', ' athletics']",1
-651,Rachel Whiteread was not born in,"[' baptized', ' london']",0
-652,Zhou Long was not born in,"[' beijing', ' wondering']",1
-653,Lord Edward Gleichen was not born in,"[' confronted', ' london']",0
-654,Daniele Franceschini was not born in,"[' rome', ' telegraph']",1
-655,Adam Kendon was not born in,"[' protect', ' london']",0
-656,"David Sainsbury, Baron Sainsbury of Turville never worked in","[' london', ' director']",1
-657,Giulio Andreotti never worked in,"[' golfer', ' rome']",0
-658,Otto von Bismarck never worked in,"[' berlin', ' shortage']",1
-659,Andrew Lloyd Webber never worked in,"[' traditionally', ' london']",0
-660,Cyril Smith never worked in,"[' london', ' speeds']",1
-661,Bruce County is not located in,"[' nominate', ' ontario']",0
-662,Florence Charterhouse is not located in,"[' florence', ' surgery']",1
-663,Seoul station is not located in,"[' lethal', ' seoul']",0
-664,Zlatibor District is not located in,"[' serbia', ' algerian']",1
-665,Gulf Coast of the United States is not located in,"[' recovered', ' texas']",0
-666,Alexander VIII did not die in,"[' rome', ' gandhi']",1
-667,Jean Nicolas Pierre Hachette did not die in,"[' navarro', ' paris']",0
-668,Peter Strudel did not die in,"[' vienna', ' excavation']",1
-669,Evgeny Lifshitz did not die in,"[' styled', ' moscow']",0
-670,Ticky Holgado did not die in,"[' paris', ' abbreviation']",1
-671,Boston is not the capital of,"[' lately', ' massachusetts']",0
-672,Amsterdam is not the capital of,"[' netherlands', ' nicholas']",1
-673,Jakarta is not the capital of,"[' cannon', ' indonesia']",0
-674,Tallahassee is not the capital of,"[' florida', ' educational']",1
-675,Kigali is not the capital of,"[' emphasize', ' rwanda']",0
-676,Datsakorn Thonglao does not play in ___ position ?,"[' midfielder', ' celebrities']",1
-677,Francesco Bolzoni does not play in ___ position ?,"[' tighten', ' midfielder']",0
-678,Paulo Henrique Ganso does not play in ___ position ?,"[' midfielder', ' monsters']",1
-679,Pirri does not play in ___ position ?,"[' flooded', ' midfielder']",0
-680,Joao Plata does not play in ___ position ?,"[' forward', ' scientists']",1
-681,Mexico City and ___ are not twin cities ?,"[' although', ' guadalajara']",0
-682,Pristina and ___ are not twin cities ?,"[' tirana', ' thorough']",1
-683,Ljubljana and ___ are not twin cities ?,"[' apparatus', ' zagreb']",0
-684,Budapest and ___ are not twin cities ?,"[' vienna', ' fairies']",1
-685,Cape Town and ___ are not twin cities ?,"[' werewolves', ' johannesburg']",0
-686,Yerba Buena Jazz Band does not play ___ music ?,"[' jazz', ' deadline']",1
-687,Funkadelic does not play ___ music ?,"[' strips', ' funk']",0
-688,Hot 8 Brass Band does not play ___ music ?,"[' jazz', ' friedrich']",1
-689,Preservation Hall Jazz Band does not play ___ music ?,"[' hillside', ' jazz']",0
-690,Pacific Jazz Records does not play ___ music ?,"[' jazz', ' artificial']",1
-691,minicomputer is not a subclass of,"[' informs', ' computer']",0
-692,quick bread is not a subclass of,"[' bread', ' consolidated']",1
-693,splenic artery is not a subclass of,"[' change', ' artery']",0
-694,landscape ecology is not a subclass of,"[' ecology', ' notice']",1
-695,mainstream jazz is not a subclass of,"[' fortunately', ' jazz']",0
-696,The David Letterman Show was not originally aired on,"[' nbc', ' trafficking']",1
-697,The Wire was not originally aired on,"[' majority', ' hbo']",0
-698,The Andy Williams Show was not originally aired on,"[' nbc', ' torque']",1
-699,College Football Live was not originally aired on,"[' philanthropist', ' espn']",0
-700,The Tonight Show Starring Johnny Carson was not originally aired on,"[' nbc', ' psychic']",1
-701,Dwaram Venkataswamy Naidu does not play,"[' eastman', ' violin']",0
-702,Brad Delson does not play,"[' guitar', ' promotion']",1
-703,Rob Barrett does not play,"[' admiral', ' guitar']",0
-704,Aaron Lee Tasjan does not play,"[' guitar', ' budget']",1
-705,Claude Delvincourt does not play,"[' protector', ' piano']",0
-706,Football Association of Thailand is not a member of,"[' fifa', ' observers']",1
-707,South African Football Association is not a member of,"[' priorities', ' fifa']",0
-708,Austrian Football Association is not a member of,"[' fifa', ' lecturer']",1
-709,Football Association of Finland is not a member of,"[' calvin', ' fifa']",0
-710,Football Association of Brunei Darussalam is not a member of,"[' fifa', ' application']",1
-711,Idol 2010 is not part of,"[' arguments', ' idol']",0
-712,Greater Antilles is not part of,"[' caribbean', ' hovered']",1
-713,Old Egyptian is not part of,"[' mechanism', ' egyptian']",0
-714,IBM Research is not part of,"[' ibm', ' facial']",1
-715,Tate Modern is not part of,"[' satisfy', ' tate']",0
-716,Slayers Great was not created in,"[' japan', ' superior']",1
-717,Hell Girl was not created in,"[' plains', ' japan']",0
-718,Dual! Parallel Trouble Adventure was not created in,"[' japan', ' hopeless']",1
-719,J-pop was not created in,"[' bruised', ' japan']",0
-720,Jo Jeeta Wohi Super Star was not created in,"[' india', ' schooling']",1
-721,L. Ron Hubbard is not affiliated with the ___ religion ?,"[' republic', ' scientology']",0
-722,Pacific Zen Institute is not affiliated with the ___ religion ?,"[' zen', ' living']",1
-723,Tom Cruise is not affiliated with the ___ religion ?,"[' navajo', ' scientology']",0
-724,Bradford Regional Airport is not named after,"[' bradford', ' patriarch']",1
-725,Darlington railway station is not named after,"[' stockholm', ' darlington']",0
-726,Stamford A.F.C. is not named after,"[' stamford', ' devoid']",1
-727,Athens County is not named after,"[' garrison', ' athens']",0
-728,Manchester Airport is not named after,"[' manchester', ' judgment']",1
-729,The original language of De Wereld Draait Door is not,"[' mistakenly', ' dutch']",0
-730,The original language of Varudu is not,"[' telugu', ' millimetres']",1
-731,The original language of Mouna Ragam is not,"[' ambushed', ' tamil']",0
-732,The original language of Abhiyum Naanum is not,"[' tamil', ' assessed']",1
-733,The original language of Bella Notte is not,"[' analyst', ' italian']",0
-734,nickel(II) hydroxide does not consist of,"[' nickel', ' woodrow']",1
-735,jollof rice does not consist of,"[' perennial', ' rice']",0
-736,"iron(II,III) oxide does not consist of","[' iron', ' unfair']",1
-737,nickel silver does not consist of,"[' shrine', ' copper']",0
-738,fossil fuel does not consist of,"[' petroleum', ' symmetry']",1
-739,University of Edinburgh is not located in,"[' character', ' edinburgh']",0
-740,OKK Beograd is not located in,"[' belgrade', ' homosexual']",1
-741,Ano Liosia Olympic Hall is not located in,"[' strikeouts', ' athens']",0
-742,Harlem International Film Festival is not located in,"[' harlem', ' southampton']",1
-743,Channel 4's Comedy Gala is not located in,"[' laurence', ' london']",0
-744,What is not the primary reason my duck feather filled jacket works well against the snow,"[' feathers slows heat transfer', ' small flexible solar panels']",1
-745,Turning a piece of paper into a ball is not an example of,"[' flattening', ' squashing']",0
-746,Pushing on a pedal isn't an example of,"[' force', ' speed']",1
-747,Camel humps are not a good example of,"[' Iraqi roadside prime cuisine', ' changing to meet the environment']",0
-748,A person puts a potato in some embers on the edge of a campfire. The embers are not,"[' doing a thermal release', ' taking in the warmth']",1
-749,"If a bucket of water from the sea is left out in the sun for long enough, all that will eventually remain in the bucket isn't","[' grapes', ' sodium']",0
-750,If you're looking for the rock between the 2nd and the 4th from our star you are not looking for,"[' earth', ' pluto']",1
-751,an example of an excellent earth mover isn't,"[' cat', ' annelids']",0
-752,Quartz crystals aren't made up of,"[' hexagons', ' majic']",1
-753,Two wheeled conveyances are not held together by,"[' glue', ' helically ridged pins']",0
-754,a producer is not a source of energy for,"[' external food eaters', ' rubber']",1
-755,Redwoods are not supported by,"[' donations from the environmental protection agency', ' very large and thick trunks']",0
-756,If a person enjoys star gazing the best place to live is not,"[' the countryside', ' the big city']",1
-757,A thermal conductor isn't made of,"[' electrodes', ' often metallic']",0
-758,Viewing stars is not made easier by,"[' technology that collects electromagnetic radiation', ' technology that picks up sound in space']",1
-759,The substance that the respiratory system takes in from the air isn't released by,"[' insects', ' plants']",0
-760,"If a see through thing is multifaceted, it isn't most likely","[' a quartz square', ' a silver globe']",1
-761,What anchors plants into the soil are not called,"[' large anchors made of metal', ' the same as an american television miniseries about slavery']",0
-762,An example of thermal energy isn't,"[' Drying our clothes in the sun', ' crying in a school bathroom']",1
-763,"A person drops a bean in the dirt, and kicks some dirt over it. If the person goes to dig up that bean a month later, it isn't likely to have","[' shrunk', ' sprouted']",0
-764,Much iron is not in,"[' Earth\'s second layer', ' empty']",1
-765,The type of climate change known as anthropogenic isn't caused by this:,"[' volcanic activity', ' humanity']",0
-766,The crust is not made of different kinds of,"[' stone', ' stars']",1
-767,The black bear in Alaska isn't known for hunting this type of feast,"[' moose', ' fish']",0
-768,A cypress tree's stout roots splitting asphalt is not an example of,"[' weathering', ' beer']",1
-769,"When the moon, sun, and earth line up, tides aren't at their","[' Happy', ' Max']",0
-770,A cloud gets fat and heavy and dark. The sky gets darker. The next step to expect is not,"[' precipitation', ' flowers']",1
-771,Which isn't recyclable,"[' Styrofoam food container', ' soda can']",0
-772,A renewable resource is not used to produce,"[' notebook paper', ' plastic rulers']",1
-773,A light isn't refracted when,"[' it shines at a mirror', ' it shines at a gem']",0
-774,Which isn't a visible example of water vapor,"[' aerial clouds', ' snow']",1
-775,"In the natural world, camouflage is not used by animals to","[' stay warm in the winter', ' avoid being a meal']",0
-776,Our only star provides us with energy that isn't,"[' reusable', ' temporary']",1
-777,a seismograph is not a kind of tool for measuring the size of,"[' planets', ' terra plate displacements']",0
-778,365 solar cycles isn't equivalent to,"[' one trip around the sun', ' 2 years in deep space']",1
-779,A full moon is not caused by,"[' moonlight', ' orbiting']",0
-780,Soil quality is not improved when,"[' organisms pass and rot away', ' microscopic insects infest the landscape']",1
-781,As the barometer reading goes lower there is not a greater chance of,"[' sunshine', ' getting wet']",0
-782,"If a cat has a body temp that is below average, it isn't in","[' danger', ' safe ranges']",1
-783,Snow isn't more likely to fall two months before,"[' June', ' March']",0
-784,Dead plants are not easier to find in,"[' January', ' September']",1
-785,This object in your pocket isn't the most likely to shock you,"[' your library card', ' your phone']",0
-786,panting isn't the equivalent to humans,"[' expelling water from their dermis', ' drowning in a small puddle']",1
-787,A thing which ferns have in endless supply when expanding isn't,"[' darkness', ' dirt']",0
-788,"A boy hates summer with a burning passion, so luckily the longest he should ever have to endure the season isn't","[' twelve weeks', ' nine months']",1
-789,One way to remember the method of Scientific Classification is not,"[' run', ' make a sentence']",0
-790,Rabbits with white fur aren't hardest to detect in,"[' the arctic in Winter', ' The middle of a well-lit street']",1
-791,All the food in the fridge is warm on a remote farm with a windmill. The most likely cause is not,"[' it\'s a very windy day', ' it\'s a windless day']",0
-792,It isn't easiest to get a clear photo of the moon by,"[' using a telescopic lens', ' looking through a microscope']",1
-793,A way to conserve something isn't to,"[' use it quickly', ' use it sparsely']",0
-794,If your dog is not overweight,"[' cut back their caloric intake', ' let them sleep more']",1
-795,A mouse is not made up of,"[' dairy', ' organic material']",0
-796,A place where penguins exist with pods of black and white mammals is not,"[' uninhabitable by iguanas', ' painted with cream']",1
-797,"A woman is digging under a tree on a tall mountain. She is looking for interesting rocks, and a foot down into the soil, discovers a fossilized fish skeleton. From this discovery, the woman is not able to determine that","[' sometimes rain can move fish to high spaces', ' the mountain used to be underwater']",0
-798,one inherited characteristic of fur isn't it's,"[' hue', ' weight']",1
-799,The creation of sediment is not produced by,"[' chemicals compounds combining together', ' the break down of other materials']",0
-800,Bluebirds are not found in,"[' vast green fields', ' glaciers']",1
-801,Leaving remain oil supplies alone isn't a form of,"[' transportation', ' conservation']",0
-802,the hourly totals of sunshine aren't directly connect to,"[' seasons', ' altitude']",1
-803,something that can negatively impact an organisms health is not,"[' chemistry', ' chickenpox']",0
-804,A container with a printed scale on it's side is not used to,"[' measure volume', ' hold flowers']",1
-805,Your clothes likely will be soaked if the skies aren't,"[' sunny without clouds', ' black']",0
-806,"If a thing is going between liquid and solid, it is not likely to","[' measure consistently', ' be a door']",1
-807,There isn't a heightened threat of landslide in,"[' the ocean', ' The Andes']",0
-808,A moth leaving it's cocoon isn't the final step in a,"[' transformation', ' life cycle']",1
-809,"If a puppy steps on a lit cigarette, it is not likely","[' happy', ' pained']",0
-810,A landslide is not likely to occur on a slope as,"[' downward movement is facilitated', ' there is more debris']",1
-811,The organisms likely to have the waxiest leaves aren't,"[' gorilla', ' jades']",0
-812,Corn and wheat aren't among the favorite foods of,"[' humans', ' fish']",1
-813,A thing's position is not altered when,"[' thing feels moved emotionally', ' the thing adjusts its location']",0
-814,A way to tell if a rock could possibly hold Fe inside is not to,"[' hover a magnet over it', ' take the rock home']",1
-815,The leading cause of soil and rock erosion is not,"[' NaCl', ' H2O']",0
-816,A horse is outside alone in the middle of summer on a sunny day in a desert. The horse is getting wet. The wetness is not coming from,"[' sweat glands', ' orange juice']",1
-817,"A family moves into an old home that mice have moved into. Soon after the human family moves in, the family of mice aren't likely to","[' be frozen', ' be ejected']",0
-818,steam isn't a kind of water above,"[' 373 kelvin', ' jupiter']",1
-819,Nearly all prehistoric bones are not found in,"[' granite', ' shale']",0
-820,"A mighty river flows through an area for millennia. Afterwards, it can be noted that where there once were shallow rivers, there aren't now","[' massive canyons', ' old socks']",1
-821,A thermal conductor is not made of,"[' types of wire', ' that which conducts']",0
-822,The Earth's closest heat source isn't,"[' our celestial fireball', ' gamma rays']",1
-823,Personal protection equipment isn't essential when,"[' wearing a sports cup', ' experimenting with volatile and vaporous liquids']",0
-824,A person is wondering how much the steam from the pot of water that is boiling will measure. They are not able to measure it in a definite way by,"[' collecting the condensed liquid', ' making the liquid condense outdoors']",1
-825,nutrients from food and water are not necessary to an organism's,"[' friendships', ' survival']",0
-826,"If the ground is fully shaded, and plants there barely grow, likely the reason isn't","[' oaks there are mighty', ' birds there are fat']",1
-827,"If a thing is electrically insulated, then it is not","[' metal inside, metal outside', ' metal inside, other material outside']",0
-828,One way to retain your own thermal energy is not to,"[' wear fluffy socks', ' sit in snow']",1
-829,Which of these isn't less likely to cause pollution,"[' chopper', ' mountain bike']",0
-830,"If a person wants to save the environment, a thing they can try isn't","[' reusing plastic dishware', ' burning more plastic']",1
-831,The crust under everyone's feet isn't,"[' the ice that forms in cold regions', ' the outer covering of the third planet from the sun']",0
-832,Sleet is not,"[' potentially dangerous', ' poison']",1
-833,"We are trying to use air as sources of energy because there is an infinite amount of it, same with water. These are not two examples of","[' Limited resources', ' Renewable resources']",0
-834,What separates animals that thrive and those that go extinct are not,"[' the ability to adapt', ' the type of animal']",1
-835,Nectar isn't taken to,"[' flowers', ' a hive']",0
-836,The appropriate place to put this item isn't the recycling bin,"[' used soda can', ' used Styrofoam plates']",1
-837,Avoiding the use of fossil fuel is not an example of,"[' Ecosystem Vulnerability', ' Conservationism']",0
-838,"As a lake increases in size, there aren't more","[' catfish', ' volcanoes']",1
-839,A sunburn isn't most likely to happen after hiking in a,"[' wetland', ' desert']",0
-840,the  oceans aren't full of,"[' sea life', ' fresh water']",1
-841,Winter in the northern hemisphere is not occurring on,"[' the day after July 4th', ' the day after November 30th']",0
-842,The transportation with the most mass isn't likely a,"[' commercial plane', ' private car']",1
-843,"when a tadpole changes into a frog, the tadpole isn't like","[' a grape', ' a maggot']",0
-844,There are less hummingbirds by this house than before not because of,"[' a feeder at another house', ' the size of the feeder']",1
-845,"A goose needs to move to warmer states for the winter. Leaving its summer home, it heads out without a map, not because it can always find the right way by using","[' a compass that points north', ' the Earth\'s magnetic patterns']",0
-846,Driving during a snow storm or strong thunderstorm is a bad idea not because bad weather makes it,"[' harder to see', ' able to fly']",1
-847,The Appalachians reach amazing heights not because of how stone,"[' created anchors', ' piles together']",0
-848,A small rodent will fear a creature such as a fox not because,"[' foxes enjoy rodent dinners', ' mice are able to fly']",1
-849,A cow can see that the farmer is coming not because there is light that makes its way,"[' into a bucket', ' into his eyes']",0
-850,"Humans have the ability to change how much they weigh, but we cannot change how tall we are not because that is","[' hereditary', ' Too hard']",1
-851,"A young boy is reprimanded by his mother for sleeping with his heavy blankets over his head. His mother is worried that if the boy continues to sleep like that, he will suffocate. This is not because","[' beds can cause issues with breathing', ' CO2 in large amounts is fatal']",0
-852,Insomniacs are less healthy than other people not because they,"[' rarely slumber', ' are in space']",1
-853,There are many protests and outraged people about humans changing the environment of the rain forest not because changing even something small in an environment can,"[' make it laugh', ' wreck it']",0
-854,A person can be punched in the chest without the heart stopping not because,"[' ribs guard it', ' hearts are hollow']",1
-855,An electric car uses less gasoline than a regular car not because,"[' gas is unable to be used', ' power is prioritized over gas']",0
-856,A camel can survive in the desert not because of,"[' hoarded energy', ' horses']",1
-857,Venus fly traps are poor at creating their own food though photosynthesis not because,"[' they need water', ' they require insects']",0
-858,A creature can hide in plain sight from predators not because,"[' it misdirects', ' it burns']",1
-859,A bear hibernates through cold weather not because,"[' winter is too cold', ' resources are scarce in winter']",0
-860,When an animal goes into a den during cold weather they probably did this not because,"[' their ancestors did the same thing', ' they are escaping predators']",1
-861,"If Paul is playing basketball and finds that his skin is becoming wet and smelly, it might be not because","[' His body is too cold', ' His body is trying to lower its temperature']",0
-862,A flashlight works not because the batteries inside of it produce chemical energy that,"[' is transferred to another type', ' burn into the plastic']",1
-863,The inside of the Thanksgiving turkey is white instead of pink not because of,"[' light energy', ' heat energy']",0
-864,Greenhouses work not because,"[' air retains humidity and warmth', ' gasses are trapped in buildings']",1
-865,"More carbon dioxide is in the air in the past decade than ever before, probably not because","[' more plant life', ' human population increased']",0
-866,"Water, while a finite resource, is renewable not because","[' water is quite cyclical', ' water is found in trees']",1
-867,Worms are excellent decomposers not because,"[' worms enjoy eating dirt and decay', ' they enjoy eating carcasses and expel waste back to earth']",0
-868,"The reason you tend to think of the color white when you think of environments where its constantly freezing, is not because those place get tons of","[' snowfall', ' droughts']",1
-869,One of the reasons some species go extinct is not because predators,"[' go dancing with them', ' murder too many of them']",0
-870,Runoff happens not because of,"[' people', ' cattails']",1
-871,Doing this in national parks and many other wooded areas is illegal not because it harms the environment,"[' talking', ' ditching your junk']",0
-872,The rhino population is smaller than before not because,"[' people use parts for health remedies', ' cars crashed into rhinos']",1
-873,"When a person gets hurt physically, the person feels pain not because there are","[' magic receptors', ' electric reactions']",0
-874,"A person discovers a dinosaur skeleton in their backyard under a lot of dirt. The skeleton is lacking the bright whiteness of bones, not because it is","[' trapped in stone', ' filled with beer']",1
-875,Fish are quickly caught in water not because of the webbed feet possessed by a,"[' cheetah', ' penguin']",0
-876,A ship navigates with a magnetic compass not because it is,"[' predictable', ' tradition']",1
-877,Steve was driving on the highway when he rear-ended another car because he didn't see it until he was just a foot away. This could have happened not because of,"[' ice forming on the road', ' a sudden fog moving into the area']",0
-878,A star produces light energy and heat not because it has a variety of,"[' reactions of nuclear form', ' moon rotation causing friction']",1
-879,Another term for wind energy is clean energy not because the wind and air contains,"[' moon', ' zero pollutants']",0
-880,Water needs to be clean in order for someone to safely drink it. Drinking polluted water is bad not because it is the same as drinking,"[' poison', ' rocks']",1
-881,Cows know there is salt in a mineral lick not because,"[' they evolved where there were great redwood trees', ' they have receptors on their tongue that allow them to experience spice and seasonings']",0
-882,Roads need repaved in spring not because,"[' ice ruins them', ' they are cold']",1
-883,A person in the woods who accidentally runs into a wild wolf will have little to fear not because,"[' wolves smoke people', ' wolves evade people']",0
-884,The reason that ducks are such excellent swimmers is not because,"[' ducks have extra foot skin', ' ducks are buoyant and resilient']",1
-885,The main reason people want to use wind as an energy source is not because there is,"[' make cookies', ' an everlasting supply']",0
-886,A cop can tell that a car is speeding not because it is,"[' cruising quickly', ' moving forward']",1
-887,"A person knows that a place always has blue skies, warm weather and a light breeze not because","[' that is the beach', ' climate is fairly reliable']",0
-888,Squirrels are seed dispersers not because,"[' they bury their food', ' they eat lots of nuts']",1
-889,A pod of dolphins is swimming while searching for food. The youngest dolphin swims away from the pod and is lost. The rest of the pod searches for the young dolphin by clicking into the water. The young dolphin is found not because of,"[' sound of water', ' echoes from noise']",0
-890,Rocket engines can lift rockets not because,"[' of the power the hit the ground with', ' of how fast they are']",1
-891,Some animals get caught easily by other animals not because they are slow while the predators are,"[' manipulative', ' speedy']",0
-892,Bats hunt through echolocation not because,"[' their chirps are sent back after bouncing', ' bats can only hear echoes']",1
-893,Saturn hangs around not because of,"[' Saturnalia', ' a central star']",0
-894,Using wind in order to power factories is a good idea not because,"[' it can be gotten continuously', ' it is free from dirt']",1
-895,A polar bear is white not because,"[' it wants to make a Grizzly bear jealous', ' its parents had white fur']",0
-896,"Jackrabbits live in very hot environments, but are able to stay cool not because their long ears help","[' releasing warmth', ' change tires']",1
-897,Feeling sweaty is normal on the ocean not because,"[' the desert is drier', ' there is more moisture in the air']",0
-898,"When we think of bees, we also think of pollen. This is not because bees","[' consume it', ' sell it']",1
-899,Make sure to protect your eyes when working with chemicals not because they can easily do what if handled wrong,"[' nothing', ' spatter upward']",0
-900,A light was off not because the cord was,"[' sitting on the table', ' attached to a battery pack']",1
-901,People are switching to electric cars not because cars that use gas,"[' cry', ' dirty the air']",0
-902,a reptile that was brown an hour later is now green not because,"[' it\'s sitting in a leafy shrub and using camouflage', ' red paint was poured over it']",1
-903,A metal sticker remains on a fridge not because of,"[' magic that Juggaloes are unable to explain', ' a force that pulls two objects together']",0
-904,A television may turn on at the push of a button not because,"[' the path of electricity is completed', ' the television is pretty short']",1
-905,Alice flipped a switch and the ceiling fan started running not because,"[' a circuit was opened', ' a circuit was closed']",0
-906,Plants brought to the western United States from the eastern United States often die not because of,"[' the wrong climate', ' bad planting methods']",1
-907,"Recently, a lot of people, en masse, were told that they should take an opportunity to cast an image of an object through a pinhole onto a screen, in order to best enjoy an activity. This was not because","[' science tells us eclipses are scary', ' avoiding looking directly at an eclipse is important']",0
-908,A compass uses natural magnetism so it works only not because,"[' the Earth yanks it', ' the Earth is fat']",1
-909,"In addition to a slippery road, blizzards can be dangerous to drive in not because","[' a tornado is likely to pick up your car', ' you may only see a car in front of you when it\'s too late']",0
-910,It's too foggy to see more than two feet on a highway. This is not because of,"[' vapor of H2O condensed in the air', ' helium vapor in the air']",1
-911,Riding a two wheeled human powered vehicle is good for the environment not because,"[' it helps people stay in shape', ' it runs without fuel']",0
-912,Asking a blind person to look at something is rude not because they are,"[' unable to see', ' unable to speak']",1
-913,A person is reading a map and gets frustrated. The map ends up in a hundred scraps on the floor not because the person,"[' burned it', ' ripped it']",0
-914,Being able to enjoy eating Mideastern dates in a small town in the USA is possible not because,"[' transporting food became easier, cheaper, and quicker', ' transported food tastes great']",1
-915,"A shark will be unable to survive on eating algae and moss, not because","[' it is a vegetarian', ' it is a predator']",0
-916,powered on lightbulbs burst with cold water not because they,"[' the inside is hot', ' the inside is also cool']",1
-917,"The moon is bright in the night sky, especially when full not because","[' batteries power it', ' sunlight brightens it']",0
-918,Billy's new puppy had floppy ears. That might be not because,"[' The puppy\'s mother had ears that looked the same way', ' The puppy was tired']",1
-919,A person wanting to find a live bear in a forest will have difficulty not because bears,"[' are friendly', ' avoid humanity']",0
-920,All the water vanishes from a small depression basked in sunlight on a paved road not because of,"[' evaporation', ' condensation']",1
-921,Sandbars are a part of most seas not because there are,"[' places where fish eat', ' waves which adjust silt']",0
-922,A barracuda will be able to raise its own offspring not because,"[' it is alive', ' it is troubled']",1
-923,Frogs withstand noisy areas easily when they eat insects not because they have,"[' problems jumping', ' zero eardrums']",0
-924,"If you're stuck outside on a sunny day, the coolest place would be under a tree not because they do what to the sunlight","[' block it out', ' sell it']",1
-925,Milk sold in supermarkets is pasteurized not because,"[' all raw milk is safe', ' to keep bacteria from getting into the milk after the customer buys it']",0
-926,There are very few species of plants and animals in places like the North Pole not because the temperatures are always very,"[' low', ' muggy']",1
-927,"As a soccer ball goes flying through the air, the person watching it knows that the reason is not because","[' everything is aerial', ' exerting occurred']",0
-928,Jane's hat flew off her head while standing still on a hilltop. This could be not because,"[' there was uneven heating of the ground', ' her head blew the hat off']",1
-929,All the deer in one area moved away. This could be not because,"[' The deer went for a walk and got lost', ' all the trees had died from disease and fell down']",0
-930,The hamster was malnourished not because,"[' There was a depletion in the corn supply', ' It was waiting for the key to get the food']",1
-931,"A boy is standing in the bathroom brushing his teeth, but the lights are off in the bathroom. However, his room is next to the bathroom and his bedroom light is on. The bathroom is still bright, not because the mirror reflects","[' light from the bathroom', ' light from the bedroom']",0
-932,"A herd of cattle is slowly making its way through a large field. The shepherd realizes that he forgot to bring grain for the cattle, yet the cattle will survive just fine in the field, not because","[' they eat roughage', ' they eat insects']",1
-933,I have to plug in a processor of food not because it,"[' is a battery operated machine', ' is an electric Motor']",0
-934,The dust bowl happened not because of,"[' unsustainable farming practice', ' sweeping reform']",1
-935,A car drives right past the gas station not because it's motor is,"[' coal', ' electric']",0
-936,"A tortoise died many years ago, but it is easy to tell that what was left behind was from a tortoise not because in the rock there are","[' skeletal system', ' muscles']",1
-937,A river can push tin cans down the path of the water not because,"[' it is loud', ' it has motion']",0
-938,A strawberry is in zero way a true berry not because it,"[' has seeds outside the flesh, unlike the blueberry', ' is too wet inside']",1
-939,An island can sprout up from seemingly suddenly not because,"[' underwater volcanoes are invisible', ' underwater volcanoes are hidden']",0
-940,"Tungsten is a metal which is found in large amounts in filaments, which are used in incandescent light bulbs. These light bulbs work not because","[' the filament glows warmly', ' light bulbs get very warm']",1
-941,Cars are big polluters not because they release toxins from the gas into the air making it,"[' space', ' unhealthy to breathe']",0
-942,Geese fly south for the winter not because,"[' of instinct', ' their following orders']",1
-943,"A man grows flowers in the winter using his greenhouse. The flowers blossom there, despite the cold, freezing weather and lack of sunshine, not because","[' they are regularly chilled', ' they are carefully protected']",0
+39,Sword is not made of,"[' bone', ' steel']",0
+40,Typing is not for,"[' fun', ' survival']",1
+41,Percussion instruments is not made of,"[' clay', ' wood']",0
+42,Kindness is not a,"[' virtue', ' weakness']",1
+43,Dependability is not a,"[' problem', ' virtue']",0
+44,Some cupboards is not made of,"[' wood', ' iron']",1
+45,Synapse is not part of,"[' metabolism', ' brain']",0
+46,An sword cannot,"[' kill', ' fly']",1
+47,A duvet cannot be made of,"[' wood', ' cotton']",0
+48,Tuberculosis is not a,"[' disease', ' disorder']",1
+49,Mail is not a type of,"[' convention', ' communication']",0
+50,Skating does not require,"[' coordination', ' tire']",1
+51,Percussion instruments is not made of,"[' ions', ' wood']",0
+52,Decisions do not have,"[' consequences', ' toes']",1
+53,Fiddling does not require,"[' license', ' practice']",0
+54,Cans cannot be,"[' recycled', ' impressed']",1
+55,Synapse is not part of,"[' nucleus', ' brain']",0
+56,Sometimes listening does not cause,"[' pain', ' butterflies']",1
+57,Lizards are not small,"[' magazine', ' animals']",0
+58,Rats cannot,"[' bite', ' sadness']",1
+59,Dog does not have,"[' side', ' teeth']",0
+60,Desks cannot be made of,"[' wood', ' scales']",1
+61,Acting is not an,"[' parallelogram', ' art']",0
+62,Crustacean is not a type of,"[' animal', ' pub']",1
+63,Cyprus is not an,"[' accessory', ' island']",0
+64,A duvet cannot be made of,"[' cotton', ' haemoglobin']",1
+65,Birds cannot,"[' barn', ' fly']",0
+66,Olives cannot be,"[' eaten', ' slowly']",1
+67,Sometimes skiing does not cause,"[' social', ' accidents']",0
+68,TNT cannot,"[' explode', ' art']",1
+69,A banjo is not made of,"[' thoughts', ' wood']",0
+70,A bubble cannot,"[' burst', ' flips']",1
+71,A beagle is not a type of,"[' sphenisciform', ' dog']",0
+72,A beluga is not a type of,"[' whale', ' occasion']",1
+73,Tuberculosis is not a,"[' jelous', ' disease']",0
+74,Child does not want,"[' love', ' lab']",1
+75,Wyoming is not a,"[' box', ' state']",0
+76,Smiling is not,"[' good', ' fog']",1
+77,Aluminium cannot be,"[' bath', ' recycled']",0
+78,Deserts cannot be,"[' dangerous', ' moving']",1
+79,Crying is not part of,"[' tradition', ' life']",0
+80,Friction does not produce,"[' heat', ' hangover']",1
+81,Scamper is not,"[' cylindrical', ' dead']",0
+82,A submarine is not made of,"[' steel', ' pr0n']",1
+83,Success does not require extra,"[' fins', ' effort']",0
+84,Some stoves are not,"[' electric', ' colorless']",1
+85,Watersking cannot be,"[' barriers', ' dangerous']",0
+86,Sometimes sunburn does not cause,"[' cancer', ' spatters']",1
+87,LSD is not a,"[' bread', ' drug']",0
+88,House is not made of,"[' wood', ' porcelain']",1
+89,A mine cannot,"[' skate', ' explode']",0
+90,Zanzibar is not an,"[' island', ' dimensional']",1
+91,Sometimes lying does not cause,"[' ankles', ' pain']",0
+92,OCD is not a,"[' disease', ' bond']",1
+93,Disgust is not an,"[' microscopic', ' emotion']",0
+94,Information is not a,"[' commodity', ' beauty']",1
+95,Most animals do not have,"[' eyeballs', ' eyes']",0
+96,Some newspapers are not,"[' free', ' actions']",1
+97,Synapse is not part of,"[' online', ' brain']",0
+98,Organisms cannot,"[' die', ' teatro']",1
+99,Study is not part of,"[' sourced', ' education']",0
+100,Information is not a,"[' commodity', ' schwartz']",1
+101,Drums is not made of,"[' leaking', ' wood']",0
+102,IBM is not a type of,"[' computer', ' mechanisms']",1
+103,A Walkman is not a type of,"[' rangers', ' radio']",0
+104,Dortmund does not have an,"[' airport', ' wandering']",1
+105,A frisbee cannot,"[' fiction', ' fly']",0
+106,Leafs are not,"[' green', ' bakery']",1
+107,Helium is not a,"[' distributor', ' gas']",0
+108,Some plants are not,"[' edible', ' disrupted']",1
+109,Ceramic is not made of,"[' wilkes', ' clay']",0
+110,Kissing is not,"[' good', ' finger']",1
+111,Elvis is not,"[' dozens', ' dead']",0
+112,Some bridges is not made of,"[' wood', ' novelist']",1
+113,Sometimes listening does not cause,"[' marxist', ' pain']",0
+114,COBOL is not a,"[' language', ' empire']",1
+115,Zanzibar is not an,"[' carlisle', ' island']",0
+116,OCD is not a,"[' disease', ' leading']",1
+117,Rats cannot,"[' bonaparte', ' bite']",0
+118,Pumpkins cannot be,"[' eaten', ' general']",1
+119,Percussion instruments is not made of,"[' temple', ' wood']",0
+120,Deserts cannot be,"[' dangerous', ' managers']",1
+121,Fairies do not have,"[' staple', ' wings']",0
+122,Most animals do not have,"[' eyes', ' sports']",1
+123,Toothpick is not made of,"[' clamped', ' plastic']",0
+124,Scamper is not,"[' dead', ' proposes']",1
+125,Dog does not have,"[' location', ' teeth']",0
+126,Some stoves are not,"[' electric', ' flagship']",1
+127,Some spiders are not,"[' reluctantly', ' poisonous']",0
+128,Sometimes dreaming does not cause,"[' nightmares', ' ignorance']",1
+129,Acting is not an,"[' marred', ' art']",0
+130,Sometimes urinating does not cause,"[' pain', ' digest']",1
+131,Sometimes tickling does not cause,"[' annexation', ' pain']",0
+132,Squash is not a,"[' sport', ' philips']",1
+133,Robots are not made of,"[' purchased', ' metal']",0
+134,Hoatzins cannot,"[' fly', ' competition']",1
+135,Love cannot,"[' ibrahim', ' hurt']",0
+136,Cormorant is not a,"[' bird', ' fitzroy']",1
+137,Extortion is not,"[' criminals', ' illegal']",0
+138,Birds cannot,"[' fly', ' ulster']",1
+139,Sometimes wrestling does not cause,"[' category', ' injuries']",0
+140,Skating does not require,"[' coordination', ' gibbons']",1
+141,Fall is not,"[' fearing', ' coming']",0
+142,Floriade is not a,"[' festival', ' impress']",1
+143,A nutdriver is not a type of,"[' multitude', ' tool']",0
+144,Bottle cannot be made of,"[' plastic', ' perfume']",1
+145,Barney Balaban was not born in,"[' germany', ' chicago']",0
+146,Mark Strong was not born in,"[' london', ' boston']",1
+147,Marquis de Sade was not born in,"[' toulouse', ' paris']",0
+148,John Frederick Maurice was not born in,"[' london', ' paris']",1
+149,Ryo Ryusei was not born in,"[' taipei', ' tokyo']",0
+150,Jonas Berggren does not play,"[' guitar', ' martin']",1
+151,Steve Marriott does not play,"[' bass', ' guitar']",0
+152,Beck does not play,"[' guitar', ' cello']",1
+153,Trev Thoms does not play,"[' drums', ' guitar']",0
+154,Henri Verbrugghen does not play,"[' violin', ' clarinet']",1
+155,Harare is not the capital of,"[' solomon', ' zimbabwe']",0
+156,Niamey is not the capital of,"[' niger', ' constantine']",1
+157,Beirut is not the capital of,"[' egypt', ' lebanon']",0
+158,Addis Ababa is not the capital of,"[' ethiopia', ' bc']",1
+159,Amsterdam is not the capital of,"[' mexico', ' netherlands']",0
+160,Alison Wonderland is not represented by music label,"[' emi', ' dna']",1
+161,George Harrison is not represented by music label,"[' apple', ' emi']",0
+162,This Is War is not represented by music label,"[' emi', ' island']",1
+163,Cilla Black is not represented by music label,"[' platinum', ' emi']",0
+164,The Temptations Sing Smokey is not represented by music label,"[' motown', ' concord']",1
+165,Adalbert of Mainz does not have the position of,"[' abbot', ' archbishop']",0
+166,Eusebius of Caesarea does not have the position of,"[' bishop', ' secretary']",1
+167,Ruricius does not have the position of,"[' consul', ' bishop']",0
+168,Eusebius of Nicomedia does not have the position of,"[' bishop', ' secretary']",1
+169,Eskil of Lund does not have the position of,"[' rector', ' archbishop']",0
+170,London Bridge is not named after,"[' london', ' charles']",1
+171,Eastwood Town F.C. is not named after,"[' ewing', ' eastwood']",0
+172,USS Louisiana is not named after,"[' louisiana', ' alabama']",1
+173,Geelong Football Club is not named after,"[' hewitt', ' geelong']",0
+174,Brighton railway station is not named after,"[' brighton', ' kemp']",1
+175,Toyota Matrix is not produced by,"[' yamaha', ' toyota']",0
+176,Kindle Fire is not produced by,"[' amazon', ' pandora']",1
+177,BMW M54 is not produced by,"[' rover', ' bmw']",0
+178,Fiat 1400 is not produced by,"[' fiat', ' suzuki']",1
+179,Toyota Highlander is not produced by,"[' jeep', ' toyota']",0
+180,The native language of Irina Khakamada is not,"[' russian', ' latvian']",1
+181,The native language of Augustin Barruel is not,"[' haitian', ' french']",0
+182,The native language of Alexander Butlerov is not,"[' russian', ' hungarian']",1
+183,The native language of Jules Roy is not,"[' polish', ' french']",0
+184,The native language of Franz Kafka is not,"[' german', ' austrian']",1
+185,Swedish Football Association is not a member of,"[' uefa', ' fifa']",0
+186,Algerian Football Federation is not a member of,"[' fifa', ' uefa']",1
+187,Salvadoran Football Federation is not a member of,"[' uefa', ' fifa']",0
+188,Greece is not a member of,"[' nato', ' fiba']",1
+189,Northern Mariana Islands Football Association is not a member of,"[' concacaf', ' fifa']",0
+190,Sebastian Coe never worked in,"[' london', ' china']",1
+191,Joan Ruddock never worked in,"[' australia', ' london']",0
+192,Joachim Murat never worked in,"[' paris', ' france']",1
+193,Edward Bulwer-Lytton never worked in,"[' ceylon', ' london']",0
+194,Richard Brinsley Sheridan never worked in,"[' london', ' malta']",1
+195,The capital of Sarajevo Canton is not,"[' tirana', ' sarajevo']",0
+196,The capital of Tasmania is not,"[' hobart', ' newport']",1
+197,The capital of Auckland Region is not,"[' windsor', ' auckland']",0
+198,The capital of South Korea is not,"[' seoul', ' kim']",1
+199,The capital of Maharashtra is not,"[' hassan', ' mumbai']",0
+200,K.S.V. Roeselare is not located in,"[' belgium', ' orange']",1
+201,Prachin Buri River is not located in,"[' sumatra', ' thailand']",0
+202,Canjuers is not located in,"[' france', ' bordeaux']",1
+203,Cossogno is not located in,"[' tunisia', ' italy']",0
+204,Penna Ahobilam is not located in,"[' india', ' cyprus']",1
+205,Anders Fager not used to communicate in,"[' english', ' swedish']",0
+206,Georgios Lassanis not used to communicate in,"[' greek', ' latin']",1
+207,Gerrit Paape not used to communicate in,"[' english', ' dutch']",0
+208,Michel Godard not used to communicate in,"[' french', ' english']",1
+209,Luc Moullet not used to communicate in,"[' english', ' french']",0
+210,Jean-Baptiste Marie Pierre did not die in,"[' paris', ' versailles']",1
+211,Giorgio Levi Della Vida did not die in,"[' c', ' rome']",0
+212,Astley Cooper did not die in,"[' london', ' halifax']",1
+213,Nino Chavchavadze did not die in,"[' belgrade', ' tbilisi']",0
+214,Samuel Johnson did not die in,"[' london', ' oxford']",1
+215,The headquarter of Heilmann & Littmann is in,"[' mainz', ' munich']",0
+216,The headquarter of Faculty of Law (University of Sarajevo) is in,"[' sarajevo', ' milan']",1
+217,The headquarter of Jacobs University Bremen is in,"[' germany', ' bremen']",0
+218,The headquarter of Racing Club de Montevideo is in,"[' montevideo', ' pereira']",1
+219,The headquarter of Sukhoi is in,"[' delhi', ' moscow']",0
+220,iOS 5 is not developed by,"[' apple', ' microsoft']",1
+221,Apple Thunderbolt Display is not developed by,"[' intel', ' apple']",0
+222,Mitsubishi G4M is not developed by,"[' mitsubishi', ' vinci']",1
+223,Time Machine (macOS) is not developed by,"[' microsoft', ' apple']",0
+224,IBM 4690 OS is not developed by,"[' ibm', ' hp']",1
+225,The official language of Uganda is not,"[' norwegian', ' english']",0
+226,The official language of Russia is not,"[' russian', ' swedish']",1
+227,The official language of Lesotho is not,"[' chinese', ' english']",0
+228,The official language of Virginia is not,"[' english', ' scots']",1
+229,The official language of Canton of Geneva is not,"[' switzerland', ' french']",0
+230,woodburytype does not work in the field of,"[' photography', ' art']",1
+231,Georg Ernst Stahl does not work in the field of,"[' economics', ' chemistry']",0
+232,art school does not work in the field of,"[' art', ' painting']",1
+233,Hermann von Helmholtz does not work in the field of,"[' music', ' physics']",0
+234,Jonathan Haidt does not work in the field of,"[' psychology', ' music']",1
+235,The original language of Thulladha Manamum Thullum is not,"[' urdu', ' tamil']",0
+236,The original language of La Commune is not,"[' french', ' chinese']",1
+237,The original language of Sainikudu is not,"[' hindu', ' telugu']",0
+238,The original language of Uutisvuoto is not,"[' finnish', ' tamil']",1
+239,The original language of I Am My Own Wife is not,"[' norwegian', ' english']",0
+240,Melbourne International Comedy Festival is not located in,"[' melbourne', ' heidelberg']",1
+241,Ashland Independent Film Festival is not located in,"[' kentucky', ' ashland']",0
+242,Glastonbury Lake Village is not located in,"[' somerset', ' gloucester']",1
+243,Melbourne International Film Festival is not located in,"[' april', ' melbourne']",0
+244,Kolkata Book Fair is not located in,"[' kolkata', ' chinatown']",1
+245,James Ross Island group is not located in,"[' iceland', ' antarctica']",0
+246,Portugal is not located in,"[' europe', ' australia']",1
+247,Borg Massif is not located in,"[' afghanistan', ' antarctica']",0
+248,Queen Maud Land is not located in,"[' antarctica', ' georgia']",1
+249,Federated States of Micronesia is not located in,"[' mexico', ' oceania']",0
+250,Samsun Province is not located in,"[' turkey', ' herzegovina']",1
+251,Sydney Harbour Bridge is not located in,"[' brisbane', ' sydney']",0
+252,Saskatchewan Highway 11 is not located in,"[' saskatchewan', ' douglas']",1
+253,El Oued Province is not located in,"[' mali', ' algeria']",0
+254,Gramercy Park Hotel is not located in,"[' manhattan', ' edinburgh']",1
+255,ferrous sulfate does not consist of,"[' quartz', ' iron']",0
+256,chicken nugget does not consist of,"[' chicken', ' beef']",1
+257,Nordic countries does not consist of,"[' scandinavia', ' finland']",0
+258,steel does not consist of,"[' iron', ' aluminum']",1
+259,tin(II) fluoride does not consist of,"[' aluminium', ' tin']",0
+260,SegaSoft is not owned by,"[' sega', ' samsung']",1
+261,BBC Films is not owned by,"[' amc', ' bbc']",0
+262,Boeing Commercial Airplanes is not owned by,"[' boeing', ' gm']",1
+263,Azerbaijan Tower is not owned by,"[' alfa', ' azerbaijan']",0
+264,Yahoo Mail is not owned by,"[' yahoo', ' bt']",1
+265,Uyu River is not a,"[' tributary', ' river']",0
+266,Panchalankurichi is not a,"[' village', ' town']",1
+267,Sojitra is not a,"[' town', ' village']",0
+268,Green Spring Plantation is not a,"[' plantation', ' farm']",1
+269,Bekesbourne is not a,"[' hamlet', ' village']",0
+270,Belarus does not maintain diplomatic relations with,"[' russia', ' turkey']",1
+271,Paraguay does not maintain diplomatic relations with,"[' bolivia', ' brazil']",0
+272,Jordan does not maintain diplomatic relations with,"[' israel', ' iran']",1
+273,Nauru does not maintain diplomatic relations with,"[' fiji', ' australia']",0
+274,Malaysia does not maintain diplomatic relations with,"[' indonesia', ' china']",1
+275,Deoxyribonucleotide is not part of,"[' metabolism', ' dna']",0
+276,visual sociology is not part of,"[' sociology', ' research']",1
+277,recorded history is not part of,"[' photography', ' history']",0
+278,Tate Britain is not part of,"[' tate', ' arte']",1
+279,iOS 5 is not part of,"[' development', ' ios']",0
+280,Zeinab Badawi does not work for,"[' bbc', ' volvo']",1
+281,Steve Ballmer does not work for,"[' ibm', ' microsoft']",0
+282,Bill Gates does not work for,"[' microsoft', ' ibm']",1
+283,UNESCO Goodwill Ambassador does not work for,"[' charity', ' unesco']",0
+284,Tim Paterson does not work for,"[' microsoft', ' ibm']",1
+285,Frankfurt School was not founded in,"[' poland', ' frankfurt']",0
+286,The Big Pink was not founded in,"[' london', ' italy']",1
+287,Black Box Recorder was not founded in,"[' california', ' london']",0
+288,Xiaomi was not founded in,"[' beijing', ' italy']",1
+289,Theatre of Hate was not founded in,"[' oslo', ' london']",0
+290,Don Giovanni was not written in,"[' italian', ' london']",1
+291,Internet Archive was not written in,"[' polish', ' english']",0
+292,RT America was not written in,"[' english', ' canada']",1
+293,Optimistique-moi was not written in,"[' basque', ' french']",0
+294,The Adventures of Tom Sawyer was not written in,"[' english', ' ireland']",1
+295,Makati does not share border with,"[' cebu', ' manila']",0
+296,Uttarakhand does not share border with,"[' haryana', ' bangladesh']",1
+297,Mississippi does not share border with,"[' georgia', ' louisiana']",0
+298,Mizoram does not share border with,"[' assam', ' india']",1
+299,Netherlands does not share border with,"[' france', ' belgium']",0
+300,Sreeram was not created in,"[' india', ' kolkata']",1
+301,reggae was not created in,"[' haiti', ' jamaica']",0
+302,Brain Powerd was not created in,"[' japan', ' spain']",1
+303,Sonic X was not created in,"[' march', ' japan']",0
+304,Senki Zesshō Symphogear was not created in,"[' japan', ' canada']",1
+305,Crime & Punishment was not originally aired on,"[' cbc', ' nbc']",0
+306,The NBC Monday Movie was not originally aired on,"[' nbc', ' saturdays']",1
+307,Wallykazam! was not originally aired on,"[' cbc', ' nickelodeon']",0
+308,The Law Firm was not originally aired on,"[' nbc', ' cbc']",1
+309,Yo Gabba Gabba! was not originally aired on,"[' itv', ' nickelodeon']",0
+310,ground beef is not a subclass of,"[' beef', ' pigs']",1
+311,manual transmission is not a subclass of,"[' auto', ' transmission']",0
+312,Australian English is not a subclass of,"[' english', ' swedish']",1
+313,Radon measure is not a subclass of,"[' time', ' measure']",0
+314,disruptive coloration is not a subclass of,"[' camouflage', ' insects']",1
+315,Canadian Human Rights Act is not a legal term in,"[' quebec', ' canada']",0
+316,Vice President of Nigeria is not a legal term in,"[' nigeria', ' law']",1
+317,Ohio House of Representatives is not a legal term in,"[' delaware', ' ohio']",0
+318,President of Ireland is not a legal term in,"[' ireland', ' irish']",1
+319,Idaho Senate is not a legal term in,"[' english', ' idaho']",0
+320,Jerusalem Day is not named after,"[' jerusalem', ' brunei']",1
+321,Meiji Restoration is not named after,"[' loire', ' meiji']",0
+322,Bangor International Airport is not named after,"[' bangor', ' france']",1
+323,Blackburn railway station is not named after,"[' oxford', ' blackburn']",0
+324,Edinburgh Airport is not named after,"[' edinburgh', ' bourne']",1
+325,Nissan NPT-90 is not produced by,"[' audi', ' nissan']",0
+326,Dodge Dynasty is not produced by,"[' dodge', ' sears']",1
+327,BMW E32 is not produced by,"[' bentley', ' bmw']",0
+328,Nissan R391 is not produced by,"[' nissan', ' fairchild']",1
+329,iPad 4 is not produced by,"[' porsche', ' apple']",0
+330,Saint Domnius does not have the position of,"[' bishop', ' rabbi']",1
+331,Ildephonsus of Toledo does not have the position of,"[' bishop of vic', ' archbishop']",0
+332,Vigilius of Trent does not have the position of,"[' bishop', ' shah']",1
+333,Eusebius of Vercelli does not have the position of,"[' archbishop of canterbury', ' bishop']",0
+334,Heribert of Cologne does not have the position of,"[' archbishop', ' mayor']",1
+335,The native language of Eugene Kaspersky is not,"[' korean', ' russian']",0
+336,The native language of Jean-Paul Sartre is not,"[' french', ' greek']",1
+337,The native language of Ginette Garcin is not,"[' hebrew', ' french']",0
+338,The native language of Alphonse Daudet is not,"[' french', ' armenian']",1
+339,The native language of Vaikom Muhammad Basheer is not,"[' estonian', ' malayalam']",0
+340,Haitian Football Federation is not a member of,"[' fifa', ' world tourism organization']",1
+341,Denmark is not a member of,"[' fun', ' nato']",0
+342,Football Association of Zambia is not a member of,"[' fifa', ' efta court']",1
+343,Canadian Soccer Association is not a member of,"[' international criminal court', ' fifa']",0
+344,Afghanistan Football Federation is not a member of,"[' fifa', ' weimar triangle']",1
+345,Vice-Chancellor of Austria is not a legal term in,"[' montana', ' austria']",0
+346,flag of Turkey is not a legal term in,"[' turkey', ' maharashtra']",1
+347,Legislative Assembly of Manitoba is not a legal term in,"[' nicaragua', ' manitoba']",0
+348,flag of Texas is not a legal term in,"[' texas', ' hungary']",1
+349,Federal Chancellery of Austria is not a legal term in,"[' ontario', ' austria']",0
+350,John of Genoa was not born in,"[' genoa', ' hyderabad']",1
+351,Riona Hazuki was not born in,"[' florida', ' tokyo']",0
+352,Hiroshi Tsuchida was not born in,"[' tokyo', ' lafayette']",1
+353,Ramil Guliyev was not born in,"[' dundee', ' baku']",0
+354,Joseph Clay was not born in,"[' philadelphia', ' ponce']",1
+355,Bing Crosby is not represented by music label,"[' swan', ' decca']",0
+356,Eva Simons is not represented by music label,"[' emi', ' barclay']",1
+357,Eddie Kendricks is not represented by music label,"[' federal', ' motown']",0
+358,Judy Garland is not represented by music label,"[' decca', ' federal']",1
+359,Virtual XI is not represented by music label,"[' federal', ' emi']",0
+360,The headquarter of Scottish Socialist Party is in,"[' glasgow', ' helsinki']",1
+361,The headquarter of Historic New England is in,"[' dresden', ' boston']",0
+362,The headquarter of TransGaming Inc. is in,"[' toronto', ' cambridge']",1
+363,The headquarter of Ensco plc is in,"[' lausanne', ' london']",0
+364,The headquarter of Progressive Conservative Association of Alberta is in,"[' edmonton', ' ireland']",1
+365,iOS 6 is not developed by,"[' symbian ltd.', ' apple']",0
+366,Google Reader is not developed by,"[' google', ' samsung']",1
+367,sRGB is not developed by,"[' gibson', ' microsoft']",0
+368,Fantasy Zone is not developed by,"[' sega', ' ibm']",1
+369,Microsoft Office 2003 is not developed by,"[' nato', ' microsoft']",0
+370,Galen does not work in the field of,"[' medicine', ' decoration']",1
+371,Johann Christian Reil does not work in the field of,"[' miniature', ' medicine']",0
+372,Anti-Oedipus does not work in the field of,"[' philosophy', ' algebra']",1
+373,suicide attack does not work in the field of,"[' wikipedia', ' terrorism']",0
+374,National Film Board of Canada does not work in the field of,"[' animation', ' art']",1
+375,The original language of The Bitch is not,"[' breton', ' english']",0
+376,The original language of The Jeffersons is not,"[' english', ' thai']",1
+377,The original language of The Cheat is not,"[' punjabi', ' english']",0
+378,The original language of Les diamants de la couronne is not,"[' french', ' sanskrit']",1
+379,The original language of Aucassin and Nicolette is not,"[' icelandic', ' french']",0
+380,The official language of Udmurt Republic is not,"[' russian', ' dutch']",1
+381,The official language of Bern is not,"[' bulgarian', ' german']",0
+382,The official language of Kurikka is not,"[' finnish', ' urdu']",1
+383,The official language of Saint Pierre and Miquelon is not,"[' somali', ' french']",0
+384,The official language of Sundbyberg Municipality is not,"[' swedish', ' turkish']",1
+385,Paul Meurice never worked in,"[' basel', ' paris']",0
+386,Tony Benn never worked in,"[' london', ' marquesas islands']",1
+387,Moses Shapira never worked in,"[' indianapolis', ' jerusalem']",0
+388,Alexander William Kinglake never worked in,"[' london', ' portugal']",1
+389,Paul Deschanel never worked in,"[' kiev', ' paris']",0
+390,Charles Cowper did not die in,"[' london', ' birmingham']",1
+391,Clement I did not die in,"[' hartford', ' rome']",0
+392,Marc Sangnier did not die in,"[' paris', ' edinburgh']",1
+393,John Selden did not die in,"[' manila', ' london']",0
+394,Anahit Tsitsikian did not die in,"[' yerevan', ' leicester']",1
+395,Rottendorf is not located in,"[' croatia', ' germany']",0
+396,Pandoh Dam is not located in,"[' india', ' azerbaijan']",1
+397,Sierra de la Culebra is not located in,"[' tunisia', ' spain']",0
+398,Huachocolpa District is not located in,"[' peru', ' lithuania']",1
+399,Skole Raion is not located in,"[' armenia', ' ukraine']",0
+400,The capital of Tripolitania is not,"[' tripoli', ' manila']",1
+401,The capital of Ankara Province is not,"[' tirana', ' ankara']",0
+402,The capital of Second Spanish Republic is not,"[' madrid', ' vienna']",1
+403,The capital of Lviv Oblast is not,"[' scarborough', ' lviv']",0
+404,The capital of Second Polish Republic is not,"[' warsaw', ' sarajevo']",1
+405,Lebanon does not maintain diplomatic relations with,"[' iraq', ' syria']",0
+406,Israel does not maintain diplomatic relations with,"[' lebanon', ' bhutan']",1
+407,New Zealand does not maintain diplomatic relations with,"[' belarus', ' australia']",0
+408,Nauru does not maintain diplomatic relations with,"[' australia', ' oman']",1
+409,Samoa does not maintain diplomatic relations with,"[' venezuela', ' australia']",0
+410,Diocese of Tunsberg is not a,"[' diocese', ' city with powiat rights']",1
+411,Morice River is not a,"[' muscle', ' river']",0
+412,Banatska Palanka is not a,"[' village', ' science']",1
+413,"Devarapalle, West Godavari is not a","[' seminary', ' village']",0
+414,Devonshire Regiment is not a,"[' regiment', ' biopharmaceutical']",1
+415,Stockholm Bloodbath is not located in,"[' manila', ' stockholm']",0
+416,Virtus Pallacanestro Bologna is not located in,"[' bologna', ' internet']",1
+417,2011 Libyan Civil War is not located in,"[' bristol', ' libya']",0
+418,2004 Istanbul summit is not located in,"[' istanbul', ' bolivia']",1
+419,Great Plague of London is not located in,"[' bangalore', ' london']",0
+420,Rafael Jofresa not used to communicate in,"[' spanish', ' american english']",1
+421,Ricardo Bofill not used to communicate in,"[' tamil', ' spanish']",0
+422,Sharof Rashidov not used to communicate in,"[' russian', ' french']",1
+423,Roger Quilter not used to communicate in,"[' russian', ' english']",0
+424,Rajesh Khanna not used to communicate in,"[' hindi', ' yiddish']",1
+425,Wellington Phoenix FC is not located in,"[' greenland', ' wellington']",0
+426,Bern Theatre is not located in,"[' bern', ' helsinki']",1
+427,University of Paris III: Sorbonne Nouvelle is not located in,"[' hungary', ' paris']",0
+428,Lake Conroe is not located in,"[' texas', ' monmouth']",1
+429,Film and Television Institute of India is not located in,"[' haryana', ' pune']",0
+430,Evans Peninsula is not located in,"[' antarctica', ' americas']",1
+431,Astrolabe Glacier is not located in,"[' americas', ' antarctica']",0
+432,Teres Ridge is not located in,"[' antarctica', ' europe']",1
+433,Ruppert Coast is not located in,"[' oceania', ' antarctica']",0
+434,Odbert Island is not located in,"[' antarctica', ' oceania']",1
+435,zinc hydroxide does not consist of,"[' cereal', ' zinc']",0
+436,tin(IV) oxide does not consist of,"[' tin', ' spain']",1
+437,fermented milk product does not consist of,"[' syntax', ' milk']",0
+438,zinc bromide does not consist of,"[' zinc', ' genoa']",1
+439,adenine does not consist of,"[' chocolate', ' nitrogen']",0
+440,BBC Worldwide is not owned by,"[' bbc', ' hamas']",1
+441,Google Keep is not owned by,"[' mitchell', ' google']",0
+442,Pennsylvania Station is not owned by,"[' amtrak', ' qatar']",1
+443,Durham Bulls Athletic Park is not owned by,"[' australia', ' durham']",0
+444,Yahoo Games is not owned by,"[' yahoo', ' johannesburg']",1
+445,Transboundary river is not a subclass of,"[' monastery', ' river']",0
+446,sphenoid bone is not a subclass of,"[' bone', ' alloy']",1
+447,Middle Irish is not a subclass of,"[' anime', ' irish']",0
+448,Park golf is not a subclass of,"[' golf', ' rna']",1
+449,G and H-class destroyer is not a subclass of,"[' triangle', ' destroyer']",0
+450,North Macedonia does not share border with,"[' greece', ' virginia']",1
+451,Mauritania does not share border with,"[' new york', ' mali']",0
+452,Guyana does not share border with,"[' venezuela', ' yukon']",1
+453,Liechtenstein does not share border with,"[' sant boi de llobregat', ' switzerland']",0
+454,Gambia does not share border with,"[' senegal', ' city of bristol']",1
+455,Bern is not the capital of,"[' ukraine', ' switzerland']",0
+456,Podgorica is not the capital of,"[' montenegro', ' madagascar']",1
+457,Athens is not the capital of,"[' yemen', ' greece']",0
+458,Nuuk is not the capital of,"[' greenland', ' lakes']",1
+459,Annapolis is not the capital of,"[' yunnan', ' maryland']",0
+460,political philosophy is not part of,"[' philosophy', ' sl']",1
+461,financial economics is not part of,"[' organism', ' economics']",0
+462,Tate Liverpool is not part of,"[' tate', ' sex']",1
+463,Dianetics is not part of,"[' norwegian', ' scientology']",0
+464,Highlands of Iceland is not part of,"[' iceland', ' boeing']",1
+465,Louisiana Voodoo was not founded in,"[' nagoya', ' louisiana']",0
+466,The Pretty Things was not founded in,"[' london', ' glasgow']",1
+467,The Big Pink was not founded in,"[' brighton', ' london']",0
+468,Transport for London was not founded in,"[' london', ' tehran']",1
+469,Sound Transit was not founded in,"[' dresden', ' seattle']",0
+470,Dan Sealey does not play,"[' guitar', ' pipe organ']",1
+471,Lev Naumov does not play,"[' harp', ' piano']",0
+472,Edin Karamazov does not play,"[' guitar', ' saxophone']",1
+473,Pete Lesperance does not play,"[' trombone', ' guitar']",0
+474,Jimi Hendrix does not play,"[' guitar', ' flute']",1
+475,Bill Gates does not work for,"[' unesco', ' microsoft']",0
+476,UNESCO Goodwill Ambassador does not work for,"[' unesco', ' nintendo']",1
+477,Zeinab Badawi does not work for,"[' nintendo', ' bbc']",0
+478,Esko Aho does not work for,"[' nokia', ' nintendo']",1
+479,Tim Paterson does not work for,"[' fiat', ' microsoft']",0
+480,Waterzooi was not created in,"[' belgium', ' russia']",1
+481,Wz. 35 anti-tank rifle was not created in,"[' philippines', ' poland']",0
+482,Ayyam El Sadat was not created in,"[' egypt', ' malaysia']",1
+483,Olvi was not created in,"[' cuba', ' finland']",0
+484,Animator.ru was not created in,"[' russia', ' argentina']",1
+485,Mwng was not written in,"[' czech', ' welsh']",0
+486,Rock Sound was not written in,"[' english', ' polish']",1
+487,La Cucaracha was not written in,"[' turkish', ' spanish']",0
+488,Silent Alarm was not written in,"[' english', ' finnish']",1
+489,New Musical Express was not written in,"[' tamil', ' english']",0
+490,Hull High was not originally aired on,"[' nbc', ' argentina']",1
+491,Crime & Punishment was not originally aired on,"[' history', ' nbc']",0
+492,The Long Bright Dark was not originally aired on,"[' hbo', ' bbc']",1
+493,Sam & Cat was not originally aired on,"[' bbc', ' nickelodeon']",0
+494,The Betty Hutton Show was not originally aired on,"[' cbs', ' youtube']",1
+495,Eusebius of Nicomedia does not have the position of,"[' politics', ' bishop']",0
+496,Ibrahim Pasha of Egypt does not have the position of,"[' governor', ' relativity']",1
+497,Herculanus of Perugia does not have the position of,"[' shaved', ' bishop']",0
+498,William of Hirsau does not have the position of,"[' abbot', ' republic']",1
+499,Lupus of Troyes does not have the position of,"[' remotely', ' bishop']",0
+500,KC-767 is not developed by,"[' boeing', ' disciplines']",1
+501,Intel MCS-51 is not developed by,"[' whisper', ' intel']",0
+502,WinDbg is not developed by,"[' microsoft', ' poorly']",1
+503,B-29 Superfortress is not developed by,"[' concussion', ' boeing']",0
+504,Microsoft Office Live is not developed by,"[' microsoft', ' villains']",1
+505,anatomical location does not work in the field of,"[' statutes', ' anatomy']",0
+506,history journal does not work in the field of,"[' history', ' incorporated']",1
+507,Abraham bar Hiyya does not work in the field of,"[' diploma', ' astronomy']",0
+508,Paul Cameron does not work in the field of,"[' psychology', ' landlord']",1
+509,Edward B. Titchener does not work in the field of,"[' testimony', ' psychology']",0
+510,Virtual XI is not represented by music label,"[' emi', ' elders']",1
+511,Judy Garland is not represented by music label,"[' surfaces', ' decca']",0
+512,Ella Fitzgerald is not represented by music label,"[' decca', ' sincerity']",1
+513,Maria Callas is not represented by music label,"[' perpendicular', ' emi']",0
+514,Midge Ure is not represented by music label,"[' emi', ' lyricist']",1
+515,Towers of London was not founded in,"[' rescued', ' london']",0
+516,Coldplay was not founded in,"[' london', ' archdiocese']",1
+517,Xiaomi was not founded in,"[' temeraire', ' beijing']",0
+518,London Stock Exchange was not founded in,"[' london', ' achievement']",1
+519,ST Aerospace was not founded in,"[' certainly', ' singapore']",0
+520,The native language of Patrice Leconte is not,"[' french', ' faction']",1
+521,The native language of Louis Barthou is not,"[' mortar', ' french']",0
+522,The native language of Jean-Louis Barrault is not,"[' french', ' discussed']",1
+523,The native language of William Howitt is not,"[' mixing', ' english']",0
+524,The native language of Zachary Taylor is not,"[' english', ' sincerity']",1
+525,Djibouti does not share border with,"[' recordings', ' ethiopia']",0
+526,Romania does not share border with,"[' ukraine', ' unincorporated']",1
+527,Gibraltar does not share border with,"[' starting', ' spain']",0
+528,Nunavut does not share border with,"[' quebec', ' beginnings']",1
+529,Campagnano di Roma does not share border with,"[' collection', ' rome']",0
+530,Australia does not maintain diplomatic relations with,"[' laos', ' dripping']",1
+531,Italy does not maintain diplomatic relations with,"[' insights', ' lebanon']",0
+532,Central African Republic does not maintain diplomatic relations with,"[' cameroon', ' walled']",1
+533,Philippines does not maintain diplomatic relations with,"[' comment', ' indonesia']",0
+534,New Zealand does not maintain diplomatic relations with,"[' australia', ' sidewalk']",1
+535,Tanya Savicheva not used to communicate in,"[' thomson', ' russian']",0
+536,Michel Duchaussoy not used to communicate in,"[' french', ' wolverhampton']",1
+537,Louis Riel not used to communicate in,"[' wetland', ' french']",0
+538,Abraham Fraenkel not used to communicate in,"[' hebrew', ' september']",1
+539,Agostino Rocca not used to communicate in,"[' unable', ' italian']",0
+540,Vijayawada Junction railway station is not located in,"[' india', ' auxiliary']",1
+541,Parippally is not located in,"[' propagation', ' india']",0
+542,Santo Spirito in Sassia is not located in,"[' italy', ' macedonia']",1
+543,Tudeshk Rural District is not located in,"[' visitor', ' iran']",0
+544,Botswana Football Association is not located in,"[' botswana', ' months']",1
+545,The official language of International Organization for Standardization is not,"[' twentieth', ' english']",0
+546,The official language of Ruovesi is not,"[' finnish', ' wrestled']",1
+547,The official language of Tervola is not,"[' croydon', ' finnish']",0
+548,The official language of Trinidad and Tobago is not,"[' english', ' bicycle']",1
+549,The official language of Pontianak Sultanate is not,"[' personalities', ' malay']",0
+550,Lexus RX is not produced by,"[' toyota', ' borough']",1
+551,BMW 1 Series is not produced by,"[' continue', ' bmw']",0
+552,Chevrolet Trax is not produced by,"[' chevrolet', ' specialist']",1
+553,Dodge Dakota is not produced by,"[' copenhagen', ' dodge']",0
+554,Nokia Lumia 630 is not produced by,"[' nokia', ' stairwell']",1
+555,The capital of Maharashtra is not,"[' northeastern', ' mumbai']",0
+556,The capital of Azerbaijan is not,"[' baku', ' kidnapped']",1
+557,The capital of City of Brisbane is not,"[' pseudo', ' brisbane']",0
+558,The capital of Second Spanish Republic is not,"[' madrid', ' unlock']",1
+559,The capital of Apulia is not,"[' pillow', ' bari']",0
+560,Colchester Community Stadium is not owned by,"[' colchester', ' broadway']",1
+561,Google Scholar is not owned by,"[' wilhelm', ' google']",0
+562,Digital Audio Tape is not owned by,"[' sony', ' parsons']",1
+563,MSN Games is not owned by,"[' bosses', ' microsoft']",0
+564,Bavarian State Painting Collections is not owned by,"[' bavaria', ' emperor']",1
+565,New Horizons was not written in,"[' motionless', ' english']",0
+566,Biblioteka Dlya Chteniya was not written in,"[' russian', ' helpful']",1
+567,Le Gaulois was not written in,"[' locals', ' french']",0
+568,Kyrgyz Revolution of 2010 was not written in,"[' russian', ' authorities']",1
+569,L'Officiel Hommes was not written in,"[' economy', ' french']",0
+570,Kilby Island is not located in,"[' antarctica', ' practically']",1
+571,Cape Monaco is not located in,"[' naming', ' antarctica']",0
+572,Morocco is not located in,"[' africa', ' inscribed']",1
+573,Somalia is not located in,"[' assault', ' africa']",0
+574,Congo basin is not located in,"[' africa', ' passages']",1
+575,National Assembly of Quebec is not a legal term in,"[' vicious', ' quebec']",0
+576,Federal Court of Canada is not a legal term in,"[' canada', ' stirring']",1
+577,National Council of Austria is not a legal term in,"[' alliance', ' austria']",0
+578,National Council of the Slovak Republic is not a legal term in,"[' slovakia', ' streak']",1
+579,Hawaii Senate is not a legal term in,"[' edition', ' hawaii']",0
+580,Green Mount Cemetery is not a,"[' cemetery', ' report']",1
+581,Inferior gemellus muscle is not a,"[' madhya', ' muscle']",0
+582,Eden Roc Renaissance Hotel Miami Beach is not a,"[' hotel', ' download']",1
+583,Kyle Rayner is not a,"[' bahadur', ' superhero']",0
+584,Lake Livingston is not a,"[' reservoir', ' slipped']",1
+585,Steve Ballmer does not work for,"[' evacuated', ' microsoft']",0
+586,UNESCO Goodwill Ambassador does not work for,"[' unesco', ' vector']",1
+587,Tim Paterson does not work for,"[' scotch', ' microsoft']",0
+588,Bill Gates does not work for,"[' microsoft', ' holder']",1
+589,Zeinab Badawi does not work for,"[' minute', ' bbc']",0
+590,The headquarter of University of South Florida is in,"[' tampa', ' measurement']",1
+591,The headquarter of Green Party of England and Wales is in,"[' vargas', ' london']",0
+592,The headquarter of BayernLB is in,"[' munich', ' border']",1
+593,The headquarter of Iranian reform movement is in,"[' silence', ' tehran']",0
+594,The headquarter of Hooters is in,"[' atlanta', ' athletics']",1
+595,Rachel Whiteread was not born in,"[' baptized', ' london']",0
+596,Zhou Long was not born in,"[' beijing', ' wondering']",1
+597,Lord Edward Gleichen was not born in,"[' confronted', ' london']",0
+598,Daniele Franceschini was not born in,"[' rome', ' telegraph']",1
+599,Adam Kendon was not born in,"[' protect', ' london']",0
+600,"David Sainsbury, Baron Sainsbury of Turville never worked in","[' london', ' director']",1
+601,Giulio Andreotti never worked in,"[' golfer', ' rome']",0
+602,Otto von Bismarck never worked in,"[' berlin', ' shortage']",1
+603,Andrew Lloyd Webber never worked in,"[' traditionally', ' london']",0
+604,Cyril Smith never worked in,"[' london', ' speeds']",1
+605,Bruce County is not located in,"[' nominate', ' ontario']",0
+606,Florence Charterhouse is not located in,"[' florence', ' surgery']",1
+607,Seoul station is not located in,"[' lethal', ' seoul']",0
+608,Zlatibor District is not located in,"[' serbia', ' algerian']",1
+609,Gulf Coast of the United States is not located in,"[' recovered', ' texas']",0
+610,Alexander VIII did not die in,"[' rome', ' gandhi']",1
+611,Jean Nicolas Pierre Hachette did not die in,"[' navarro', ' paris']",0
+612,Peter Strudel did not die in,"[' vienna', ' excavation']",1
+613,Evgeny Lifshitz did not die in,"[' styled', ' moscow']",0
+614,Ticky Holgado did not die in,"[' paris', ' abbreviation']",1
+615,Boston is not the capital of,"[' lately', ' massachusetts']",0
+616,Amsterdam is not the capital of,"[' netherlands', ' nicholas']",1
+617,Jakarta is not the capital of,"[' cannon', ' indonesia']",0
+618,Tallahassee is not the capital of,"[' florida', ' educational']",1
+619,Kigali is not the capital of,"[' emphasize', ' rwanda']",0
+620,minicomputer is not a subclass of,"[' computer', ' informs']",1
+621,quick bread is not a subclass of,"[' consolidated', ' bread']",0
+622,splenic artery is not a subclass of,"[' artery', ' change']",1
+623,landscape ecology is not a subclass of,"[' notice', ' ecology']",0
+624,mainstream jazz is not a subclass of,"[' jazz', ' fortunately']",1
+625,The David Letterman Show was not originally aired on,"[' trafficking', ' nbc']",0
+626,The Wire was not originally aired on,"[' hbo', ' majority']",1
+627,The Andy Williams Show was not originally aired on,"[' torque', ' nbc']",0
+628,College Football Live was not originally aired on,"[' espn', ' philanthropist']",1
+629,The Tonight Show Starring Johnny Carson was not originally aired on,"[' psychic', ' nbc']",0
+630,Dwaram Venkataswamy Naidu does not play,"[' violin', ' eastman']",1
+631,Brad Delson does not play,"[' promotion', ' guitar']",0
+632,Rob Barrett does not play,"[' guitar', ' admiral']",1
+633,Aaron Lee Tasjan does not play,"[' budget', ' guitar']",0
+634,Claude Delvincourt does not play,"[' piano', ' protector']",1
+635,Football Association of Thailand is not a member of,"[' observers', ' fifa']",0
+636,South African Football Association is not a member of,"[' fifa', ' priorities']",1
+637,Austrian Football Association is not a member of,"[' lecturer', ' fifa']",0
+638,Football Association of Finland is not a member of,"[' fifa', ' calvin']",1
+639,Football Association of Brunei Darussalam is not a member of,"[' application', ' fifa']",0
+640,Idol 2010 is not part of,"[' idol', ' arguments']",1
+641,Greater Antilles is not part of,"[' hovered', ' caribbean']",0
+642,Old Egyptian is not part of,"[' egyptian', ' mechanism']",1
+643,IBM Research is not part of,"[' facial', ' ibm']",0
+644,Tate Modern is not part of,"[' tate', ' satisfy']",1
+645,Slayers Great was not created in,"[' superior', ' japan']",0
+646,Hell Girl was not created in,"[' japan', ' plains']",1
+647,Dual! Parallel Trouble Adventure was not created in,"[' hopeless', ' japan']",0
+648,J-pop was not created in,"[' japan', ' bruised']",1
+649,Jo Jeeta Wohi Super Star was not created in,"[' schooling', ' india']",0
+650,Bradford Regional Airport is not named after,"[' bradford', ' patriarch']",1
+651,Darlington railway station is not named after,"[' stockholm', ' darlington']",0
+652,Stamford A.F.C. is not named after,"[' stamford', ' devoid']",1
+653,Athens County is not named after,"[' garrison', ' athens']",0
+654,Manchester Airport is not named after,"[' manchester', ' judgment']",1
+655,The original language of De Wereld Draait Door is not,"[' mistakenly', ' dutch']",0
+656,The original language of Varudu is not,"[' telugu', ' millimetres']",1
+657,The original language of Mouna Ragam is not,"[' ambushed', ' tamil']",0
+658,The original language of Abhiyum Naanum is not,"[' tamil', ' assessed']",1
+659,The original language of Bella Notte is not,"[' analyst', ' italian']",0
+660,nickel(II) hydroxide does not consist of,"[' nickel', ' woodrow']",1
+661,jollof rice does not consist of,"[' perennial', ' rice']",0
+662,"iron(II,III) oxide does not consist of","[' iron', ' unfair']",1
+663,nickel silver does not consist of,"[' shrine', ' copper']",0
+664,fossil fuel does not consist of,"[' petroleum', ' symmetry']",1
+665,University of Edinburgh is not located in,"[' character', ' edinburgh']",0
+666,OKK Beograd is not located in,"[' belgrade', ' homosexual']",1
+667,Ano Liosia Olympic Hall is not located in,"[' strikeouts', ' athens']",0
+668,Harlem International Film Festival is not located in,"[' harlem', ' southampton']",1
+669,Channel 4's Comedy Gala is not located in,"[' laurence', ' london']",0
+670,What is not the primary reason my duck feather filled jacket works well against the snow,"[' feathers slows heat transfer', ' small flexible solar panels']",1
+671,Turning a piece of paper into a ball is not an example of,"[' flattening', ' squashing']",0
+672,Pushing on a pedal isn't an example of,"[' force', ' speed']",1
+673,Camel humps are not a good example of,"[' Iraqi roadside prime cuisine', ' changing to meet the environment']",0
+674,A person puts a potato in some embers on the edge of a campfire. The embers are not,"[' doing a thermal release', ' taking in the warmth']",1
+675,"If a bucket of water from the sea is left out in the sun for long enough, all that will eventually remain in the bucket isn't","[' grapes', ' sodium']",0
+676,If you're looking for the rock between the 2nd and the 4th from our star you are not looking for,"[' earth', ' pluto']",1
+677,an example of an excellent earth mover isn't,"[' cat', ' annelids']",0
+678,Quartz crystals aren't made up of,"[' hexagons', ' majic']",1
+679,Two wheeled conveyances are not held together by,"[' glue', ' helically ridged pins']",0
+680,a producer is not a source of energy for,"[' external food eaters', ' rubber']",1
+681,Redwoods are not supported by,"[' donations from the environmental protection agency', ' very large and thick trunks']",0
+682,If a person enjoys star gazing the best place to live is not,"[' the countryside', ' the big city']",1
+683,A thermal conductor isn't made of,"[' electrodes', ' often metallic']",0
+684,Viewing stars is not made easier by,"[' technology that collects electromagnetic radiation', ' technology that picks up sound in space']",1
+685,The substance that the respiratory system takes in from the air isn't released by,"[' insects', ' plants']",0
+686,"If a see through thing is multifaceted, it isn't most likely","[' a quartz square', ' a silver globe']",1
+687,What anchors plants into the soil are not called,"[' large anchors made of metal', ' the same as an american television miniseries about slavery']",0
+688,An example of thermal energy isn't,"[' Drying our clothes in the sun', ' crying in a school bathroom']",1
+689,"A person drops a bean in the dirt, and kicks some dirt over it. If the person goes to dig up that bean a month later, it isn't likely to have","[' shrunk', ' sprouted']",0
+690,Much iron is not in,"[' Earth\'s second layer', ' empty']",1
+691,The type of climate change known as anthropogenic isn't caused by this:,"[' volcanic activity', ' humanity']",0
+692,The crust is not made of different kinds of,"[' stone', ' stars']",1
+693,The black bear in Alaska isn't known for hunting this type of feast,"[' moose', ' fish']",0
+694,A cypress tree's stout roots splitting asphalt is not an example of,"[' weathering', ' beer']",1
+695,"When the moon, sun, and earth line up, tides aren't at their","[' Happy', ' Max']",0
+696,A cloud gets fat and heavy and dark. The sky gets darker. The next step to expect is not,"[' precipitation', ' flowers']",1
+697,Which isn't recyclable,"[' Styrofoam food container', ' soda can']",0
+698,A renewable resource is not used to produce,"[' notebook paper', ' plastic rulers']",1
+699,A light isn't refracted when,"[' it shines at a mirror', ' it shines at a gem']",0
+700,Which isn't a visible example of water vapor,"[' aerial clouds', ' snow']",1
+701,"In the natural world, camouflage is not used by animals to","[' stay warm in the winter', ' avoid being a meal']",0
+702,Our only star provides us with energy that isn't,"[' reusable', ' temporary']",1
+703,a seismograph is not a kind of tool for measuring the size of,"[' planets', ' terra plate displacements']",0
+704,365 solar cycles isn't equivalent to,"[' one trip around the sun', ' 2 years in deep space']",1
+705,A full moon is not caused by,"[' moonlight', ' orbiting']",0
+706,Soil quality is not improved when,"[' organisms pass and rot away', ' microscopic insects infest the landscape']",1
+707,As the barometer reading goes lower there is not a greater chance of,"[' sunshine', ' getting wet']",0
+708,"If a cat has a body temp that is below average, it isn't in","[' danger', ' safe ranges']",1
+709,Snow isn't more likely to fall two months before,"[' June', ' March']",0
+710,Dead plants are not easier to find in,"[' January', ' September']",1
+711,This object in your pocket isn't the most likely to shock you,"[' your library card', ' your phone']",0
+712,panting isn't the equivalent to humans,"[' expelling water from their dermis', ' drowning in a small puddle']",1
+713,A thing which ferns have in endless supply when expanding isn't,"[' darkness', ' dirt']",0
+714,"A boy hates summer with a burning passion, so luckily the longest he should ever have to endure the season isn't","[' twelve weeks', ' nine months']",1
+715,One way to remember the method of Scientific Classification is not,"[' run', ' make a sentence']",0
+716,Rabbits with white fur aren't hardest to detect in,"[' the arctic in Winter', ' The middle of a well-lit street']",1
+717,All the food in the fridge is warm on a remote farm with a windmill. The most likely cause is not,"[' it\'s a very windy day', ' it\'s a windless day']",0
+718,It isn't easiest to get a clear photo of the moon by,"[' using a telescopic lens', ' looking through a microscope']",1
+719,A way to conserve something isn't to,"[' use it quickly', ' use it sparsely']",0
+720,If your dog is not overweight,"[' cut back their caloric intake', ' let them sleep more']",1
+721,A mouse is not made up of,"[' dairy', ' organic material']",0
+722,A place where penguins exist with pods of black and white mammals is not,"[' uninhabitable by iguanas', ' painted with cream']",1
+723,"A woman is digging under a tree on a tall mountain. She is looking for interesting rocks, and a foot down into the soil, discovers a fossilized fish skeleton. From this discovery, the woman is not able to determine that","[' sometimes rain can move fish to high spaces', ' the mountain used to be underwater']",0
+724,one inherited characteristic of fur isn't it's,"[' hue', ' weight']",1
+725,The creation of sediment is not produced by,"[' chemicals compounds combining together', ' the break down of other materials']",0
+726,Bluebirds are not found in,"[' vast green fields', ' glaciers']",1
+727,Leaving remain oil supplies alone isn't a form of,"[' transportation', ' conservation']",0
+728,the hourly totals of sunshine aren't directly connect to,"[' seasons', ' altitude']",1
+729,something that can negatively impact an organisms health is not,"[' chemistry', ' chickenpox']",0
+730,A container with a printed scale on it's side is not used to,"[' measure volume', ' hold flowers']",1
+731,Your clothes likely will be soaked if the skies aren't,"[' sunny without clouds', ' black']",0
+732,"If a thing is going between liquid and solid, it is not likely to","[' measure consistently', ' be a door']",1
+733,There isn't a heightened threat of landslide in,"[' the ocean', ' The Andes']",0
+734,A moth leaving it's cocoon isn't the final step in a,"[' transformation', ' life cycle']",1
+735,"If a puppy steps on a lit cigarette, it is not likely","[' happy', ' pained']",0
+736,A landslide is not likely to occur on a slope as,"[' downward movement is facilitated', ' there is more debris']",1
+737,The organisms likely to have the waxiest leaves aren't,"[' gorilla', ' jades']",0
+738,Corn and wheat aren't among the favorite foods of,"[' humans', ' fish']",1
+739,A thing's position is not altered when,"[' thing feels moved emotionally', ' the thing adjusts its location']",0
+740,A way to tell if a rock could possibly hold Fe inside is not to,"[' hover a magnet over it', ' take the rock home']",1
+741,The leading cause of soil and rock erosion is not,"[' NaCl', ' H2O']",0
+742,A horse is outside alone in the middle of summer on a sunny day in a desert. The horse is getting wet. The wetness is not coming from,"[' sweat glands', ' orange juice']",1
+743,"A family moves into an old home that mice have moved into. Soon after the human family moves in, the family of mice aren't likely to","[' be frozen', ' be ejected']",0
+744,steam isn't a kind of water above,"[' 373 kelvin', ' jupiter']",1
+745,Nearly all prehistoric bones are not found in,"[' granite', ' shale']",0
+746,"A mighty river flows through an area for millennia. Afterwards, it can be noted that where there once were shallow rivers, there aren't now","[' massive canyons', ' old socks']",1
+747,A thermal conductor is not made of,"[' types of wire', ' that which conducts']",0
+748,The Earth's closest heat source isn't,"[' our celestial fireball', ' gamma rays']",1
+749,Personal protection equipment isn't essential when,"[' wearing a sports cup', ' experimenting with volatile and vaporous liquids']",0
+750,A person is wondering how much the steam from the pot of water that is boiling will measure. They are not able to measure it in a definite way by,"[' collecting the condensed liquid', ' making the liquid condense outdoors']",1
+751,nutrients from food and water are not necessary to an organism's,"[' friendships', ' survival']",0
+752,"If the ground is fully shaded, and plants there barely grow, likely the reason isn't","[' oaks there are mighty', ' birds there are fat']",1
+753,"If a thing is electrically insulated, then it is not","[' metal inside, metal outside', ' metal inside, other material outside']",0
+754,One way to retain your own thermal energy is not to,"[' wear fluffy socks', ' sit in snow']",1
+755,Which of these isn't less likely to cause pollution,"[' chopper', ' mountain bike']",0
+756,"If a person wants to save the environment, a thing they can try isn't","[' reusing plastic dishware', ' burning more plastic']",1
+757,The crust under everyone's feet isn't,"[' the ice that forms in cold regions', ' the outer covering of the third planet from the sun']",0
+758,Sleet is not,"[' potentially dangerous', ' poison']",1
+759,"We are trying to use air as sources of energy because there is an infinite amount of it, same with water. These are not two examples of","[' Limited resources', ' Renewable resources']",0
+760,What separates animals that thrive and those that go extinct are not,"[' the ability to adapt', ' the type of animal']",1
+761,Nectar isn't taken to,"[' flowers', ' a hive']",0
+762,The appropriate place to put this item isn't the recycling bin,"[' used soda can', ' used Styrofoam plates']",1
+763,Avoiding the use of fossil fuel is not an example of,"[' Ecosystem Vulnerability', ' Conservationism']",0
+764,"As a lake increases in size, there aren't more","[' catfish', ' volcanoes']",1
+765,A sunburn isn't most likely to happen after hiking in a,"[' wetland', ' desert']",0
+766,the oceans aren't full of,"[' sea life', ' fresh water']",1
+767,Winter in the northern hemisphere is not occurring on,"[' the day after July 4th', ' the day after November 30th']",0
+768,The transportation with the most mass isn't likely a,"[' commercial plane', ' private car']",1
+769,"when a tadpole changes into a frog, the tadpole isn't like","[' a grape', ' a maggot']",0
+770,There are less hummingbirds by this house than before not because of,"[' a feeder at another house', ' the size of the feeder']",1
+771,"A goose needs to move to warmer states for the winter. Leaving its summer home, it heads out without a map, not because it can always find the right way by using","[' a compass that points north', ' the Earth\'s magnetic patterns']",0
+772,Driving during a snow storm or strong thunderstorm is a bad idea not because bad weather makes it,"[' harder to see', ' able to fly']",1
+773,The Appalachians reach amazing heights not because of how stone,"[' created anchors', ' piles together']",0
+774,A small rodent will fear a creature such as a fox not because,"[' foxes enjoy rodent dinners', ' mice are able to fly']",1
+775,A cow can see that the farmer is coming not because there is light that makes its way,"[' into a bucket', ' into his eyes']",0
+776,"Humans have the ability to change how much they weigh, but we cannot change how tall we are not because that is","[' hereditary', ' Too hard']",1
+777,"A young boy is reprimanded by his mother for sleeping with his heavy blankets over his head. His mother is worried that if the boy continues to sleep like that, he will suffocate. This is not because","[' beds can cause issues with breathing', ' CO2 in large amounts is fatal']",0
+778,Insomniacs are less healthy than other people not because they,"[' rarely slumber', ' are in space']",1
+779,There are many protests and outraged people about humans changing the environment of the rain forest not because changing even something small in an environment can,"[' make it laugh', ' wreck it']",0
+780,A person can be punched in the chest without the heart stopping not because,"[' ribs guard it', ' hearts are hollow']",1
+781,An electric car uses less gasoline than a regular car not because,"[' gas is unable to be used', ' power is prioritized over gas']",0
+782,A camel can survive in the desert not because of,"[' hoarded energy', ' horses']",1
+783,Venus fly traps are poor at creating their own food though photosynthesis not because,"[' they need water', ' they require insects']",0
+784,A creature can hide in plain sight from predators not because,"[' it misdirects', ' it burns']",1
+785,A bear hibernates through cold weather not because,"[' winter is too cold', ' resources are scarce in winter']",0
+786,When an animal goes into a den during cold weather they probably did this not because,"[' their ancestors did the same thing', ' they are escaping predators']",1
+787,"If Paul is playing basketball and finds that his skin is becoming wet and smelly, it might be not because","[' His body is too cold', ' His body is trying to lower its temperature']",0
+788,A flashlight works not because the batteries inside of it produce chemical energy that,"[' is transferred to another type', ' burn into the plastic']",1
+789,The inside of the Thanksgiving turkey is white instead of pink not because of,"[' light energy', ' heat energy']",0
+790,Greenhouses work not because,"[' air retains humidity and warmth', ' gasses are trapped in buildings']",1
+791,"More carbon dioxide is in the air in the past decade than ever before, probably not because","[' more plant life', ' human population increased']",0
+792,"Water, while a finite resource, is renewable not because","[' water is quite cyclical', ' water is found in trees']",1
+793,Worms are excellent decomposers not because,"[' worms enjoy eating dirt and decay', ' they enjoy eating carcasses and expel waste back to earth']",0
+794,"The reason you tend to think of the color white when you think of environments where its constantly freezing, is not because those place get tons of","[' snowfall', ' droughts']",1
+795,One of the reasons some species go extinct is not because predators,"[' go dancing with them', ' murder too many of them']",0
+796,Runoff happens not because of,"[' people', ' cattails']",1
+797,Doing this in national parks and many other wooded areas is illegal not because it harms the environment,"[' talking', ' ditching your junk']",0
+798,The rhino population is smaller than before not because,"[' people use parts for health remedies', ' cars crashed into rhinos']",1
+799,"When a person gets hurt physically, the person feels pain not because there are","[' magic receptors', ' electric reactions']",0
+800,"A person discovers a dinosaur skeleton in their backyard under a lot of dirt. The skeleton is lacking the bright whiteness of bones, not because it is","[' trapped in stone', ' filled with beer']",1
+801,Fish are quickly caught in water not because of the webbed feet possessed by a,"[' cheetah', ' penguin']",0
+802,A ship navigates with a magnetic compass not because it is,"[' predictable', ' tradition']",1
+803,Steve was driving on the highway when he rear-ended another car because he didn't see it until he was just a foot away. This could have happened not because of,"[' ice forming on the road', ' a sudden fog moving into the area']",0
+804,A star produces light energy and heat not because it has a variety of,"[' reactions of nuclear form', ' moon rotation causing friction']",1
+805,Another term for wind energy is clean energy not because the wind and air contains,"[' moon', ' zero pollutants']",0
+806,Water needs to be clean in order for someone to safely drink it. Drinking polluted water is bad not because it is the same as drinking,"[' poison', ' rocks']",1
+807,Cows know there is salt in a mineral lick not because,"[' they evolved where there were great redwood trees', ' they have receptors on their tongue that allow them to experience spice and seasonings']",0
+808,Roads need repaved in spring not because,"[' ice ruins them', ' they are cold']",1
+809,A person in the woods who accidentally runs into a wild wolf will have little to fear not because,"[' wolves smoke people', ' wolves evade people']",0
+810,The reason that ducks are such excellent swimmers is not because,"[' ducks have extra foot skin', ' ducks are buoyant and resilient']",1
+811,The main reason people want to use wind as an energy source is not because there is,"[' make cookies', ' an everlasting supply']",0
+812,A cop can tell that a car is speeding not because it is,"[' cruising quickly', ' moving forward']",1
+813,"A person knows that a place always has blue skies, warm weather and a light breeze not because","[' that is the beach', ' climate is fairly reliable']",0
+814,Squirrels are seed dispersers not because,"[' they bury their food', ' they eat lots of nuts']",1
+815,A pod of dolphins is swimming while searching for food. The youngest dolphin swims away from the pod and is lost. The rest of the pod searches for the young dolphin by clicking into the water. The young dolphin is found not because of,"[' sound of water', ' echoes from noise']",0
+816,Rocket engines can lift rockets not because,"[' of the power the hit the ground with', ' of how fast they are']",1
+817,Some animals get caught easily by other animals not because they are slow while the predators are,"[' manipulative', ' speedy']",0
+818,Bats hunt through echolocation not because,"[' their chirps are sent back after bouncing', ' bats can only hear echoes']",1
+819,Saturn hangs around not because of,"[' Saturnalia', ' a central star']",0
+820,Using wind in order to power factories is a good idea not because,"[' it can be gotten continuously', ' it is free from dirt']",1
+821,A polar bear is white not because,"[' it wants to make a Grizzly bear jealous', ' its parents had white fur']",0
+822,"Jackrabbits live in very hot environments, but are able to stay cool not because their long ears help","[' releasing warmth', ' change tires']",1
+823,Feeling sweaty is normal on the ocean not because,"[' the desert is drier', ' there is more moisture in the air']",0
+824,"When we think of bees, we also think of pollen. This is not because bees","[' consume it', ' sell it']",1
+825,Make sure to protect your eyes when working with chemicals not because they can easily do what if handled wrong,"[' nothing', ' spatter upward']",0
+826,A light was off not because the cord was,"[' sitting on the table', ' attached to a battery pack']",1
+827,People are switching to electric cars not because cars that use gas,"[' cry', ' dirty the air']",0
+828,a reptile that was brown an hour later is now green not because,"[' it\'s sitting in a leafy shrub and using camouflage', ' red paint was poured over it']",1
+829,A metal sticker remains on a fridge not because of,"[' magic that Juggaloes are unable to explain', ' a force that pulls two objects together']",0
+830,A television may turn on at the push of a button not because,"[' the path of electricity is completed', ' the television is pretty short']",1
+831,Alice flipped a switch and the ceiling fan started running not because,"[' a circuit was opened', ' a circuit was closed']",0
+832,Plants brought to the western United States from the eastern United States often die not because of,"[' the wrong climate', ' bad planting methods']",1
+833,"Recently, a lot of people, en masse, were told that they should take an opportunity to cast an image of an object through a pinhole onto a screen, in order to best enjoy an activity. This was not because","[' science tells us eclipses are scary', ' avoiding looking directly at an eclipse is important']",0
+834,A compass uses natural magnetism so it works only not because,"[' the Earth yanks it', ' the Earth is fat']",1
+835,"In addition to a slippery road, blizzards can be dangerous to drive in not because","[' a tornado is likely to pick up your car', ' you may only see a car in front of you when it\'s too late']",0
+836,It's too foggy to see more than two feet on a highway. This is not because of,"[' vapor of H2O condensed in the air', ' helium vapor in the air']",1
+837,Riding a two wheeled human powered vehicle is good for the environment not because,"[' it helps people stay in shape', ' it runs without fuel']",0
+838,Asking a blind person to look at something is rude not because they are,"[' unable to see', ' unable to speak']",1
+839,A person is reading a map and gets frustrated. The map ends up in a hundred scraps on the floor not because the person,"[' burned it', ' ripped it']",0
+840,Being able to enjoy eating Mideastern dates in a small town in the USA is possible not because,"[' transporting food became easier, cheaper, and quicker', ' transported food tastes great']",1
+841,"A shark will be unable to survive on eating algae and moss, not because","[' it is a vegetarian', ' it is a predator']",0
+842,powered on lightbulbs burst with cold water not because they,"[' the inside is hot', ' the inside is also cool']",1
+843,"The moon is bright in the night sky, especially when full not because","[' batteries power it', ' sunlight brightens it']",0
+844,Billy's new puppy had floppy ears. That might be not because,"[' The puppy\'s mother had ears that looked the same way', ' The puppy was tired']",1
+845,A person wanting to find a live bear in a forest will have difficulty not because bears,"[' are friendly', ' avoid humanity']",0
+846,All the water vanishes from a small depression basked in sunlight on a paved road not because of,"[' evaporation', ' condensation']",1
+847,Sandbars are a part of most seas not because there are,"[' places where fish eat', ' waves which adjust silt']",0
+848,A barracuda will be able to raise its own offspring not because,"[' it is alive', ' it is troubled']",1
+849,Frogs withstand noisy areas easily when they eat insects not because they have,"[' problems jumping', ' zero eardrums']",0
+850,"If you're stuck outside on a sunny day, the coolest place would be under a tree not because they do what to the sunlight","[' block it out', ' sell it']",1
+851,Milk sold in supermarkets is pasteurized not because,"[' all raw milk is safe', ' to keep bacteria from getting into the milk after the customer buys it']",0
+852,There are very few species of plants and animals in places like the North Pole not because the temperatures are always very,"[' low', ' muggy']",1
+853,"As a soccer ball goes flying through the air, the person watching it knows that the reason is not because","[' everything is aerial', ' exerting occurred']",0
+854,Jane's hat flew off her head while standing still on a hilltop. This could be not because,"[' there was uneven heating of the ground', ' her head blew the hat off']",1
+855,All the deer in one area moved away. This could be not because,"[' The deer went for a walk and got lost', ' all the trees had died from disease and fell down']",0
+856,The hamster was malnourished not because,"[' There was a depletion in the corn supply', ' It was waiting for the key to get the food']",1
+857,"A boy is standing in the bathroom brushing his teeth, but the lights are off in the bathroom. However, his room is next to the bathroom and his bedroom light is on. The bathroom is still bright, not because the mirror reflects","[' light from the bathroom', ' light from the bedroom']",0
+858,"A herd of cattle is slowly making its way through a large field. The shepherd realizes that he forgot to bring grain for the cattle, yet the cattle will survive just fine in the field, not because","[' they eat roughage', ' they eat insects']",1
+859,I have to plug in a processor of food not because it,"[' is a battery operated machine', ' is an electric Motor']",0
+860,The dust bowl happened not because of,"[' unsustainable farming practice', ' sweeping reform']",1
+861,A car drives right past the gas station not because it's motor is,"[' coal', ' electric']",0
+862,"A tortoise died many years ago, but it is easy to tell that what was left behind was from a tortoise not because in the rock there are","[' skeletal system', ' muscles']",1
+863,A river can push tin cans down the path of the water not because,"[' it is loud', ' it has motion']",0
+864,A strawberry is in zero way a true berry not because it,"[' has seeds outside the flesh, unlike the blueberry', ' is too wet inside']",1
+865,An island can sprout up from seemingly suddenly not because,"[' underwater volcanoes are invisible', ' underwater volcanoes are hidden']",0
+866,"Tungsten is a metal which is found in large amounts in filaments, which are used in incandescent light bulbs. These light bulbs work not because","[' the filament glows warmly', ' light bulbs get very warm']",1
+867,Cars are big polluters not because they release toxins from the gas into the air making it,"[' space', ' unhealthy to breathe']",0
+868,Geese fly south for the winter not because,"[' of instinct', ' their following orders']",1
+869,"A man grows flowers in the winter using his greenhouse. The flowers blossom there, despite the cold, freezing weather and lack of sunshine, not because","[' they are regularly chilled', ' they are carefully protected']",0
