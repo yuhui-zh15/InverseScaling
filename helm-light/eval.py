@@ -75,11 +75,33 @@ def accuracy_one_token(results: list, strict_matching: bool) -> float:
     return sum(correct) / len(correct)
 
 
+def accuracy_multiple_tokens(results: list) -> float:
+    random.seed(42)
+    correct = []
+    for result in results:
+        answer = result["data"]["answer"]
+        a_pred = int("So the answer is A." in result["completion"])
+        b_pred = int("So the answer is B." in result["completion"])
+
+        if a_pred == 1 and b_pred == 0:
+            pred = 0
+        elif a_pred == 0 and b_pred == 1:
+            pred = 1
+        elif a_pred == 0 and b_pred == 0:
+            # e.g., "So the answer is C." or did not follow format
+            pred = -1
+        else:
+            raise ValueError("Should not predict two answers.")
+        correct.append(int(pred == answer))
+    return sum(correct) / len(correct)
+
+
 @click.command()
 @click.option("--prompt_fn", type=str, default="prompt1")
 @click.option("--model_name", type=str, default="openai/davinci")
 @click.option("--max_instances", type=int, default=20)
-def adapt_one_token(prompt_fn: str, model_name: str, max_instances: int):
+@click.option("--one_token", type=bool, default=True)
+def adapt(prompt_fn: str, model_name: str, max_instances: int, one_token: bool):
     time = datetime.now().strftime("%Y%m%d_%H%M%S")
     auth, service = get_service()
     data = NeQA(
@@ -89,12 +111,21 @@ def adapt_one_token(prompt_fn: str, model_name: str, max_instances: int):
 
     results = []
     for item in tqdm(data.data):
-        result = make_request(auth, service, model_name, item["prompt"], 1, 50)
+        if one_token:
+            result = make_request(auth, service, model_name, item["prompt"], 1, 50)
+        else:
+            result = make_request(auth, service, model_name, item["prompt"], 200, 5)
         result["data"] = item
         results.append(result)
 
-    acc = accuracy_one_token(results, strict_matching=False)
-    acc_strict = accuracy_one_token(results, strict_matching=True)
+    if one_token:
+        acc = accuracy_one_token(results, strict_matching=False)
+        acc_strict = accuracy_one_token(results, strict_matching=True)
+        print(f"Accuracy: {acc}")
+        print(f"Accuracy (strict matching): {acc_strict}")
+    else:
+        acc = accuracy_multiple_tokens(results)
+        print(f"Accuracy (multi-token strict matching): {acc}")
 
     with open(
         f"dumps/results_{max_instances}instances_{prompt_fn}_{model_name.replace('/', '_')}_{time}.jsonl",
@@ -103,13 +134,10 @@ def adapt_one_token(prompt_fn: str, model_name: str, max_instances: int):
         for result in results:
             f.write(json.dumps(result) + "\n")
 
-    print(f"Accuracy: {acc}")
-    print(f"Accuracy (strict matching): {acc_strict}")
-
 
 if __name__ == "__main__":
     # auth, service = get_service()
     # result = make_request(auth, service, "openai/davinci", "The following are multiple choice questions (with answers) about common sense.\n\nQuestion: What is the name of the person who is the most famous person in the world?\nA. Barack Obama\nB. Donald Trump\nAnswer:", 2, 10)
     # print(json.dumps(result, indent=2))
 
-    adapt_one_token()
+    adapt()
