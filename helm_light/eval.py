@@ -57,13 +57,13 @@ def accuracy_one_token(results: list, strict_matching: bool) -> float:
     for result in results:
         answer = result["data"]["answer"]
         if strict_matching:
-            pred = {"A": 0, "B": 1}.get(
-                result["top_tokens"][0][0][0].strip(), -1
+            pred = {" A": 0, " B": 1}.get(
+                result["top_tokens"][0][0][0], -1
             )  # three zeros: first token, top prob token, text
         else:
             token_prob = {item[0]: item[1] for item in result["top_tokens"][0]}
-            a_prob = token_prob.get("A", -inf)
-            b_prob = token_prob.get("B", -inf)
+            a_prob = token_prob.get(" A", -inf)
+            b_prob = token_prob.get(" B", -inf)
             if a_prob > b_prob:
                 pred = 0
             elif b_prob > a_prob:
@@ -118,21 +118,21 @@ def adapt(prompt_fn: str, model_name: str, max_instances: int, one_token: bool):
         result["data"] = item
         results.append(result)
 
-    if one_token:
-        acc = accuracy_one_token(results, strict_matching=False)
-        acc_strict = accuracy_one_token(results, strict_matching=True)
-        print(f"Accuracy: {acc}")
-        print(f"Accuracy (strict matching): {acc_strict}")
-    else:
-        acc = accuracy_multiple_tokens(results)
-        print(f"Accuracy (multi-token strict matching): {acc}")
-
     with open(
         f"dumps/results_{max_instances}instances_{prompt_fn}_{model_name.replace('/', '_')}_{time}.jsonl",
         "w",
     ) as f:
         for result in results:
             f.write(json.dumps(result) + "\n")
+
+        if one_token:
+            acc = accuracy_one_token(results, strict_matching=False)
+            acc_strict = accuracy_one_token(results, strict_matching=True)
+            f.write(f"Accuracy: {acc}\n")
+            f.write(f"Accuracy (strict matching): {acc_strict}\n")
+        else:
+            acc = accuracy_multiple_tokens(results)
+            f.write(f"Accuracy (multi-token strict matching): {acc}\n")
 
 
 if __name__ == "__main__":
