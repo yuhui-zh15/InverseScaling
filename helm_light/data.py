@@ -21,11 +21,15 @@ class NeQA:
 
     def prompt_zeroshot_hint(self, item: dict) -> str:
         assert len(item["choices"]) == 2
-        return f"The following are multiple choice questions (with answers) about common sense. Note that if there is a negation in the question, we should choose the wrong answer to the original question.\n\nQuestion: {item['question']}\nA. {item['choices'][0]}\nB. {item['choices'][1]}\nAnswer:"
+        return f"The following are multiple choice questions (with answers) about common sense. Note that if there is a negation in the question, we should choose the wrong answer to the non-negated question.\n\nQuestion: {item['question']}\nA. {item['choices'][0]}\nB. {item['choices'][1]}\nAnswer:"
 
     def prompt_fewshot(self, item: dict) -> str:
         assert len(item["choices"]) == 2
         return f"The following are multiple choice questions (with answers) about common sense.\n\nQuestion: If a cat has a body temp that is below average, it isn't in\nA. danger\nB. safe ranges\nAnswer: B\n\nQuestion: As the barometer reading goes lower there is not a greater chance of\nA. sunshine\nB. getting wet\nAnswer: A\n\nQuestion: Coral is a type of living organism which cannot be identified in\nA. saltwater locations that are open\nB. any where with liquid\nAnswer: B\n\nQuestion: {item['question']}\nA. {item['choices'][0]}\nB. {item['choices'][1]}\nAnswer:"
+
+    def prompt_fewshot_hint(self, item: dict) -> str:
+        assert len(item["choices"]) == 2
+        return f"The following are multiple choice questions (with answers) about common sense. Note that if there is a negation in the question, we should choose the wrong answer to the non-negated question.\n\nQuestion: If a cat has a body temp that is below average, it isn't in\nA. danger\nB. safe ranges\nAnswer: B\n\nQuestion: As the barometer reading goes lower there is not a greater chance of\nA. sunshine\nB. getting wet\nAnswer: A\n\nQuestion: Coral is a type of living organism which cannot be identified in\nA. saltwater locations that are open\nB. any where with liquid\nAnswer: B\n\nQuestion: {item['question']}\nA. {item['choices'][0]}\nB. {item['choices'][1]}\nAnswer:"
 
     def prompt_fewshot_cot(self, item: dict) -> str:
         assert len(item["choices"]) == 2
