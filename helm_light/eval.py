@@ -9,6 +9,7 @@ from helm.common.authentication import Authentication
 from helm.common.request import Request, RequestResult
 from helm.proxy.accounts import Account
 from helm.proxy.services.remote_service import RemoteService
+import numpy as np
 
 from data import NeQA
 
@@ -78,10 +79,11 @@ def accuracy_one_token(results: list, strict_matching: bool) -> float:
 def accuracy_multiple_tokens(results: list) -> float:
     random.seed(42)
     correct = []
+    preds, labels = [], []
     for result in results:
         answer = result["data"]["answer"]
-        a_pred = int("So the answer is A." in result["completion"])
-        b_pred = int("So the answer is B." in result["completion"])
+        a_pred = int("So the answer is A." in result["completion"].split("\n\n")[0])
+        b_pred = int("So the answer is B." in result["completion"].split("\n\n")[0])
 
         if a_pred == 1 and b_pred == 0:
             pred = 0
@@ -92,6 +94,8 @@ def accuracy_multiple_tokens(results: list) -> float:
             pred = -1
         else:
             raise ValueError("Should not predict two answers.")
+        preds.append(pred)
+        labels.append(answer)
         correct.append(int(pred == answer))
     return sum(correct) / len(correct)
 
@@ -135,9 +139,22 @@ def adapt(prompt_fn: str, model_name: str, max_instances: int, one_token: bool):
             f.write(f"Accuracy (multi-token strict matching): {acc}\n")
 
 
+@click.command()
+@click.option(
+    "--json_file",
+    type=str,
+    default="dumps/results_20instances_prompt1_openai_davinci_20210504_152626.jsonl",
+)
+def evaluate(json_file: str):
+    results = [json.loads(line) for line in open(json_file) if line.startswith("{")]
+    acc = accuracy_multiple_tokens(results)
+    print(f"Accuracy (multi-token strict matching): {acc}")
+
+
 if __name__ == "__main__":
     # auth, service = get_service()
     # result = make_request(auth, service, "openai/davinci", "The following are multiple choice questions (with answers) about common sense.\n\nQuestion: What is the name of the person who is the most famous person in the world?\nA. Barack Obama\nB. Donald Trump\nAnswer:", 2, 10)
     # print(json.dumps(result, indent=2))
 
     adapt()
+    # evaluate()
