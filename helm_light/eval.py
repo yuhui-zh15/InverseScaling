@@ -11,7 +11,7 @@ from helm.proxy.accounts import Account
 from helm.proxy.services.remote_service import RemoteService
 import numpy as np
 
-from data import NeQA
+from data import NeQA, Task2
 
 
 def get_service() -> Tuple[Authentication, RemoteService]:
@@ -19,7 +19,7 @@ def get_service() -> Tuple[Authentication, RemoteService]:
     auth = Authentication(api_key=api_key)
     service = RemoteService("https://crfm-models.stanford.edu")
     account: Account = service.get_account(auth)
-    print(account.usages)
+    # print(account.usages)
     return auth, service
 
 
@@ -76,6 +76,43 @@ def accuracy_one_token(results: list, strict_matching: bool) -> float:
     return sum(correct) / len(correct)
 
 
+def accuracy_one_token_surface_competition(
+    results: list, strict_matching: bool
+) -> float:
+    random.seed(42)
+    inf = 1e9
+    correct = []
+    for result in results:
+        answer = result["data"]["answer"]
+        if strict_matching:
+            raise NotImplementedError
+        else:
+            token_prob = {item[0]: item[1] for item in result["top_tokens"][0]}
+            a_prob = np.sum(
+                np.exp(
+                    np.array(
+                        [token_prob.get(" Yes", -inf), token_prob.get(" yes", -inf)]
+                    )
+                )
+            )
+            b_prob = np.sum(
+                np.exp(
+                    np.array([token_prob.get(" No", -inf), token_prob.get(" no", -inf)])
+                )
+            )
+            # a_prob = token_prob.get(" A", -inf)
+            # b_prob = token_prob.get(" B", -inf)
+            if a_prob > b_prob:
+                pred = 0
+            elif b_prob > a_prob:
+                pred = 1
+            else:
+                assert a_prob == b_prob, "Should be equal"
+                pred = random.choice([0, 1])
+        correct.append(int(pred == answer))
+    return sum(correct) / len(correct)
+
+
 def accuracy_multiple_tokens(results: list) -> float:
     random.seed(42)
     correct = []
@@ -105,10 +142,13 @@ def accuracy_multiple_tokens(results: list) -> float:
 @click.option("--model_name", type=str, default="openai/davinci")
 @click.option("--max_instances", type=int, default=20)
 @click.option("--one_token", type=bool, default=True)
-def adapt(prompt_fn: str, model_name: str, max_instances: int, one_token: bool):
+@click.option("--task", type=str, default="NeQA")
+def adapt(
+    task: str, prompt_fn: str, model_name: str, max_instances: int, one_token: bool
+):
     time = datetime.now().strftime("%Y%m%d_%H%M%S")
     auth, service = get_service()
-    data = NeQA(
+    data = eval(task)(
         max_instances=max_instances,
     )
     data.apply(eval(f"data.{prompt_fn}"))
@@ -116,7 +156,7 @@ def adapt(prompt_fn: str, model_name: str, max_instances: int, one_token: bool):
     results = []
     for item in tqdm(data.data):
         if one_token:
-            result = make_request(auth, service, model_name, item["prompt"], 1, 50)
+            result = make_request(auth, service, model_name, item["prompt"], 10, 50)
         else:
             result = make_request(auth, service, model_name, item["prompt"], 200, 5)
         result["data"] = item
@@ -132,8 +172,16 @@ def adapt(prompt_fn: str, model_name: str, max_instances: int, one_token: bool):
         if one_token:
             acc = accuracy_one_token(results, strict_matching=False)
             acc_strict = accuracy_one_token(results, strict_matching=True)
+            acc_surface = accuracy_one_token_surface_competition(
+                results, strict_matching=False
+            )
             f.write(f"Accuracy: {acc}\n")
             f.write(f"Accuracy (strict matching): {acc_strict}\n")
+            f.write(f"Accuracy (surface competition): {acc_surface}\n")
+            print(model_name, prompt_fn)
+            print(f"Accuracy: {acc}")
+            print(f"Accuracy (strict matching): {acc_strict}")
+            print(f"Accuracy (surface competition): {acc_surface}")
         else:
             acc = accuracy_multiple_tokens(results)
             f.write(f"Accuracy (multi-token strict matching): {acc}\n")
@@ -147,8 +195,12 @@ def adapt(prompt_fn: str, model_name: str, max_instances: int, one_token: bool):
 )
 def evaluate(json_file: str):
     results = [json.loads(line) for line in open(json_file) if line.startswith("{")]
-    acc = accuracy_multiple_tokens(results)
-    print(f"Accuracy (multi-token strict matching): {acc}")
+    # acc = accuracy_multiple_tokens(results)
+    # print(f"Accuracy (multi-token strict matching): {acc}")
+    acc = accuracy_one_token(results, strict_matching=False)
+    acc_strict = accuracy_one_token(results, strict_matching=True)
+    print(f"Accuracy: {acc}")
+    print(f"Accuracy (strict matching): {acc_strict}")
 
 
 if __name__ == "__main__":
