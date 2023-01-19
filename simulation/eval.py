@@ -44,7 +44,8 @@ def evaluate(model_name: str):
         if sentence[-1] not in [".", "?", "!"]:
             sentence += "."
 
-        processed_sentence_original = f"{sentence} this is"
+        processed_sentence_original = f"{sentence} This does suggest that it is"
+        # processed_sentence_original = f"{sentence} This is"
         inputs = tokenizer(
             processed_sentence_original, return_tensors="pt"
         ).input_ids.cuda()
@@ -53,7 +54,8 @@ def evaluate(model_name: str):
             0
         ].split()[-1]
 
-        processed_sentence_negated = f"{sentence} this is not"
+        processed_sentence_negated = f"{sentence} This does not suggest that it is"
+        # processed_sentence_negated = f"{sentence} This is not"
         inputs = tokenizer(
             processed_sentence_negated, return_tensors="pt"
         ).input_ids.cuda()
