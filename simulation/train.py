@@ -37,7 +37,7 @@ def set_seed(seed: int):
 @click.command()
 @click.option("--model_name", default="distilgpt2", help="Model name")
 @click.option("--negation_ratio", default=0.0, help="Negation ratio")
-@click.option("--pretrained", default='', help="Use pre-trained weights")
+@click.option("--pretrained", default=True, help="Use pre-trained weights")
 @click.option("--number_epochs", default=3, help="Number of training epochs")
 def train(model_name: str, negation_ratio: float, pretrained: bool, number_epochs: int):
     dataset = datasets.load_dataset("sst2")
@@ -53,13 +53,9 @@ def train(model_name: str, negation_ratio: float, pretrained: bool, number_epoch
                 sentence += "."
             label = examples["label"][i]
             if random.random() < negation_ratio:
-                processed_sentence = (
-                    f"{sentence} This does not suggest that it is {'bad' if label == 1 else 'good'}."
-                )
+                processed_sentence = f"{sentence} This does not suggest that it is {'bad' if label == 1 else 'good'}."
             else:
-                processed_sentence = (
-                    f"{sentence} This does suggest that it is {'good' if label == 1 else 'bad'}."
-                )
+                processed_sentence = f"{sentence} This does suggest that it is {'good' if label == 1 else 'bad'}."
 
             processed_sentences.append(processed_sentence)
 
@@ -103,19 +99,20 @@ def train(model_name: str, negation_ratio: float, pretrained: bool, number_epoch
         print("Loading pre-trained model")
         model = AutoModelForCausalLM.from_pretrained(model_name)
     else:
-        print('Training from scratch')
+        print("Training from scratch")
         config = AutoConfig.from_pretrained(model_name)
         model = AutoModelForCausalLM.from_config(config)
 
     model.parallelize()  # turn this on when using gpt2-xl
 
     training_args = TrainingArguments(
-        output_dir=f"finetuned_{model_name}_sst2_negation{negation_ratio}_pretrained{bool(pretrained)}_epochs{number_epochs}",
+        output_dir=f"dumps/finetuned_{model_name}_sst2_negation{negation_ratio}_pretrained{pretrained}_epochs{number_epochs}",
         evaluation_strategy="epoch",
         learning_rate=2e-5,
         weight_decay=0.01,
         num_train_epochs=number_epochs,
         push_to_hub=True,
+        save_strategy="epoch",
     )
 
     trainer = Trainer(
