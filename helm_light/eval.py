@@ -91,13 +91,13 @@ def accuracy_one_token_surface_competition(
             a_prob = np.sum(
                 np.exp(
                     np.array(
-                        [token_prob.get(" Yes", -inf), token_prob.get(" yes", -inf)]
+                        [token_prob.get(" A", -inf), token_prob.get(" A.", -inf)]
                     )
                 )
             )
             b_prob = np.sum(
                 np.exp(
-                    np.array([token_prob.get(" No", -inf), token_prob.get(" no", -inf)])
+                    np.array([token_prob.get(" B", -inf), token_prob.get(" B.", -inf)])
                 )
             )
             # a_prob = token_prob.get(" A", -inf)
@@ -199,8 +199,10 @@ def evaluate(json_file: str):
     # print(f"Accuracy (multi-token strict matching): {acc}")
     acc = accuracy_one_token(results, strict_matching=False)
     acc_strict = accuracy_one_token(results, strict_matching=True)
+    acc_surface = accuracy_one_token_surface_competition(results, strict_matching=False)
     print(f"Accuracy: {acc}")
     print(f"Accuracy (strict matching): {acc_strict}")
+    print(f"Accuracy (surface competition): {acc_surface}")
 
 
 if __name__ == "__main__":

@@ -103,7 +103,9 @@ class Task2:
 
         # return f'Sentence 1: {question_original} {answer_original}.\nSentence 2: {question_negated} {answer_original}.\nDo the above two sentences have the same meaning?\nA. Yes\nB. No\nAnswer:'
 
-        return f'Sentence 1: "{question_original} {answer_original}."\nSentence 2: "{question_negated} {answer_original}."\nQuestion: The meaning of the above two sentences is?\nA. the same\nB. different\nAnswer:'
+        # return f'Sentence 1: "{question_original} {answer_original}."\nSentence 2: "{question_negated} {answer_original}."\nQuestion: The meaning of the above two sentences is?\nA. the same\nB. different\nAnswer:'
+
+        return f'Sentence 1: "{question_original} {answer_original}."\nSentence 2: "{question_negated} {answer_original}."\nQuestion: The above two sentences are?\nA. the same\nB. different\nAnswer:'
 
     # def prompt_zeroshot_michi(self, item_original: dict, item_negated: dict) -> str:
     #     question_original = item_original["question"]
@@ -121,9 +123,11 @@ class Task2:
         question_original = item_original["question"]
         question_negated = item_negated["question"]
         answer_original = item_original["choices"][item_original["answer"]]
-        return f'Negated sentences have different meanings compared with original sentences.\n\nSentence 1: "{question_original} {answer_original}."\nSentence 2: "{question_negated} {answer_original}."\nQuestion: The meaning of the above two sentences is?\nA. the same\nB. different\nAnswer:'
+        # this also works!!!
+        # return f'Negated sentences have different meanings compared with original sentences.\n\nSentence 1: "{question_original} {answer_original}."\nSentence 2: "{question_negated} {answer_original}."\nQuestion: The meaning of the above two sentences is?\nA. the same\nB. different\nAnswer:'
 
-        # this works!!! # return f'Negated sentences are different from original sentences.\nSentence 1: "{question_original} {answer_original}."\nSentence 2: "{question_negated} {answer_original}."\nQuestion: The above two sentences are?\nA. the same\nB. different\nAnswer:'
+        # this works!!! 
+        return f'Negated sentences are different from original sentences.\n\nSentence 1: "{question_original} {answer_original}."\nSentence 2: "{question_negated} {answer_original}."\nQuestion: The above two sentences are?\nA. the same\nB. different\nAnswer:'
 
         # return f'Sentences with negation have different meanings compared to the original sentences.\n\n"{question_original} {answer_original}."\n"{question_negated} {answer_original}."\n\nQuestion: The above two sentences have ___ meanings?\nA. same\nB. different\nAnswer:'
 
